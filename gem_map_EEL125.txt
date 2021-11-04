@@ -1,0 +1,678 @@
+###############################################################
+#### Test version for GEn-RP test stand in EEL/125 by John and Anu
+#             SIYU JIAN   (JIANSIYU@GMAIL.COM) 
+# ITEMS    : THE CURRENT CONFIGURATION (APV)
+# CRATEID  : THE UNIQUE ID FOR THE VME CRATE
+# MPDID    : MPD ADDRESS IN VME CRATE 
+# GEMID    : DETECTOR ID
+# DIMENSION: X/Y 0/1 ###12 slot back planes picks up the vertical strip information (X - coord ). 5 slot back palnes picks up the horizontal strip information (Y - coord). 
+# ADCID    : THE ADCID ADDRESS OF APV
+# I2C      : THE I2C ADDRESS OF APV
+# POS	   : POSITION
+# INVERT   : HOW THE DETECTOR IS POSITIONED IN THE LAYER FIRST TWO ARE NORMAL (1) LAST TWO ARE INVERTED (0)
+# OTHER    : BACKUP PARAM USED FOR LARGE SCARE SPECTROMETER
+#
+# NOTES    : MPD CRATEID AND MPDID  UNIQUELY DEFINE THE MPD ADDRESS
+#	     APV CRATEID, MPDID ADCID UNIQUELY DEFINE THE APV ADDRESS	
+
+###############################################################
+# LAYER CONFIGURATIONS
+# ITEMS             : LAYER
+# LAYERID           : LAYER ID
+# CHAMBERSPERLAYER  : HOW MANY CHAMBERS ON THIS LAYER
+# READOUT           : READOUT TYPE (CARTESIAN/UV)
+# XOFFSET           : X OFFSET
+# YOFFSET           : Y OFFSET
+# GEMTYPE           : GEM CHAMBER TYPE (UVAXYGEM/INFNXYGEM/UVAUVGEM)
+# NB_OF_APVS_ON_CHAMBER_X_PLANE: HOW MANY APVS ON GEM CHAMBER X PLANE
+# NB_OF_APVS_ON_CHAMBER_Y_PLANE: HOW MANY APVS ON GEM CHAMBER Y PLANE
+# X_PITCH           : DISTANCE BETWEEN READOUT STRIPS ON CHAMBER X PLANE (0.4 MM)
+# Y_PITCH           : DISTANCE BETWEEN READOUT STRIPS ON CHAMBER Y PLANE (0.4 MM)
+# X_FLIP            : FLIP X DIRECTION: 1 NOT FLIP, -1 FLIP
+# Y_FLIP            : FLIP Y DIRECTION OR NOT (IF YOU INSTALL TWO LAYERS BACK TO BACK, THEN ONE LAYER CAN BE SET TO -1)
+
+# LAYER CONFIGURATIONS
+# ITEMS, LAYERID, CHAMBERSPERLAYER, READOUT, XOFFSET, YOFFSET, GEMTYPE, NB_OF_APVS_ON_CHAMBER_X_PLANE, NB_OF_APVS_ON_CHAMBER_Y_PLANE, X_PITCH, Y_PITCH, X_FLIP, Y_FLIP
+
+LAYER,  1,  4,  CARTESIAN,  0,   0,   UVAXYGEM,   12,   10,   0.4,    0.4,    1,  1
+LAYER,  2,  4,  CARTESIAN,  0,   0,   UVAXYGEM,   12,   10,   0.4,    0.4,    1,  1
+LAYER,  3,  4,  CARTESIAN,  0,   0,   UVAXYGEM,   12,   10,   0.4,    0.4,    1,  1
+LAYER,  4,  4,  CARTESIAN,  0,   0,   UVAXYGEM,   12,   10,   0.4,    0.4,    1,  1
+LAYER,  5,  4,  CARTESIAN,  0,   0,   UVAXYGEM,   12,   10,   0.4,    0.4,    1,  1
+LAYER,  6,  1,         UV,  0,   0,   UVAUVGEM,   30,   30,   0.4,    0.4,    1,  1
+
+
+###############################################################
+#ITEMS,	CRATEID, LAYER,	MPDID,	GEMID,	DIMENSION,  ADCID,	I2C,	POS,	INVERT,	OTHER,	BACKPLANE,	GEMPOS
+#
+######################################         ###########################################
+###################################### CRATE 0 ###########################################
+######################################         ###########################################
+#
+#=========================================================================================
+#
+#				      LAYER_1 
+#Type B/Slave layer "facing" the beam : Gas window facing the beam. 
+#
+#============================= IN-LINE LAYER_1 GEM_0 ===================================
+#ITEMS,	CRATEID, LAYER,	MPDID,	GEMID,	DIMENSION,  ADCID,	I2C,	POS,	INVERT,	OTHER,	BACKPLANE,	GEMPOS
+#
+# X-DIMENSION MPD2
+APV,	3,	1,	2,	18,	0,	0,	15,	11,	0,	NORMAL,	0,	0,
+APV,	3,	1,	2,	18,	0,	1,	14,	10,	0,	NORMAL,	0,	0,
+APV,	3,	1,	2,	18,	0,	2,	13,	9,	0,	NORMAL,	0,	0,
+APV,	3,	1,	2,	18,	0,	3,	12,	8,	0,	NORMAL,	0,	0,
+APV,	3,	1,	2,	18,	0,	4,	11,	7,	0,	NORMAL,	0,	0,
+APV,	3,	1,	2,	18,	0,	5,	10,	6,	0,	NORMAL,	0,	0,
+APV,	3,	1,	2,	18,	0,	6,	9,	5,	0,	NORMAL,	0,	0,
+APV,	3,	1,	2,	18,	0,	7,	8,	4,	0,	NORMAL,	0,	0,
+APV,	3,	1,	2,	18,	0,	8,	7,	3,	0,	NORMAL,	0,	0,
+APV,	3,	1,	2,	18,	0,	9,	6,	2,	0,	NORMAL,	0,	0,
+APV,	3,	1,	2,	18,	0,	10,	5,	1,	0,	NORMAL,	0,	0,
+APV,	3,	1,	2,	18,	0,	11,	4,	0,	0,	NORMAL,	0,	0,
+#
+# Y-DIMENSION MPD6 - Right side of the layer
+APV,	3,	1,	6,	18,	1,	10,	4,	0,	0,	NORMAL,	1,	0,
+APV,	3,	1,	6,	18,	1,	11,	3,	1,	0,	NORMAL,	1,	0,
+APV,	3,	1,	6,	18,	1,	12,	2,	2,	0,	NORMAL,	1,	0,
+APV,	3,	1,	6,	18,	1,	13,	1,	3,	0,	NORMAL,	1,	0,
+APV,	3,	1,	6,	18,	1,	14,	0,	4,	0,	NORMAL,	1,	0,
+#
+# Y-DIMENSION  MPD7 - Left side of the layer
+APV,	3,	1,	7,	18,	1,	0,	4,	9,	1,	NORMAL,	2,	0,
+APV,	3,	1,	7,	18,	1,	1,	3,	8,	1,	NORMAL,	2,	0,
+APV,	3,	1,	7,	18,	1,	2,	2,	7,	1,	NORMAL,	2,	0,
+APV,	3,	1,	7,	18,	1,	3,	1,	6,	1,	NORMAL,	2,	0,
+APV,	3,	1,	7,	18,	1,	4,	0,	5,	1,	normal,	2,	0,
+#
+#============================= IN-LINE Layer_1 GEM_1 ===================================
+
+# X-dimension MPD3
+#ITEMS,	CRATEID, LAYER,	MPDID,	GEMID,	DIMENSION,  ADCID,	I2C,	POS,	INVERT,	OTHER,	BACKPLANE,	GEMPOS
+#
+APV,	3,	2,	3,	37,	0,	0,	15,	11,	0,	normal,	0,	1,
+APV,	3,	2,	3,	37,	0,	1,	14,	10,	0,	normal,	0,	1,
+APV,	3,	2,	3,	37,	0,	2,	13,	9,	0,	normal,	0,	1,
+APV,	3,	2,	3,	37,	0,	3,	12,	8,	0,	normal,	0,	1,
+APV,	3,	2,	3,	37,	0,	4,	11,	7,	0,	normal,	0,	1,
+APV,	3,	2,	3,	37,	0,	5,	10,	6,	0,	normal,	0,	1,
+APV,	3,	2,	3,	37,	0,	6,	9,	5,	0,	normal,	0,	1,
+APV,	3,	2,	3,	37,	0,	7,	8,	4,	0,	normal,	0,	1,
+APV,	3,	2,	3,	37,	0,	8,	7,	3,	0,	normal,	0,	1,
+APV,	3,	2,	3,	37,	0,	9,	6,	2,	0,	normal,	0,	1,
+APV,	3,	2,	3,	37,	0,	10,	5,	1,	0,	normal,	0,	1,
+APV,	3,	2,	3,	37,	0,	11,	4,	0,	0,	normal,	0,	1,
+#
+# Y-dimension A MPD6 - Right side of the layer
+APV,	3,	2,	6,	37,	1,	5,	12,	0,	0,	normal,	1,	1,
+APV,	3,	2,	6,	37,	1,	6,	11,	1,	0,	normal,	1,	1,
+APV,	3,	2,	6,	37,	1,	7,	10,	2,	0,	normal,	1,	1,
+APV,	3,	2,	6,	37,	1,	8,	9,	3,	0,	normal,	1,	1,
+APV,	3,	2,	6,	37,	1,	9,	8,	4,	0,	normal,	1,	1,
+#
+# Y-dimension B MPD7 - Left side of the layer
+APV,	3,	2,	7,	37,	1,	5,	12,	9,	1,	normal,	2,	1,
+APV,	3,	2,	7,	37,	1,	6,	11,	8,	1,	normal,	2,	1,
+APV,	3,	2,	7,	37,	1,	7,	10,	7,	1,	normal,	2,	1,
+APV,	3,	2,	7,	37,	1,	8,	9,	6,	1,	normal,	2,	1,
+APV,	3,	2,	7,	37,	1,	9,	8,	5,	1,	normal,	2,	1,
+#
+#============================= IN-LINE Layer_1 GEM_2 ===================================
+# X-dimension MPD4
+#ITEMS,	CRATEID, LAYER,	MPDID,	GEMID, DIMENSION, ADCID, I2C,   POS,  INVERT,   OTHER, BACKPLANE, GEMPOS
+#
+APV,	3,	2,	4,	25,	0,	0,	15,	0,	1,	normal,	0,	2,
+APV,	3,	2,	4,	25,	0,	1,	14,	1,	1,	normal,	0,	2,
+APV,	3,	2,	4,	25,	0,	2,	13,	2,	1,	normal,	0,	2,
+APV,	3,	2,	4,	25,	0,	3,	12,	3,	1,	normal,	0,	2,
+APV,	3,	2,	4,	25,	0,	4,	11,	4,	1,	normal,	0,	2,
+APV,	3,	2,	4,	25,	0,	5,	10,	5,	1,	normal,	0,	2,
+APV,	3,	2,	4,	25,	0,	6,	9,	6,	1,	normal,	0,	2,
+APV,	3,	2,	4,	25,	0,	7,	8,	7,	1,	normal,	0,	2,
+APV,	3,	2,	4,	25,	0,	8,	7,	8,	1,	normal,	0,	2,
+APV,	3,	2,	4,	25,	0,	9,	6,	9,	1,	normal,	0,	2,
+APV,	3,	2,	4,	25,	0,	10,	5,	10,	1,	normal,	0,	2,
+APV,	3,	2,	4,	25,	0,	11,	4,	11,	1,	normal,	0,	2,
+#
+# Y-dimension A MPD6 - Right side of the layer
+APV,	3,	2,	6,	25,	1,	0,	20,	0,	0,	normal,	1,	2,
+APV,	3,	2,	6,	25,	1,	1,	19,	1,	0,	normal,	1,	2,
+APV,	3,	2,	6,	25,	1,	2,	18,	2,	0,	normal,	1,	2,
+APV,	3,	2,	6,	25,	1,	3,	17,	3,	0,	normal,	1,	2,
+APV,	3,	2,	6,	25,	1,     	4,	16,	4,      0,	normal,	1,	2,
+#
+# Y-dimension B MPD7 - Left side of the layer
+APV,	3,	2,	7,	25,	1,	10,	20,	9,	1,	normal,	2,	2,
+APV,	3,	2,	7,	25,	1,	11,	19,	8,	1,	normal,	2,	2,
+APV,	3,	2,	7,	25,	1,	12,	18,	7,	1,	normal,	2,	2,
+APV,	3,	2,	7,	25,	1,	13,	17,	6,	1,	normal,	2,	2,
+APV,	3,	2,	7,	25,	1,	14,	16,	5,	1,	normal,	2,	2,
+#
+#============================= IN-LINE Layer_1 GEM_3 ===================================
+# X-dimension MPD5
+#ITEMS,	CRATEID, LAYER,	MPDID,	GEMID, DIMENSION, ADCID, I2C,   POS,  INVERT,   OTHER, BACKPLANE, GEMPOS
+#
+APV,	3,	2,	5,	20,	0,	0,	15,	0,	1,	normal,	0,	3,
+APV,	3,	2,	5,	20,	0,	1,	14,	1,	1,	normal,	0,	3,
+APV,	3,	2,	5,	20,	0,	2,	13,	2,	1,	normal,	0,	3,
+APV,	3,	2,	5,	20,	0,	3,	12,	3,	1,	normal,	0,	3,
+APV,	3,	2,	5,	20,	0,	4,	11,	4,	1,	normal,	0,	3,
+APV,	3,	2,	5,	20,	0,	5,	10,	5,	1,	normal,	0,	3,
+APV,	3,	2,	5,	20,	0,	6,	9,	6,	1,	normal,	0,	3,
+APV,	3,	2,	5,	20,	0,	7,	8,	7,	1,	normal,	0,	3,
+APV,	3,	2,	5,	20,	0,	8,	7,	8,	1,	normal,	0,	3,
+APV,	3,	2,	5,	20,	0,	9,	6,	9,	1,	normal,	0,	3,
+APV,	3,	2,	5,	20,	0,	10,	5,	10,	1,	normal,	0,	3,
+APV,	3,	2,	5,	20,	0,	11,	4,	11,	1,	normal,	0,	3,
+#
+# Y-dimension A MPD8 - Right side of the layer
+APV,	3,	2,	8,	20,	1,	0,	4,	0,	0,	normal,	1,	3,
+APV,	3,	2,	8,	20,	1,	1,	3,	1,	0,	normal,	1,	3,
+APV,	3,	2,	8,	20,	1,	2,	2,	2,	0,	normal,	1,	3,
+APV,	3,	2,	8,	20,	1,	3,	1,	3,	0,	normal,	1,	3,
+APV,	3,	2,	8,	20,	1,	4,	0,	4,	0,	normal,	1,	3,
+#
+# Y-dimension B MPD8 - Left side of the layer
+APV,	3,	2,	8,	20,	1,	8,	12,	9,	1,	normal,	2,	3,
+APV,	3,	2,	8,	20,	1,	9,	11,	8,	1,	normal,	2,	3,
+APV,	3,	2,	8,	20,	1,	10,	10,	7,	1,	normal,	2,	3,
+APV,	3,	2,	8,	20,	1,	11,	9,	6,	1,	normal,	2,	3,
+APV,	3,	2,	8,	20,	1,	12,	8,      5,	1,	normal,	2,	3,
+#
+##=========================================================================================
+#
+#                                 Crate_0 Layer_2
+#
+#Type A/Master type layer with readout board facing the beam
+#
+#============================= In-Line Layer_2 GEM_0 ===================================
+# X-dimension MPD09
+#ITEMS,	CRATEID, LAYER,	MPDID,	GEMID, DIMENSION, ADCID, I2C,   POS,  INVERT,   OTHER, BACKPLANE, GEMPOS
+APV,	3,	3,	9,	17,	0,	0,	15,	0,	1,	normal,	0,	0,
+APV,	3,	3,	9,	17,	0,	1,	14,	1,	1,	normal,	0,	0,
+APV,	3,	3,	9,	17,	0,	2,	13,	2,	1,	normal,	0,	0,
+APV,	3,	3,	9,	17,	0,	3,	12,	3,	1,	normal,	0,	0,
+APV,	3,	3,	9,	17,	0,	4,	11,	4,	1,	normal,	0,	0,
+fAPV,	3,	3,	9,	17,	0,	5,	10,	5,	1,	normal,	0,	0,
+APV,	3,	3,	9,	17,	0,	6,	9,	6,	1,	normal,	0,	0,
+APV,	3,	3,	9,	17,	0,	7,	8,	7,	1,	normal,	0,	0,
+APV,	3,	3,	9,	17,	0,	8,	7,	8,	1,	normal,	0,	0,
+APV,	3,	3,	9,	17,	0,	9,	6,	9,	1,	normal,	0,	0,
+APV,	3,	3,	9,	17,	0,	10,	5,	10,	1,	normal,	0,	0,
+APV,	3,	3,	9,	17,	0,	11,	4,	11,	1,	normal,	0,	0,
+#
+# Y-dimension A MPD13 - Right side of the layer
+APV,	3,	3,	13,	17,	1,	10,	4,	0,	0,	normal,	1,	0,
+APV,	3,	3,	13,	17,	1,	11,	3,	1,	0,	normal,	1,	0,
+APV,	3,	3,	13,	17,	1,	12,	2,	2,	0,	normal,	1,	0,
+APV,	3,	3,	13,	17,	1,	13,	1,	3,	0,	normal,	1,	0,
+APV,	3,	3,	13,	17,	1,	14,	0,	4,	0,	normal,	1,	0,
+#
+# Y-dimension B MPD14 - Left side of the layer
+APV,	3,	3,	14,	17,	1,	0,	4,	9,	1,	normal,	2,	0,
+APV,	3,	3,	14,	17,	1,	1,	3,	8,	1,	normal,	2,	0,
+APV,	3,	3,	14,	17,	1,	2,	2,	7,	1,	normal,	2,	0,
+APV,	3,	3,	14,	17,	1,	3,	1,	6,	1,	normal,	2,	0,
+APV,	3,	3,	14,	17,	1,	4,	0,	5,	1,	normal,	2,	0,
+#
+#============================= In-Line Layer_2 GEM_1 ===================================
+# X-dimension MPD11
+#ITEMS,	CRATEID, LAYER,	MPDID,	GEMID, DIMENSION, ADCID, I2C,   POS,  INVERT,   OTHER, BACKPLANE, GEMPOS
+APV,	3,	3,	10,	14,	0,	0,	15,	0,	1,	normal,	0,	1,
+APV,	3,	3,	10,	14,	0,	1,	14,	1,	1,	normal,	0,	1,
+APV,	3,	3,	10,	14,	0,	2,	13,	2,	1,	normal,	0,	1,
+APV,	3,	3,	10,	14,	0,	3,	12,	3,	1,	normal,	0,	1,
+APV,	3,	3,	10,	14,	0,	4,	11,	4,	1,	normal,	0,	1,
+APV,	3,	3,	10,	14,	0,	5,	10,	5,	1,	normal,	0,	1,
+APV,	3,	3,	10,	14,	0,	6,	9,	6,	1,	normal,	0,	1,
+APV,	3,	3,	10,	14,	0,	7,	8,	7,	1,	normal,	0,	1,
+APV,	3,	3,	10,	14,	0,	8,	7,	8,	1,	normal,	0,	1,
+APV,	3,	3,	10,	14,	0,	9,	6,	9,	1,	normal,	0,	1,
+APV,	3,	3,	10,	14,	0,	10,	5,	10,	1,	normal,	0,	1,
+APV,	3,	3,	10,	14,	0,	11,	4,	11,	1,	normal,	0,	1,
+#
+# Y-dimension A MPD13 - Right side of the layer
+APV,	3,	3,	13,	14,	1,	5,	12,	0,	0,	normal,	1,	1,
+APV,	3,	3,	13,	14,	1,	6,	11,	1,	0,	normal,	1,	1,
+APV,	3,	3,	13,	14,	1,	7,	10,	2,	0,	normal,	1,	1,
+APV,	3,	3,	13,	14,	1,	8,	9,	3,	0,	normal,	1,	1,
+APV,	3,	3,	13,	14,	1,	9,	8,	4,	0,	normal,	1,	1,
+#
+# Y-dimension B MPD14 - Left side of the layer
+APV,	3,	3,	14,	14,	1,	5,	12,	9,	1,	normal,	2,	1,
+APV,	3,	3,	14,	14,	1,	6,	11,	8,	1,	normal,	2,	1,
+APV,	3,	3,	14,	14,	1,	7,	10,	7,	1,	normal,	2,	1,
+APV,	3,	3,	14,	14,	1,	8,	9,	6,	1,	normal,	2,	1,
+APV,	3,	3,	14,	14,	1,	9,	8,	5,	1,	normal,	2,	1,
+#
+#============================= In-Line Layer_2 GEM_2 ===================================
+# X-dimension MPD12
+#ITEMS,	CRATEID, LAYER,	MPDID,	GEMID, DIMENSION, ADCID, I2C,   POS,  INVERT,   OTHER, BACKPLANE, GEMPOS
+APV,	3,	3,	11,	07,	0,	0,	15,	11,	0,	normal,	0,	2,
+APV,	3,	3,	11,	07,	0,	1,	14,	10,	0,	normal,	0,	2,
+APV,	3,	3,	11,	07,	0,	2,	13,	9,	0,	normal,	0,	2,
+APV,	3,	3,	11,	07,	0,	3,	12,	8,	0,	normal,	0,	2,
+APV,	3,	3,	11,	07,	0,	4,	11,	7,	0,	normal,	0,	2,
+APV,	3,	3,	11,	07,	0,	5,	10,	6,	0,	normal,	0,	2,
+APV,	3,	3,	11,	07,	0,	6,	9,	5,	0,	normal,	0,	2,
+APV,	3,	3,	11,	07,	0,	7,	8,	4,	0,	normal,	0,	2,
+APV,	3,	3,	11,	07,	0,	8,	7,	3,	0,	normal,	0,	2,
+APV,	3,	3,	11,	07,	0,	9,	6,	2,	0,	normal,	0,	2,
+APV,	3,	3,	11,	07,	0,	10,	5,	1,	0,	normal,	0,	2,
+APV,	3,	3,	11,	07,	0,	11,	4,	0,	0,	normal,	0,	2,
+#
+# Y-dimension A MPD13 - Right side of the layer
+APV,	3,	3,	13,	07,	1,	0,	20,	0,	0,	normal,	1,	2,
+APV,	3,	3,	13,	07,	1,	1,	19,	1,	0,	normal,	1,	2,
+APV,	3,	3,	13,	07,	1,	2,	18,	2,	0,	normal,	1,	2,
+APV,	3,	3,	13,	07,	1,	3,	17,	3,	0,	normal,	1,	2,
+APV,	3,	3,	13,	07,	1,	4,	16,	4,	0,	normal,	1,	2,
+#
+# Y-dimension B MPD14 - Left side of the layer
+APV,	3,	3,	14,	07,	1,	10,	20,	9,	1,	normal,	2,	2,
+APV,	3,	3,	14,	07,	1,	11,	19,	8,	1,	normal,	2,	2,
+APV,	3,	3,	14,	07,	1,	12,	18,	7,	1,	normal,	2,	2,
+APV,	3,	3,	14,	07,	1,	13,	17,	6,	1,	normal,	2,	2,
+APV,	3,	3,	14,	07,	1,	14,	16,	5,	1,	normal,	2,	2,
+#
+#============================= In-Line Layer_2 GEM_3 ===================================
+#
+# X-dimension MPD13
+#ITEMS,	CRATEID, LAYER,	MPDID,	GEMID, DIMENSION, ADCID, I2C,   POS,  INVERT,   OTHER, BACKPLANE, GEMPOS
+
+APV,	3,	3,	12,	16,	0,	0,	15,	11,	0,	normal,	0,	3,
+APV,	3,	3,	12,	16,	0,	1,	14,	10,	0,	normal,	0,	3,
+APV,	3,	3,	12,	16,	0,	2,	13,	9,	0,	normal,	0,	3,
+APV,	3,	3,	12,	16,	0,	3,	12,	8,	0,	normal,	0,	3,
+APV,	3,	3,	12,	16,	0,	4,	11,	7,	0,	normal,	0,	3,
+APV,	3,	3,	12,	16,	0,	5,	10,	6,	0,	normal,	0,	3,
+APV,	3,	3,	12,	16,	0,	6,	9,	5,	0,	normal,	0,	3,
+APV,	3,	3,	12,	16,	0,	7,	8,	4,	0,	normal,	0,	3,
+APV,	3,	3,	12,	16,	0,	8,	7,	3,	0,	normal,	0,	3,
+APV,	3,	3,	12,	16,	0,	9,	6,	2,	0,	normal,	0,	3,
+APV,	3,	3,	12,	16,	0,	10,	5,	1,	0,	normal,	0,	3,
+APV,	3,	3,	12,	16,	0,	11,	4,	0,	0,	normal,	0,	3,
+#
+# Y-dimension A MPD15 - Right side of the layer
+APV,	3,	3,	15,	16,	1,	0,	4,	0,	0,	normal,	1,	3,
+APV,	3,	3,	15,	16,	1,	1,	3,	1,	0,	normal,	1,	3,
+APV,	3,	3,	15,	16,	1,	2,	2,	2,	0,	normal,	1,	3,
+APV,	3,	3,	15,	16,	1,	3,	1,	3,	0,	normal,	1,	3,
+APV,	3,	3,	15,	16,	1,	4,	0,	4,	0,	normal,	1,	3,
+#
+# Y-dimension B MPD15 - Left side of the layer
+APV,	3,	3,	15,	16,	1,	8,	12,	9,	1,	normal,	2,	3,
+APV,	3,	3,	15,	16,	1,	9,	11,	8,	1,	normal,	2,	3,
+APV,	3,	3,	15,	16,	1,	10,	10,	7,	1,	normal,	2,	3,
+APV,	3,	3,	15,	16,	1,	11,	9,	6,	1,	normal,	2,	3,
+APV,	3,	3,	15,	16,	1,	12,	8,	5,	1,	normal,	2,	3,
+#
+#
+######################################         ###########################################
+###################################### CRATE 1 ###########################################
+######################################         ###########################################
+#
+#=========================================================================================
+#
+#                                 Crate_1 Layer_1
+#
+#============================= Crate_1 Layer_1 GEM_0 ===================================
+# X-dimension MPD2
+APV,	4,	1,	2,	33,	0,	0,	15,	0,	1,	normal,	0,	0,
+APV,	4,	1,	2,	33,	0,	1,	14,	1,	1,	normal,	0,	0,
+APV,	4,	1,	2,	33,	0,	2,	13,	2,	1,	normal,	0,	0,
+APV,	4,	1,	2,	33,	0,	3,	12,	3,	1,	normal,	0,	0,
+APV,	4,	1,	2,	33,	0,	4,	11,	4,	1,	normal,	0,	0,
+APV,	4,	1,	2,	33,	0,	5,	10,	5,	1,	normal,	0,	0,
+APV,	4,	1,	2,	33,	0,	6,	9,	6,	1,	normal,	0,	0,
+APV,	4,	1,	2,	33,	0,	7,	8,	7,	1,	normal,	0,	0,
+APV,	4,	1,	2,	33,	0,	8,	7,	8,	1,	normal,	0,	0,
+APV,	4,	1,	2,	33,	0,	9,	6,	9,	1,	normal,	0,	0,
+APV,	4,	1,	2,	33,	0,	10,	5,	10,	1,	normal,	0,	0,
+APV,	4,	1,	2,	33,	0,	11,	4,	11,	1,	normal,	0,	0,
+#
+# Y-dimension A MPD6
+APV,	4,	1,	6,	33,	1,	10,	4,	9,	1,	normal,	1,	0,
+APV,	4,	1,	6,	33,	1,	11,	3,	8,	1,	normal,	1,	0,
+APV,	4,	1,	6,	33,	1,	12,	2,	7,	1,	normal,	1,	0,
+APV,	4,	1,	6,	33,	1,	13,	1,	6,	1,	normal,	1,	0,
+APV,	4,	1,	6,	33,	1,	14,	0,	5,	1,	normal,	1,	0,
+#
+# Y-dimension B MPD7
+APV,	4,	1,	7,	33,	1,	0,	4,	0,	0,	normal,	2,	0,
+APV,	4,	1,	7,	33,	1,	1,	3,	1,	0,	normal,	2,	0,
+APV,	4,	1,	7,	33,	1,	2,	2,	2,	0,	normal,	2,	0,
+APV,	4,	1,	7,	33,	1,	3,	1,	3,	0,	normal,	2,	0,
+APV,	4,	1,	7,	33,	1,	4,	0,	4,	0,	normal,	2,	0,
+#
+#============================= Crate_1 Layer_1 GEM_1 ===================================
+# X-dimension MPD3
+APV,	4,	1,	3,	47,	0,	0,	15,	0,	1,	normal,	0,	1,
+APV,	4,	1,	3,	47,	0,	1,	14,	1,	1,	normal,	0,	1,
+APV,	4,	1,	3,	47,	0,	2,	13,	2,	1,	normal,	0,	1,
+APV,	4,	1,	3,	47,	0,	3,	12,	3,	1,	normal,	0,	1,
+APV,	4,	1,	3,	47,	0,	4,	11,	4,	1,	normal,	0,	1,
+APV,	4,	1,	3,	47,	0,	5,	10,	5,	1,	normal,	0,	1,
+APV,	4,	1,	3,	47,	0,	6,	9,	6,	1,	normal,	0,	1,
+APV,	4,	1,	3,	47,	0,	7,	8,	7,	1,	normal,	0,	1,
+APV,	4,	1,	3,	47,	0,	8,	7,	8,	1,	normal,	0,	1,
+APV,	4,	1,	3,	47,	0,	9,	6,	9,	1,	normal,	0,	1,
+APV,	4,	1,	3,	47,	0,	10,	5,	10,	1,	normal,	0,	1,
+APV,	4,	1,	3,	47,	0,	11,	4,	11,	1,	normal,	0,	1,
+#
+# Y-dimension A MPD6
+APV,	4,	1,	6,	47,	1,	5,	12,	9,	1,	normal,	1,	1,
+APV,	4,	1,	6,	47,	1,	6,	11,	8,	1,	normal,	1,	1,
+APV,	4,	1,	6,	47,	1,	7,	10,	7,	1,	normal,	1,	1,
+APV,	4,	1,	6,	47,	1,	8,	9,	6,	1,	normal,	1,	1,
+APV,	4,	1,	6,	47,	1,	9,	8,	5,	1,	normal,	1,	1,
+#
+# Y-dimension B MPD7
+APV,	4,	1,	7,	47,	1,	5,	12,	0,	0,	normal,	2,	1,
+APV,	4,	1,	7,	47,	1,	6,	11,	1,	0,	normal,	2,	1,
+APV,	4,	1,	7,	47,	1,	7,	10,	2,	0,	normal,	2,	1,
+APV,	4,	1,	7,	47,	1,	8,	9,	3,	0,	normal,	2,	1,
+APV,	4,	1,	7,	47,	1,	9,	8,	4,	0,	normal,	2,	1,
+#
+#============================= Crate_1 Layer_1 GEM_2 ===================================
+# X-dimension MPD4
+APV,	4,	1,	4,	16,	0,	0,	15,	11,	0,	normal,	0,	2,
+APV,	4,	1,	4,	16,	0,	1,	14,	10,	0,	normal,	0,	2,
+APV,	4,	1,	4,	16,	0,	2,	13,	9,	0,	normal,	0,	2,
+APV,	4,	1,	4,	16,	0,	3,	12,	8,	0,	normal,	0,	2,
+APV,	4,	1,	4,	16,	0,	4,	11,	7,	0,	normal,	0,	2,
+APV,	4,	1,	4,	16,	0,	5,	10,	6,	0,	normal,	0,	2,
+APV,	4,	1,	4,	16,	0,	6,	9,	5,	0,	normal,	0,	2,
+APV,	4,	1,	4,	16,	0,	7,	8,	4,	0,	normal,	0,	2,
+APV,	4,	1,	4,	16,	0,	8,	7,	3,	0,	normal,	0,	2,
+APV,	4,	1,	4,	16,	0,	9,	6,	2,	0,	normal,	0,	2,
+APV,	4,	1,	4,	16,	0,	10,	5,	1,	0,	normal,	0,	2,
+APV,	4,	1,	4,	16,	0,	11,	4,	0,	0,	normal,	0,	2,
+#
+# Y-dimension A MPD6
+APV,	4,	1,	6,	16,	1,	0,	20,	9,	1,	normal,	1,	2,
+APV,	4,	1,	6,	16,	1,	1,	19,	8,	1,	normal,	1,	2,
+APV,	4,	1,	6,	16,	1,	2,	18,	7,	1,	normal,	1,	2,
+APV,	4,	1,	6,	16,	1,	3,	17,	6,	1,	normal,	1,	2,
+APV,	4,	1,	6,	16,	1,	4,	16,	5,	1,	normal,	1,	2,
+#
+# Y-dimension B MPD7
+APV,	4,	1,	7,	16,	1,	10,	20,	0,	0,	normal,	2,	2,
+APV,	4,	1,	7,	16,	1,      11,	19,	1,	0,	normal,	2,	2,
+APV,	4,	1,	7,	16,	1,	12,	18,	2,	0,	normal,	2,	2,
+APV,	4,	1,	7,	16,	1,	13,	17,	3,	0,	normal,	2,	2,
+APV,	4,	1,	7,	16,	1,	14,	16,	4,	0,	normal,	2,	2,
+#
+#============================= Crate_1 Layer_1 GEM_3 ===================================
+# X-dimension MPD5
+APV,	4,	1,	5,	19,	0,	0,	15,	11,	0,	normal,	0,	3,
+APV,	4,	1,	5,	19,	0,	1,	14,	10,	0,	normal,	0,	3,
+APV,	4,	1,	5,	19,	0,	2,	13,	9,	0,	normal,	0,	3,
+APV,	4,	1,	5,	19,	0,	3,	12,	8,	0,	normal,	0,	3,
+APV,	4,	1,	5,	19,	0,	4,	11,	7,	0,	normal,	0,	3,
+APV,	4,	1,	5,	19,	0,	5,	10,	6,	0,	normal,	0,	3,
+APV,	4,	1,	5,	19,	0,	6,	9,	5,	0,	normal,	0,	3,
+APV,	4,	1,	5,	19,	0,	7,	8,	4,	0,	normal,	0,	3,
+APV,	4,	1,	5,	19,	0,	8,	7,	3,	0,	normal,	0,	3,
+APV,	4,	1,	5,	19,	0,	9,	6,	2,	0,	normal,	0,	3,
+APV,	4,	1,	5,	19,	0,	10,	5,	1,	0,	normal,	0,	3,
+APV,	4,	1,	5,	19,	0,	11,	4,	0,	0,	normal,	0,	3,
+#
+# Y-dimension A MPD8
+APV,	4,	1,	8,	19,	1,	0,	4,	9,	1,	normal,	1,	3,
+APV,	4,	1,	8,	19,	1,	1,	3,	8,	1,	normal,	1,	3,
+APV,	4,	1,	8,	19,	1,	2,	2,	7,	1,	normal,	1,	3,
+APV,	4,	1,	8,	19,	1,	3,	1,	6,	1,	normal,	1,	3,
+APV,	4,	1,	8,	19,	1,	4,	0,	5,	1,	normal,	1,	3,
+#
+# Y-dimension B MPD8
+APV,	4,	1,	8,	19,	1,	8,	12,	0,	0,	normal,	2,	3,
+APV,	4,	1,	8,	19,	1,	9,	11,	1,	0,	normal,	2,	3,
+APV,	4,	1,	8,	19,	1,	10,	10,	2,	0,	normal,	2,	3,
+APV,	4,	1,	8,	19,	1,	11,	9,	3,	0,	normal,	2,	3,
+APV,	4,	1,	8,	19,	1,	12,	8,	4,	0,	normal,	2,	3,
+#
+##=========================================================================================
+#
+#                                 Crate_1 Layer_4
+#
+#============================= Crate_1 Layer_4 GEM_0 ===================================
+# X-dimension MPD10
+APV,	4,	4,	10,	41,	0,	0,	15,	0,	1,	normal,	0,	0,
+APV,	4,	4,	10,	41,	0,	1,	14,	1,	1,	normal,	0,	0,
+APV,	4,	4,	10,	41,	0,	2,	13,	2,	1,	normal,	0,	0,
+APV,	4,	4,	10,	41,	0,	3,	12,	3,	1,	normal,	0,	0,
+APV,	4,	4,	10,	41,	0,	4,	11,	4,	1,	normal,	0,	0,
+APV,	4,	4,	10,	41,	0,	5,	10,	5,	1,	normal,	0,	0,
+APV,	4,	4,	10,	41,	0,	6,	9,	6,	1,	normal,	0,	0,
+APV,	4,	4,	10,	41,	0,	7,	8,	7,	1,	normal,	0,	0,
+APV,	4,	4,	10,	41,	0,	8,	7,	8,	1,	normal,	0,	0,
+APV,	4,	4,	10,	41,	0,	9,	6,	9,	1,	normal,	0,	0,
+APV,	4,	4,	10,	41,	0,	10,	5,	10,	1,	normal,	0,	0,
+APV,	4,	4,	10,	41,	0,	11,	4,	11,	1,	normal,	0,	0,
+#
+# Y-dimension A MPD14
+APV,	4,	4,	14,	41,	1,	10,	4,	9,	1,	normal,	1,	0,
+APV,	4,	4,	14,	41,	1,	11,	3,	8,	1,	normal,	1,	0,
+APV,	4,	4,	14,	41,	1,	12,	2,	7,	1,	normal,	1,	0,
+APV,	4,	4,	14,	41,	1,	13,	1,	6,	1,	normal,	1,	0,
+APV,	4,	4,	14,	41,	1,	14,	0,	5,	1,	normal,	1,	0,
+#
+# Y-dimension B MPD15
+APV,	4,	4,	15,	41,	1,	0,	4,	0,	0,	normal,	2,	0,
+APV,	4,	4,	15,	41,	1,	1,	3,	1,	0,	normal,	2,	0,
+APV,	4,	4,	15,	41,	1,	2,	2,	2,	0,	normal,	2,	0,
+APV,	4,	4,	15,	41,	1,	3,	1,	3,	0,	normal,	2,	0,
+APV,	4,	4,	15,	41,	1,	4,	0,	4,	0,	normal,	2,	0,
+#
+#============================= Crate_1 Layer_4 GEM_1 ===================================
+# X-dimension MPD11
+APV,	4,	4,	11,	30,	0,	0,	15,	0,	1,	normal,	0,	1,
+APV,	4,	4,	11,	30,	0,	1,	14,	1,	1,	normal,	0,	1,
+APV,	4,	4,	11,	30,	0,	2,	13,	2,	1,	normal,	0,	1,
+APV,	4,	4,	11,	30,	0,	3,	12,	3,	1,	normal,	0,	1,
+APV,	4,	4,	11,	30,	0,	4,	11,	4,	1,	normal,	0,	1,
+APV,	4,	4,	11,	30,	0,	5,	10,	5,	1,	normal,	0,	1,
+APV,	4,	4,	11,	30,	0,	6,	9,	6,	1,	normal,	0,	1,
+APV,	4,	4,	11,	30,	0,	7,	8,	7,	1,	normal,	0,	1,
+APV,	4,	4,	11,	30,	0,	8,	7,	8,	1,	normal,	0,	1,
+APV,	4,	4,	11,	30,	0,	9,	6,	9,	1,	normal,	0,	1,
+APV,	4,	4,	11,	30,	0,	10,	5,	10,	1,	normal,	0,	1,
+APV,	4,	4,	11,	30,	0,	11,	4,	11,	1,	normal,	0,	1,
+#
+# Y-dimension A MPD14
+APV,	4,	4,	14,	30,	1,	5,	12,	9,	1,	normal,	1,	1,
+APV,	4,	4,	14,	30,	1,	6,	11,	8,	1,	normal,	1,	1,
+APV,	4,	4,	14,	30,	1,	7,	10,	7,	1,	normal,	1,	1,
+APV,	4,	4,	14,	30,	1,	8,	9,	6,	1,	normal,	1,	1,
+APV,	4,	4,	14,	30,	1,	9,	8,	5,	1,	normal,	1,	1,
+#
+# Y-dimension B MPD15
+APV,	4,	4,	15,	30,	1,	5,	12,	0,	0,	normal,	2,	1,
+APV,	4,	4,	15,	30,	1,	6,	11,	1,	0,	normal,	2,	1,
+APV,	4,	4,	15,	30,	1,	7,	10,	2,	0,	normal,	2,	1,
+APV,	4,	4,	15,	30,	1,	8,	9,	3,	0,	normal,	2,	1,
+APV,	4,	4,	15,	30,	1,	9,	8,	4,	0,	normal,	2,	1,
+#
+#============================= Crate_1 Layer_4 GEM_2 ===================================
+# X-dimension MPD12
+APV,	4,	4,	12,	36,	0,	0,	15,	11,	0,	normal,	0,	2,
+APV,	4,	4,	12,	36,	0,	1,	14,	10,	0,	normal,	0,	2,
+APV,	4,	4,	12,	36,	0,	2,	13,	9,	0,	normal,	0,	2,
+APV,	4,	4,	12,	36,	0,	3,	12,	8,	0,	normal,	0,	2,
+APV,	4,	4,	12,	36,	0,	4,	11,	7,	0,	normal,	0,	2,
+APV,	4,	4,	12,	36,	0,	5,	10,	6,	0,	normal,	0,	2,
+APV,	4,	4,	12,	36,	0,	6,	9,	5,	0,	normal,	0,	2,
+APV,	4,	4,	12,	36,	0,	7,	8,	4,	0,	normal,	0,	2,
+APV,	4,	4,	12,	36,	0,	8,	7,	3,	0,	normal,	0,	2,
+APV,	4,	4,	12,	36,	0,	9,	6,	2,	0,	normal,	0,	2,
+APV,	4,	4,	12,	36,	0,	10,	5,	1,	0,	normal,	0,	2,
+APV,	4,	4,	12,	36,	0,	11,	4,	0,	0,	normal,	0,	2,
+#
+# Y-dimension A MPD14
+APV,	4,	4,	14,	36,	1,	0,	20,	9,	1,	normal,	1,	2,
+APV,	4,	4,	14,	36,	1,	1,	19,	8,	1,	normal,	1,	2,
+APV,	4,	4,	14,	36,	1,	2,	18,	7,	1,	normal,	1,	2,
+APV,	4,	4,	14,	36,	1,	3,	17,	6,	1,	normal,	1,	2,
+APV,	4,	4,	14,	36,	1,	4,	16,	5,	1,	normal,	1,	2,
+#
+# Y-dimension B MPD15
+APV,	4,	4,	15,	36,	1,	10,	20,	0,	0,	normal,	2,	2,
+APV,	4,	4,	15,	36,	1,	11,	19,	1,	0,	normal,	2,	2,
+APV,	4,	4,	15,	36,	1,	12,	18,	2,	0,	normal,	2,	2,
+APV,	4,	4,	15,	36,	1,	13,	17,	3,	0,	normal,	2,	2,
+APV,	4,	4,	15,	36,	1,	14,	16,	4,	0,	normal,	2,	2,
+#
+#============================= Crate_1 Layer_4 GEM_3 ===================================
+#
+# X-dimension MPD13
+APV,	4,	4,	13,	43,	0,	0,	15,	11,	0,	normal,	0,	3,
+APV,	4,	4,	13,	43,	0,	1,	14,	10,	0,	normal,	0,	3,
+APV,	4,	4,	13,	43,	0,	2,	13,	9,	0,	normal,	0,	3,
+APV,	4,	4,	13,	43,	0,	3,	12,	8,	0,	normal,	0,	3,
+APV,	4,	4,	13,	43,	0,	4,	11,	7,	0,	normal,	0,	3,
+APV,	4,	4,	13,	43,	0,	5,	10,	6,	0,	normal,	0,	3,
+APV,	4,	4,	13,	43,	0,	6,	9,	5,	0,	normal,	0,	3,
+APV,	4,	4,	13,	43,	0,	7,	8,	4,	0,	normal,	0,	3,
+APV,	4,	4,	13,	43,	0,	8,	7,	3,	0,	normal,	0,	3,
+APV,	4,	4,	13,	43,	0,	9,	6,	2,	0,	normal,	0,	3,
+APV,	4,	4,	13,	43,	0,	10,	5,	1,	0,	normal,	0,	3,
+APV,	4,	4,	13,	43,	0,	11,	4,	0,	0,	normal,	0,	3,
+#
+# Y-dimension A MPD16
+APV,	4,	4,	16,	43,	1,	0,	4,	9,	1,	normal,	1,	3,
+APV,	4,	4,	16,	43,	1,	1,	3,	8,	1,	normal,	1,	3,
+APV,	4,	4,	16,	43,	1,	2,	2,	7,	1,	normal,	1,	3,
+APV,	4,	4,	16,	43,	1,	3,	1,	6,	1,	normal,	1,	3,
+APV,	4,	4,	16,	43,	1,	4,	0,	5,	1,	normal,	1,	3,
+#
+# Y-dimension B MPD16
+APV,	4,	4,	16,	43,	1,	8,	12,	0,	0,	normal,	2,	3,
+APV,	4,	4,	16,	43,	1,	9,	11,	1,	0,	normal,	2,	3,
+APV,	4,	4,	16,	43,	1,	10,	10,	2,	0,	normal,	2,	3,
+APV,	4,	4,	16,	43,	1,	11,	9,	3,	0,	normal,	2,	3,
+APV,	4,	4,	16,	43,	1,	12,	8,	4,	0,	normal,	2,	3,
+#
+#
+#
+##=========================================================================================
+#
+#                                 Crate_7 Layer_5
+#
+#============================= Crate_7 Layer_5 GEM_0 ===================================
+# X-dimension MPD2
+APV,	7,	5,	2,	40,	0,	0,	15,	0,	1,	normal,	0,	0,
+APV,	7,	5,	2,	40,	0,	1,	14,	1,	1,	normal,	0,	0,
+APV,	7,	5,	2,	40,	0,	2,	13,	2,	1,	normal,	0,	0,
+APV,	7,	5,	2,	40,	0,	3,	12,	3,	1,	normal,	0,	0,
+APV,	7,	5,	2,	40,	0,	4,	11,	4,	1,	normal,	0,	0,
+APV,	7,	5,	2,	40,	0,	5,	10,	5,	1,	normal,	0,	0,
+APV,	7,	5,	2,	40,	0,	6,	9,	6,	1,	normal,	0,	0,
+APV,	7,	5,	2,	40,	0,	7,	8,	7,	1,	normal,	0,	0,
+APV,	7,	5,	2,	40,	0,	8,	7,	8,	1,	normal,	0,	0,
+APV,	7,	5,	2,	40,	0,	9,	6,	9,	1,	normal,	0,	0,
+APV,	7,	5,	2,	40,	0,	10,	5,	10,	1,	normal,	0,	0,
+APV,	7,	5,	2,	40,	0,	11,	4,	11,	1,	normal,	0,	0,
+#
+# Y-dimension A MPD6
+APV,	7,	5,	6,	40,	1,	10,	4,	9,	1,	normal,	1,	0,
+APV,	7,	5,	6,	40,	1,	11,	3,	8,	1,	normal,	1,	0,
+APV,	7,	5,	6,	40,	1,	12,	2,	7,	1,	normal,	1,	0,
+APV,	7,	5,	6,	40,	1,	13,	1,	6,	1,	normal,	1,	0,
+APV,	7,	5,	6,	40,	1,	14,	0,	5,	1,	normal,	1,	0,
+#
+# Y-dimension B MPD7
+APV,	7,	5,	7,	40,	1,	0,	4,	0,	0,	normal,	2,	0,
+APV,	7,	5,	7,	40,	1,	1,	3,	1,	0,	normal,	2,	0,
+APV,	7,	5,	7,	40,	1,	2,	2,	2,	0,	normal,	2,	0,
+APV,	7,	5,	7,	40,	1,	3,	1,	3,	0,	normal,	2,	0,
+APV,	7,	5,	7,	40,	1,	4,	0,	4,	0,	normal,	2,	0,
+#
+#============================= Crate_7 Layer_5 GEM_1 ===================================
+# X-dimension MPD3
+APV,	7,	5,	3,	38,	0,	0,	15,	0,	1,	normal,	0,	1,
+APV,	7,	5,	3,	38,	0,	1,	14,	1,	1,	normal,	0,	1,
+APV,	7,	5,	3,	38,	0,	2,	13,	2,	1,	normal,	0,	1,
+APV,	7,	5,	3,	38,	0,	3,	12,	3,	1,	normal,	0,	1,
+APV,	7,	5,	3,	38,	0,	4,	11,	4,	1,	normal,	0,	1,
+APV,	7,	5,	3,	38,	0,	5,	10,	5,	1,	normal,	0,	1,
+APV,	7,	5,	3,	38,	0,	6,	9,	6,	1,	normal,	0,	1,
+APV,	7,	5,	3,	38,	0,	7,	8,	7,	1,	normal,	0,	1,
+APV,	7,	5,	3,	38,	0,	8,	7,	8,	1,	normal,	0,	1,
+APV,	7,	5,	3,	38,	0,	9,	6,	9,	1,	normal,	0,	1,
+APV,	7,	5,	3,	38,	0,	10,	5,	10,	1,	normal,	0,	1,
+APV,	7,	5,	3,	38,	0,	11,	4,	11,	1,	normal,	0,	1,
+#
+# Y-dimension A MPD6
+APV,	7,	5,	6,	38,	1,	5,	12,	9,	1,	normal,	1,	1,
+APV,	7,	5,	6,	38,	1,	6,	11,	8,	1,	normal,	1,	1,
+APV,	7,	5,	6,	38,	1,	7,	10,	7,	1,	normal,	1,	1,
+APV,	7,	5,	6,	38,	1,	8,	9,	6,	1,	normal,	1,	1,
+APV,	7,	5,	6,	38,	1,	9,	8,	5,	1,	normal,	1,	1,
+#
+# Y-dimension B MPD7
+APV,	7,	5,	7,	38,	1,	5,	12,	0,	0,	normal,	2,	1,
+APV,	7,	5,	7,	38,	1,	6,	11,	1,	0,	normal,	2,	1,
+APV,	7,	5,	7,	38,	1,	7,	10,	2,	0,	normal,	2,	1,
+APV,	7,	5,	7,	38,	1,	8,	9,	3,	0,	normal,	2,	1,
+APV,	7,	5,	7,	38,	1,	9,	8,	4,	0,	normal,	2,	1,
+#
+#============================= Crate_7 Layer_5 GEM_2 ===================================
+# X-dimension MPD4
+APV,	7,	5,	4,	37,	0,	0,	15,	11,	0,	normal,	0,	2,
+APV,	7,	5,	4,	37,	0,	1,	14,	10,	0,	normal,	0,	2,
+APV,	7,	5,	4,	37,	0,	2,	13,	9,	0,	normal,	0,	2,
+APV,	7,	5,	4,	37,	0,	3,	12,	8,	0,	normal,	0,	2,
+APV,	7,	5,	4,	37,	0,	4,	11,	7,	0,	normal,	0,	2,
+APV,	7,	5,	4,	37,	0,	5,	10,	6,	0,	normal,	0,	2,
+APV,	7,	5,	4,	37,	0,	6,	9,	5,	0,	normal,	0,	2,
+APV,	7,	5,	4,	37,	0,	7,	8,	4,	0,	normal,	0,	2,
+APV,	7,	5,	4,	37,	0,	8,	7,	3,	0,	normal,	0,	2,
+APV,	7,	5,	4,	37,	0,	9,	6,	2,	0,	normal,	0,	2,
+APV,	7,	5,	4,	37,	0,	10,	5,	1,	0,	normal,	0,	2,
+APV,	7,	5,	4,	37,	0,	11,	4,	0,	0,	normal,	0,	2,
+#
+# Y-dimension A MPD6
+APV,	7,	5,	6,	37,	1,	0,	20,	9,	1,	normal,	1,	2,
+APV,	7,	5,	6,	37,	1,	1,	19,	8,	1,	normal,	1,	2,
+APV,	7,	5,	6,	37,	1,	2,	18,	7,	1,	normal,	1,	2,
+APV,	7,	5,	6,	37,	1,	3,	17,	6,	1,	normal,	1,	2,
+APV,	7,	5,	6,	37,	1,	4,	16,	5,	1,	normal,	1,	2,
+#
+# Y-dimension B MPD7
+APV,	7,	5,	7,	37,	1,	10,	20,	0,	0,	normal,	2,	2,
+APV,	7,	5,	7,	37,	1,	11,	19,	1,	0,	normal,	2,	2,
+APV,	7,	5,	7,	37,	1,	12,	18,	2,	0,	normal,	2,	2,
+APV,	7,	5,	7,	37,	1,	13,	17,	3,	0,	normal,	2,	2,
+APV,	7,	5,	7,	37,	1,	14,	16,	4,	0,	normal,	2,	2,
+#
+#============================= Crate_7 Layer_5 GEM_3 ===================================
+#
+# X-dimension MPD5
+APV,	7,	5,	5,	39,	0,	0,	15,	11,	0,	normal,	0,	3,
+APV,	7,	5,	5,	39,	0,	1,	14,	10,	0,	normal,	0,	3,
+APV,	7,	5,	5,	39,	0,	2,	13,	9,	0,	normal,	0,	3,
+APV,	7,	5,	5,	39,	0,	3,	12,	8,	0,	normal,	0,	3,
+APV,	7,	5,	5,	39,	0,	4,	11,	7,	0,	normal,	0,	3,
+APV,	7,	5,	5,	39,	0,	5,	10,	6,	0,	normal,	0,	3,
+APV,	7,	5,	5,	39,	0,	6,	9,	5,	0,	normal,	0,	3,
+APV,	7,	5,	5,	39,	0,	7,	8,	4,	0,	normal,	0,	3,
+APV,	7,	5,	5,	39,	0,	8,	7,	3,	0,	normal,	0,	3,
+APV,	7,	5,	5,	39,	0,	9,	6,	2,	0,	normal,	0,	3,
+APV,	7,	5,	5,	39,	0,	10,	5,	1,	0,	normal,	0,	3,
+APV,	7,	5,	5,	39,	0,	11,	4,	0,	0,	normal,	0,	3,
+#
+# Y-dimension A MPD8
+APV,	7,	5,	8,	39,	1,	0,	4,	9,	1,	normal,	1,	3,
+APV,	7,	5,	8,	39,	1,	1,	3,	8,	1,	normal,	1,	3,
+APV,	7,	5,	8,	39,	1,	2,	2,	7,	1,	normal,	1,	3,
+APV,	7,	5,	8,	39,	1,	3,	1,	6,	1,	normal,	1,	3,
+APV,	7,	5,	8,	39,	1,	4,	0,	5,	1,	normal,	1,	3,
+#
+# Y-dimension B MPD8
+APV,	7,	5,	8,	39,	1,	8,	12,	0,	0,	normal,	2,	3,
+APV,	7,	5,	8,	39,	1,	9,	11,	1,	0,	normal,	2,	3,
+APV,	7,	5,	8,	39,	1,	10,	10,	2,	0,	normal,	2,	3,
+APV,	7,	5,	8,	39,	1,	11,	9,	3,	0,	normal,	2,	3,
+APV,	7,	5,	8,	39,	1,	12,	8,	4,	0,	normal,	2,	3,
+#
