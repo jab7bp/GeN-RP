@@ -1,32 +1,32 @@
-#Edited by JB Nov. 4, 2021
+# Edited by JB Nov. 4, 2021
 
-###############################################################
+# ##############################################################
 # Configuration written by: John Boyd, A. Rathnayake, T. Gautam
 # October 2021
-#
+
 # Last Updated: October 5, 2021, 12:55 PM, J. B.
-#
-#This file is the mapping for the GeN-RP polarimeter cosmic 
-#test setup. All 3 racks (two side polarimeters and one inline
-#rack) are in line with each other. The inline is sandwiched
-#between the side polarimeters.
 
-#The coordinates used are consistent with the Target
-#Coordinate System (TCS). This means that the coordinates
-#are "flipped". Therefore, looking downstream, from the target
-#at the inline GEM layers then "x" goes from left to right and
-#"y" goes from top to bottom. The TCS uses the "Layer line".
-#This mapping has INFN GEMs included in the setup.
+# This file is the mapping for the GeN-RP polarimeter cosmic 
+# test setup. All 3 racks (two side polarimeters and one inline
+# rack) are in line with each other. The inline is sandwiched
+# between the side polarimeters.
 
-###############################################################
-#Some of the layers in the racks are "flipped". 4 layers (masters)
-#are facing away from the target, and 2 layers (slaves) are facing
-#the target. The configuration table/list for these two types of
-#layers are equivalent. The rotation takes place in the far right
-#column of "Layer Configurations". Masters are NOT ROTATED.
-#SLAVES GET A "Y" ROTATION OF -1. SLAVE "X" IS +1
+# The coordinates used are consistent with the Target
+# Coordinate System (TCS). This means that the coordinates
+# are "flipped". Therefore, looking downstream, from the target
+# at the inline GEM layers then "x" goes from left to right and
+# "y" goes from top to bottom. The TCS uses the "Layer line".
+# This mapping has INFN GEMs included in the setup.
 
-###############################################################
+# ##############################################################
+# Some of the layers in the racks are "flipped". 4 layers (masters)
+# are facing away from the target, and 2 layers (slaves) are facing
+# the target. The configuration table/list for these two types of
+# layers are equivalent. The rotation takes place in the far right
+# column of "Layer Configurations". Masters are NOT ROTATED.
+# SLAVES GET A "Y" ROTATION OF -1. SLAVE "X" IS +1
+
+# ##############################################################
 # apv configurations
 # Items    : the current configuration (APV)
 # CrateID  : the Unique ID for the VME Crate
@@ -38,11 +38,11 @@
 # Pos      : Position
 # Invert   : how the detector is positioned in the layer First two are normal (1) last two are inverted (0)
 # other    : backup param used for large scare spectrometer
-#
+
 # notes    : MPD CrateID and MPDID  uniquely define the MPD address
 #            APV crateID, MPDID ADCId uniquely define the APV address
 
-###############################################################
+# ##############################################################
 # layer configurations
 # Items             : Layer
 # LayerID           : layer id
@@ -58,7 +58,7 @@
 # x_rot		    : specifies if the layer is rotated in x. Not-rotated: 1, Rotated: 1
 # y_ro+t             : specifies if the layer is rotated in y. Not-rotated: 1, Rotated: 1
 
-#*******Layer configurations*******
+# *******Layer configurations*******
 # Items, LayerID, ChambPerLayer, readout,  XOffset, YOffset, GEMType, no_apv_x,  no_apv_y, x_pitch, y_pitch  x_rot  y_rot
 
 # Layer,     7,  	        4,  	CARTESIAN,    0,       0,    UVAXYGEM,    10,       12,      0.4,     0.4,    1,      1
@@ -77,49 +77,49 @@
 
 
 
-#GEM/Layer CONFIGURATION:
+# GEM/Layer CONFIGURATION:
 		
-		#********TARGET*********#
+# 		********TARGET*********#
 
-		#***Right Polarimeter***#
-		#      Pol-R Layer 0	#	Layer 7
-		#      Pol-R Layer 1	#	Layer 8
+# 		***Right Polarimeter***#
+# 		     Pol-R Layer 0	#	Layer 7
+# 		     Pol-R Layer 1	#	Layer 8
 
-		#******Inline Rack******#
-		#	INFN GEM 	#	Layer 0
-		#	XY Layer 1 (S)	#	Layer 1
-		#	XY Layer 2 (M)	#	Layer 2
-		       #ANALYZER#
-		#	XY Layer 3 (S)	#	Layer 3
-		#	XY Layer 4 (M)	#	Layer 4
-		#	XY Layer 5 (M)	#	Layer 5
-		#	XY Layer 6 (M)	#	Layer 6
+# 		******Inline Rack******#
+# 			INFN GEM 	#	Layer 0
+# 			XY Layer 1 (S)	#	Layer 1
+# 			XY Layer 2 (M)	#	Layer 2
+# 		       ANALYZER#
+# 			XY Layer 3 (S)	#	Layer 3
+# 			XY Layer 4 (M)	#	Layer 4
+# 			XY Layer 5 (M)	#	Layer 5
+# 			XY Layer 6 (M)	#	Layer 6
 
-		#****Left Polarimeter***#
-		#      Pol-R Layer 1	#	Layer 10
-		#      Pol-R Layer 0    #	Layer 09
-#CRATE IDs:
-#CRATE 0 ===> crate_id 3 ===> hallavme14pc ---> First crate in rack
-#CRATE 2 ===> crate_id 4 ===> sbsvme25 	   ---> Second crate in rack
-#CRATE 1 ===> crate_id 7 ===> sbsvme30     ---> Third crate in rack
+# 		****Left Polarimeter***#
+# 		     Pol-R Layer 1	#	Layer 10
+# 		     Pol-R Layer 0    #	Layer 09
+# CRATE IDs:
+# CRATE 0 ===> crate_id 3 ===> hallavme14pc ---> First crate in rack
+# CRATE 2 ===> crate_id 4 ===> sbsvme25 	   ---> Second crate in rack
+# CRATE 1 ===> crate_id 7 ===> sbsvme30     ---> Third crate in rack
 
 		
-#------------------------------------------------------------------------------#
-#------------------------------------------------------------------------------#
+# ------------------------------------------------------------------------------#
+# ------------------------------------------------------------------------------#
 
-#****
-#The following diagrams are oriented as if we were standing at the target
-#and looking downstream with the beam towards the layers. The labelled
-#sides, i.e. "Gas Window" or "Readout Board", are the faces of the GEMs
-#that are facing us. They are the side that we would see if we are looking 
-#downstream from the target.
+# ****
+# The following diagrams are oriented as if we were standing at the target
+# and looking downstream with the beam towards the layers. The labelled
+# sides, i.e. "Gas Window" or "Readout Board", are the faces of the GEMs
+# that are facing us. They are the side that we would see if we are looking 
+# downstream from the target.
 
-#GEM 1 is a copy of GEM 0 (you need to adjust the ADC channels to match)
-#and GEM 2 is a copy of GEM 3 (with the ADC channels adjusted such that
-#they match the ADC channel/lineup for GEMs 0 & 1)
+# GEM 1 is a copy of GEM 0 (you need to adjust the ADC channels to match)
+# and GEM 2 is a copy of GEM 3 (with the ADC channels adjusted such that
+# they match the ADC channel/lineup for GEMs 0 & 1)
 
 
-#				   __________________________
+# 				   __________________________
 #      				  |ADC 11   *12-slot*    ADC0|
 #   			       ----------------------------------  Position 0		y<---0
 #     	  		      |Right Side               Left Side|_______		     |
@@ -143,21 +143,21 @@
 #    		 		|ADC 0   *12-slot*    ADC 11|	
 #     		 		 ---------------------------		
 
-###############################################################
+# ##############################################################
 # This section is for SSP
-###############################################################
+# ##############################################################
 
-######################################         ###########################################
-###################################### CRATE 0 ###########################################
-######################################         ###########################################
+# #####################################         ###########################################
+# ##################################### CRATE 0 ###########################################
+# #####################################         ###########################################
 #                                     LAYER_1
-#
-#
-#============================= Crate_0 INLINE Layer_1 GEM_0 ===================================
-#
-#*******   Crate 0 - MPD2  ********
+
+
+# ============================= Crate_0 INLINE Layer_1 GEM_0 ===================================
+
+# *******   Crate 0 - MPD2  ********
 # X-dimension 12-slot
-#Item, crate_id, Layer, mpd_id, GEMID, DIM,  ADCId,    I2C,    Pos,    Invert, other, backplane, GEMPOS
+# Item, crate_id, Layer, mpd_id, GEMID, DIM,  ADCId,    I2C,    Pos,    Invert, other, backplane, GEMPOS
 # APV,    3,      1,      2,     	18,     1,      0,      15,     0,       1,      normal, 0,      0,
 # APV,    3,      1,      2,     	18,     1,      1,      14,     1,       1,      normal, 0,      0,
 # APV,    3,      1,      2,     	18,     1,      2,      13,     2,       1,      normal, 0,      0,
@@ -1316,6 +1316,6 @@
 # APV,    4,        8,      19,      50,     0,      10,     10,     2,      0,      normal, 2,      3,
 # APV,    4,        8,      19,      50,     0,      11,     9,      3,      0,      normal, 2,      3,
 # APV,    4,        8,      19,      50,     0,      12,     8,      4,      0,      normal, 2,      3,
-#
-#
-#
+
+
+
