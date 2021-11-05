@@ -61,19 +61,19 @@
 #*******Layer configurations*******
 # Items, LayerID, ChambPerLayer, readout,  XOffset, YOffset, GEMType, no_apv_x,  no_apv_y, x_pitch, y_pitch  x_rot  y_rot
 
-Layer,     7,  	        4,  	CARTESIAN,    0,       0,    UVAXYGEM,    10,       12,      0.4,     0.4,    1,      1
-Layer,     8,  		4,  	CARTESIAN,    0,       0,    UVAXYGEM,    10,       12,      0.4,     0.4,    1,      1
+# Layer,     7,  	        4,  	CARTESIAN,    0,       0,    UVAXYGEM,    10,       12,      0.4,     0.4,    1,      1
+# Layer,     8,  		4,  	CARTESIAN,    0,       0,    UVAXYGEM,    10,       12,      0.4,     0.4,    1,      1
 
-Layer,     0,  		3,  	CARTESIAN,    0,       0,    INFNXYGEM,   8,   	    10,      0.4,     0.4,   -1,      1
-Layer,     1,  		4,  	CARTESIAN,    0,       0,    UVAXYGEM,    10,       12,      0.4,     0.4,    1,     -1
-Layer,     2,  		4,  	CARTESIAN,    0,       0,    UVAXYGEM,    10,       12,      0.4,     0.4,    1,      1
-Layer,     3,  		4,  	CARTESIAN,    0,       0,    UVAXYGEM,    10,       12,      0.4,     0.4,    1,     -1
-Layer,     4,  		4,  	CARTESIAN,    0,       0,    UVAXYGEM,    10,       12,      0.4,     0.4,    1,      1
-Layer,     5,  		4, 	CARTESIAN,    0,       0,    UVAXYGEM,    10,       12,      0.4,     0.4,    1,      1
-Layer,     6,  	 	4,  	CARTESIAN,    0,       0,    UVAXYGEM,    10,       12,      0.4,     0.4,    1,      1
+# Layer,     0,  		3,  	CARTESIAN,    0,       0,    INFNXYGEM,   8,   	    10,      0.4,     0.4,   -1,      1
+# Layer,     1,  		4,  	CARTESIAN,    0,       0,    UVAXYGEM,    10,       12,      0.4,     0.4,    1,     -1
+# Layer,     2,  		4,  	CARTESIAN,    0,       0,    UVAXYGEM,    10,       12,      0.4,     0.4,    1,      1
+# Layer,     3,  		4,  	CARTESIAN,    0,       0,    UVAXYGEM,    10,       12,      0.4,     0.4,    1,     -1
+# Layer,     4,  		4,  	CARTESIAN,    0,       0,    UVAXYGEM,    10,       12,      0.4,     0.4,    1,      1
+# Layer,     5,  		4, 	CARTESIAN,    0,       0,    UVAXYGEM,    10,       12,      0.4,     0.4,    1,      1
+# Layer,     6,  	 	4,  	CARTESIAN,    0,       0,    UVAXYGEM,    10,       12,      0.4,     0.4,    1,      1
 
-Layer,    10,  		4,  	CARTESIAN,    0,       0,    UVAXYGEM,    10,       12,      0.4,     0.4,    1,      1
-Layer,     9,  		4,  	CARTESIAN,    0,       0,    UVAXYGEM,    10,       12,      0.4,     0.4,    1,      1
+# Layer,    10,  		4,  	CARTESIAN,    0,       0,    UVAXYGEM,    10,       12,      0.4,     0.4,    1,      1
+# Layer,     9,  		4,  	CARTESIAN,    0,       0,    UVAXYGEM,    10,       12,      0.4,     0.4,    1,      1
 
 
 
