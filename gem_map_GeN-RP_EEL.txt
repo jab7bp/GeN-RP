@@ -1,4 +1,5 @@
 # Edited by JB Nov. 4, 2021
+#testing for error in stoi()
 
 # ##############################################################
 # Configuration written by: John Boyd, A. Rathnayake, T. Gautam
