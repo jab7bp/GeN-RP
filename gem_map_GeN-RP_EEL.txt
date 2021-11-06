@@ -153,7 +153,8 @@ Layer,     9,  		4,  	CARTESIAN,    0,       0,    UVAXYGEM,    10,       12,   
 # #####################################         ###########################################
 #                                     LAYER_1
 
-
+VME: sbsvme32, sbsvme30, sbsvme25
+VXS; sbsvtp2, sbsvtp4
 # ============================= Crate_0 INLINE Layer_1 GEM_0 ===================================
 
 # *******   Crate 0 - MPD2 - Fiber 0 ********
@@ -174,121 +175,121 @@ APV,    2,      1,      0,     	18,     1,      11,     4,      11,      1,     
 #
 #*******   Crate 0 - MPD6 - Fiber 4********
 # Y-dimension 5-slot (right side of the layer) 
-APV,    6,      1,      4,      18,     0,      10,     4,      9,      1,      normal, 1,      0,
-APV,    6,      1,      4,      18,     0,      11,     3,      8,      1,      normal, 1,      0,
-APV,    6,      1,      4,      18,     0,      12,     2,      7,      1,      normal, 1,      0,
-APV,    6,      1,      4,      18,     0,      13,     1,      6,      1,      normal, 1,      0,
-APV,    6,      1,      4,      18,     0,      14,     0,      5,      1,      normal, 1,      0,
+APV,    2,      1,      4,      18,     0,      10,     4,      9,      1,      normal, 1,      0,
+APV,    2,      1,      4,      18,     0,      11,     3,      8,      1,      normal, 1,      0,
+APV,    2,      1,      4,      18,     0,      12,     2,      7,      1,      normal, 1,      0,
+APV,    2,      1,      4,      18,     0,      13,     1,      6,      1,      normal, 1,      0,
+APV,    2,      1,      4,      18,     0,      14,     0,      5,      1,      normal, 1,      0,
 #
 #*******  Crate 0 -  MPD7 - Fiber 5********
 # Y-dimension 5-slot (left side of the layer)
-APV,    7,      1,      5,      18,     0,      0,      4,      0,      0,      normal, 2,      0,
-APV,    7,      1,      5,      18,     0,      1,      3,      1,      0,      normal, 2,      0,
-APV,    7,      1,      5,      18,     0,      2,      2,      2,      0,      normal, 2,      0,
-APV,    7,      1,      5,      18,     0,      3,      1,      3,      0,      normal, 2,      0,
-APV,    7,      1,      5,      18,     0,      4,      0,      4,      0,      normal, 2,      0,
+APV,    2,      1,      5,      18,     0,      0,      4,      0,      0,      normal, 2,      0,
+APV,    2,      1,      5,      18,     0,      1,      3,      1,      0,      normal, 2,      0,
+APV,    2,      1,      5,      18,     0,      2,      2,      2,      0,      normal, 2,      0,
+APV,    2,      1,      5,      18,     0,      3,      1,      3,      0,      normal, 2,      0,
+APV,    2,      1,      5,      18,     0,      4,      0,      4,      0,      normal, 2,      0,
 # #
 # #============================= Crate_0 INLINE Layer_1 GEM_1 ===================================
 # #
 # #*******   Crate 0 - MPD3 - Fiber 1 ********
 # # X-dimension 12-slot
 # Item, slot_id, Layer, fiber_id, GEMID, DIM,  ADCId,    I2C,    Pos,    Invert, other, backplane, GEMPOS
-APV,    3,      1,      1,     37,     1,      0,      15,     0,       1,      normal, 0,      1,
-APV,    3,      1,      1,     37,     1,      1,      14,     1,       1,      normal, 0,      1,
-APV,    3,      1,      1,     37,     1,      2,      13,     2,      	1,      normal, 0,      1,
-APV,    3,      1,      1,     37,     1,      3,      12,     3,      	1,      normal, 0,      1,
-APV,    3,      1,      1,     37,     1,      4,      11,     4,       1,      normal, 0,      1,
-APV,    3,      1,      1,     37,     1,      5,      10,     5,     	1,      normal, 0,      1,
-APV,    3,      1,      1,     37,     1,      6,      9,      6,      	1,      normal, 0,      1,
-APV,    3,      1,      1,     37,     1,      7,      8,      7,      	1,      normal, 0,      1,
-APV,    3,      1,      1,     37,     1,      8,      7,      8,      	1,      normal, 0,      1,
-APV,    3,      1,      1,     37,     1,      9,      6,      9,      	1,      normal, 0,      1,
-APV,    3,      1,      1,     37,     1,      10,     5,      10,     	1,      normal, 0,      1,
-APV,    3,      1,      1,     37,     1,      11,     4,      11,     	1,      normal, 0,      1,
+APV,    2,      1,      1,     37,     1,      0,      15,     0,       1,      normal, 0,      1,
+APV,    2,      1,      1,     37,     1,      1,      14,     1,       1,      normal, 0,      1,
+APV,    2,      1,      1,     37,     1,      2,      13,     2,      	1,      normal, 0,      1,
+APV,    2,      1,      1,     37,     1,      3,      12,     3,      	1,      normal, 0,      1,
+APV,    2,      1,      1,     37,     1,      4,      11,     4,       1,      normal, 0,      1,
+APV,    2,      1,      1,     37,     1,      5,      10,     5,     	1,      normal, 0,      1,
+APV,    2,      1,      1,     37,     1,      6,      9,      6,      	1,      normal, 0,      1,
+APV,    2,      1,      1,     37,     1,      7,      8,      7,      	1,      normal, 0,      1,
+APV,    2,      1,      1,     37,     1,      8,      7,      8,      	1,      normal, 0,      1,
+APV,    2,      1,      1,     37,     1,      9,      6,      9,      	1,      normal, 0,      1,
+APV,    2,      1,      1,     37,     1,      10,     5,      10,     	1,      normal, 0,      1,
+APV,    2,      1,      1,     37,     1,      11,     4,      11,     	1,      normal, 0,      1,
 #
 #*******   Crate 0 - MPD6 - Fiber 4 ********
 # Y-dimension 5-slot (right side of layer)
-APV,    6,      1,      4,      37,     0,      5,      12,     9,      1,      normal, 1,      1,
-APV,    6,      1,      4,      37,     0,      6,      11,     8,      1,      normal, 1,      1,
-APV,    6,      1,      4,      37,     0,      7,      10,     7,      1,      normal, 1,      1,
-APV,    6,      1,      4,      37,     0,      8,      9,      6,     	1,      normal, 1,      1,
-APV,    6,      1,      4,      37,     0,      9,      8,      5,      1,      normal, 1,      1,
+APV,    2,      1,      4,      37,     0,      5,      12,     9,      1,      normal, 1,      1,
+APV,    2,      1,      4,      37,     0,      6,      11,     8,      1,      normal, 1,      1,
+APV,    2,      1,      4,      37,     0,      7,      10,     7,      1,      normal, 1,      1,
+APV,    2,      1,      4,      37,     0,      8,      9,      6,     	1,      normal, 1,      1,
+APV,    2,      1,      4,      37,     0,      9,      8,      5,      1,      normal, 1,      1,
 #
 #*******   Crate 0 - MPD7 - Fiber 5 ********
 # Y-dimension 5-slot (left left side of layer)
-APV,    7,      1,      5,      37,     0,      5,      12,     0,      0,      normal, 2,      1,
-APV,    7,      1,      5,      37,     0,      6,      11,     1,      0,      normal, 2,      1,
-APV,    7,      1,      5,      37,     0,      7,      10,     2,      0,      normal, 2,      1,
-APV,    7,      1,      5,      37,     0,      8,      9,      3,      0,      normal, 2,      1,
-APV,    7,      1,      5,      37,     0,      9,      8,      4,      0,      normal, 2,      1,
+APV,    2,      1,      5,      37,     0,      5,      12,     0,      0,      normal, 2,      1,
+APV,    2,      1,      5,      37,     0,      6,      11,     1,      0,      normal, 2,      1,
+APV,    2,      1,      5,      37,     0,      7,      10,     2,      0,      normal, 2,      1,
+APV,    2,      1,      5,      37,     0,      8,      9,      3,      0,      normal, 2,      1,
+APV,    2,      1,      5,      37,     0,      9,      8,      4,      0,      normal, 2,      1,
 # #
 # #============================= Crate_0 INLINE Layer_1 GEM_2 ===================================
 # #
 # #*******   Crate 0 - MPD4 - Fiber 2 ********
 # # X-dimension fiber 15
 # Item, slot_id, Layer, fiber_id, GEMID, DIM,  ADCId,    I2C,    Pos,    Invert, other, backplane, GEMPOS
-APV,    4,      1,      2,     25,     1,      0,      15,     11,     	0,      normal, 0,      2,
-APV,    4,      1,      2,     25,     1,      1,      14,     10,     	0,      normal, 0,      2,
-APV,    4,      1,      2,     25,     1,      2,      13,     9,      	0,      normal, 0,      2,
-APV,    4,      1,      2,     25,     1,      3,      12,     8,      	0,      normal, 0,      2,
-APV,    4,      1,      2,     25,     1,      4,      11,     7,      	0,      normal, 0,      2,
-APV,    4,      1,      2,     25,     1,      5,      10,     6,      	0,      normal, 0,      2,
-APV,    4,      1,      2,     25,     1,      6,      9,      5,      	0,      normal, 0,      2,
-APV,    4,      1,      2,     25,     1,      7,      8,      4,      	0,      normal, 0,      2,
-APV,    4,      1,      2,     25,     1,      8,      7,      3,      	0,      normal, 0,      2,
-APV,    4,      1,      2,     25,     1,      9,      6,      2,      	0,      normal, 0,      2,
-APV,    4,      1,      2,     25,     1,      10,     5,      1,       0,      normal, 0,      2,
-APV,    4,      1,      2,     25,     1,      11,     4,      0,       0,      normal, 0,      2,
+APV,    2,      1,      2,     25,     1,      0,      15,     11,     	0,      normal, 0,      2,
+APV,    2,      1,      2,     25,     1,      1,      14,     10,     	0,      normal, 0,      2,
+APV,    2,      1,      2,     25,     1,      2,      13,     9,      	0,      normal, 0,      2,
+APV,    2,      1,      2,     25,     1,      3,      12,     8,      	0,      normal, 0,      2,
+APV,    2,      1,      2,     25,     1,      4,      11,     7,      	0,      normal, 0,      2,
+APV,    2,      1,      2,     25,     1,      5,      10,     6,      	0,      normal, 0,      2,
+APV,    2,      1,      2,     25,     1,      6,      9,      5,      	0,      normal, 0,      2,
+APV,    2,      1,      2,     25,     1,      7,      8,      4,      	0,      normal, 0,      2,
+APV,    2,      1,      2,     25,     1,      8,      7,      3,      	0,      normal, 0,      2,
+APV,    2,      1,      2,     25,     1,      9,      6,      2,      	0,      normal, 0,      2,
+APV,    2,      1,      2,     25,     1,      10,     5,      1,       0,      normal, 0,      2,
+APV,    2,      1,      2,     25,     1,      11,     4,      0,       0,      normal, 0,      2,
 #
 #*******   Crate 0 - MPD6 - Fier 4 ********
-# Y-dimension A (right) fiber 5
-APV,    6,      1,      4,      25,     0,      0,      20,     9,      1,      normal, 1,      2,
-APV,    6,      1,      4,      25,     0,      1,      19,     8,      1,      normal, 1,      2,
-APV,    6,      1,      4,      25,     0,      2,      18,     7,      1,      normal, 1,      2,
-APV,    6,      1,      4,      25,     0,      3,      17,     6,      1,      normal, 1,      2,
-APV,    6,      1,      4,      25,     0,      4,      16,     5,      1,      normal, 1,      2,
+# Y-dimension A (right) 
+APV,    2,      1,      4,      25,     0,      0,      20,     9,      1,      normal, 1,      2,
+APV,    2,      1,      4,      25,     0,      1,      19,     8,      1,      normal, 1,      2,
+APV,    2,      1,      4,      25,     0,      2,      18,     7,      1,      normal, 1,      2,
+APV,    2,      1,      4,      25,     0,      3,      17,     6,      1,      normal, 1,      2,
+APV,    2,      1,      4,      25,     0,      4,      16,     5,      1,      normal, 1,      2,
 #
 #*******   Crate 0 - MPD7 - Fiber 5 ********
-# Y-dimension B (left) fiber 6
-APV,    7,      1,      5,      25,     0,      10,     20,     0,      0,      normal, 2,      2,
-APV,    7,      1,      5,      25,     0,      11,     19,     1,      0,      normal, 2,      2,
-APV,    7,      1,      5,      25,     0,      12,     18,     2,      0,      normal, 2,      2,
-APV,    7,      1,      5,      25,     0,      13,     17,     3,      0,      normal, 2,      2,
-APV,    7,      1,      5,      25,     0,      14,     16,     4,      0,      normal, 2,      2,
+# Y-dimension B (left) 
+APV,    2,      1,      5,      25,     0,      10,     20,     0,      0,      normal, 2,      2,
+APV,    2,      1,      5,      25,     0,      11,     19,     1,      0,      normal, 2,      2,
+APV,    2,      1,      5,      25,     0,      12,     18,     2,      0,      normal, 2,      2,
+APV,    2,      1,      5,      25,     0,      13,     17,     3,      0,      normal, 2,      2,
+APV,    2,      1,      5,      25,     0,      14,     16,     4,      0,      normal, 2,      2,
 # #
 # #============================= Crate_0 INLINE Layer_1 GEM_3 ===================================
 # #
 # #*******   Crate 0 - MPD5 - Fiber 3 ********
 # # X-dimension 12-slot
 # # Item, slot_id, Layer, fiber_id, GEMID, DIM,  ADCId,    I2C,    Pos,    Invert, other, backplane, GEMPOS
-APV,    5,      1,      3,      20,     1,      0,      15,     11,     0,      normal, 0,      3,
-APV,    5,      1,      3,      20,     1,      1,      14,     10,     0,      normal, 0,      3,
-APV,    5,      1,      3,      20,     1,      2,      13,     9,      0,      normal, 0,      3,
-APV,    5,      1,      3,      20,     1,      3,      12,     8,      0,      normal, 0,      3,
-APV,    5,      1,      3,      20,     1,      4,      11,     7,      0,      normal, 0,      3,
-APV,    5,      1,      3,      20,     1,      5,      10,     6,      0,      normal, 0,      3,
-APV,    5,      1,      3,      20,     1,      6,      9,      5,      0,      normal, 0,      3,
-APV,    5,      1,      3,      20,     1,      7,      8,      4,      0,      normal, 0,      3,
-APV,    5,      1,      3,      20,     1,      8,      7,      3,      0,      normal, 0,      3,
-APV,    5,      1,      3,      20,     1,      9,      6,      2,      0,      normal, 0,      3,
-APV,    5,      1,      3,      20,     1,      10,     5,      1,      0,      normal, 0,      3,
-APV,    5,      1,      3,      20,     1,      11,     4,      0,      0,      normal, 0,      3,
+APV,    2,      1,      3,      20,     1,      0,      15,     11,     0,      normal, 0,      3,
+APV,    2,      1,      3,      20,     1,      1,      14,     10,     0,      normal, 0,      3,
+APV,    2,      1,      3,      20,     1,      2,      13,     9,      0,      normal, 0,      3,
+APV,    2,      1,      3,      20,     1,      3,      12,     8,      0,      normal, 0,      3,
+APV,    2,      1,      3,      20,     1,      4,      11,     7,      0,      normal, 0,      3,
+APV,    2,      1,      3,      20,     1,      5,      10,     6,      0,      normal, 0,      3,
+APV,    2,      1,      3,      20,     1,      6,      9,      5,      0,      normal, 0,      3,
+APV,    2,      1,      3,      20,     1,      7,      8,      4,      0,      normal, 0,      3,
+APV,    2,      1,      3,      20,     1,      8,      7,      3,      0,      normal, 0,      3,
+APV,    2,      1,      3,      20,     1,      9,      6,      2,      0,      normal, 0,      3,
+APV,    2,      1,      3,      20,     1,      10,     5,      1,      0,      normal, 0,      3,
+APV,    2,      1,      3,      20,     1,      11,     4,      0,      0,      normal, 0,      3,
 #
 #*******   Crate 0 - MPD8 - Fiber 6 ********
 # Y-dimension 5-Slot (right side of layer)
-APV,    8,      1,      6,      20,     0,      0,      4,      9,      1,      normal, 1,      3,
-APV,    8,      1,      6,      20,     0,      1,      3,      8,      1,      normal, 1,      3,
-APV,    8,      1,      6,      20,     0,      2,      2,      7,      1,      normal, 1,      3,
-APV,    8,      1,      6,      20,     0,      3,      1,      6,      1,      normal, 1,      3,
-APV,    8,      1,      6,      20,     0,      4,      0,      5,      1,      normal, 1,      3,
-#
+APV,    2,      1,      6,      20,     0,      0,      4,      9,      1,      normal, 1,      3,
+APV,    2,      1,      6,      20,     0,      1,      3,      8,      1,      normal, 1,      3,
+APV,    2,      1,      6,      20,     0,      2,      2,      7,      1,      normal, 1,      3,
+APV,    2,      1,      6,      20,     0,      3,      1,      6,      1,      normal, 1,      3,
+APV,    2,      1,      6,      20,     0,      4,      0,      5,      1,      normal, 1,      3,
+
 #*******   Crate 0 - MPD8 - Fiber 6 ********
 # Y-dimension 5-slot (left side of layer)
-APV,    8,      1,      6,      20,     0,      8,      12,     0,      0,      normal, 2,      3,
-APV,    8,      1,      6,      20,     0,      9,      11,     1,      0,      normal, 2,      3,
-APV,    8,      1,      6,      20,     0,      10,     10,     2,      0,      normal, 2,      3,
-APV,    8,      1,      6,      20,     0,      11,     9,      3,      0,      normal, 2,      3,
-APV,    8,      1,      6,      20,     0,      12,     8,      4,      0,      normal, 2,      3,
+APV,    2,      1,      6,      20,     0,      8,      12,     0,      0,      normal, 2,      3,
+APV,    2,      1,      6,      20,     0,      9,      11,     1,      0,      normal, 2,      3,
+APV,    2,      1,      6,      20,     0,      10,     10,     2,      0,      normal, 2,      3,
+APV,    2,      1,      6,      20,     0,      11,     9,      3,      0,      normal, 2,      3,
+APV,    2,      1,      6,      20,     0,      12,     8,      4,      0,      normal, 2,      3,
 # #
 # #
 # #
@@ -303,136 +304,136 @@ APV,    8,      1,      6,      20,     0,      12,     8,      4,      0,      
 # #*******   Crate 0 - MPD9 - Fiber 7 ********
 # # X-dimension 12-slot
 # # Item, slot_id, Layer, fiber_id, GEMID, DIM,  ADCId,    I2C,    Pos,    Invert, other, backplane, GEMPOS
-APV,    9,      2,      7,     	17,     1,      0,      15,     0,       1,      normal, 0,      0,
-APV,    9,      2,      7,     	17,     1,      1,      14,     1,       1,      normal, 0,      0,
-APV,    9,      2,      7,     	17,     1,      2,      13,     2,       1,      normal, 0,      0,
-APV,    9,      2,      7,     	17,     1,      3,      12,     3,       1,      normal, 0,      0,
-APV,    9,      2,      7,     	17,     1,      4,      11,     4,       1,      normal, 0,      0,
-APV,    9,      2,      7,     	17,     1,      5,      10,     5,       1,      normal, 0,      0,
-APV,    9,      2,      7,     	17,     1,      6,      9,      6,       1,      normal, 0,      0,
-APV,    9,      2,      7,     	17,     1,      7,      8,      7,       1,      normal, 0,      0,
-APV,    9,      2,      7,     	17,     1,      8,      7,      8,       1,      normal, 0,      0,
-APV,    9,      2,      7,     	17,     1,      9,      6,      9,       1,      normal, 0,      0,
-APV,    9,      2,      7,     	17,     1,      10,     5,      10,      1,      normal, 0,      0,
-APV,    9,      2,      7,     	17,     1,      11,     4,      11,      1,      normal, 0,      0,
+APV,    2,      2,      7,     	17,     1,      0,      15,     0,       1,      normal, 0,      0,
+APV,    2,      2,      7,     	17,     1,      1,      14,     1,       1,      normal, 0,      0,
+APV,    2,      2,      7,     	17,     1,      2,      13,     2,       1,      normal, 0,      0,
+APV,    2,      2,      7,     	17,     1,      3,      12,     3,       1,      normal, 0,      0,
+APV,    2,      2,      7,     	17,     1,      4,      11,     4,       1,      normal, 0,      0,
+APV,    2,      2,      7,     	17,     1,      5,      10,     5,       1,      normal, 0,      0,
+APV,    2,      2,      7,     	17,     1,      6,      9,      6,       1,      normal, 0,      0,
+APV,    2,      2,      7,     	17,     1,      7,      8,      7,       1,      normal, 0,      0,
+APV,    2,      2,      7,     	17,     1,      8,      7,      8,       1,      normal, 0,      0,
+APV,    2,      2,      7,     	17,     1,      9,      6,      9,       1,      normal, 0,      0,
+APV,    2,      2,      7,     	17,     1,      10,     5,      10,      1,      normal, 0,      0,
+APV,    2,      2,      7,     	17,     1,      11,     4,      11,      1,      normal, 0,      0,
 #
 #*******   Crate 0 - MPD13 - Fiber 11 ********
 # Y-dimension 5-slot (right side of the layer)
-APV,    13,      2,      11,      17,     0,      10,     4,      9,      1,      normal, 1,      0,
-APV,    13,      2,      11,      17,     0,      11,     3,      8,      1,      normal, 1,      0,
-APV,    13,      2,      11,      17,     0,      12,     2,      7,      1,      normal, 1,      0,
-APV,    13,      2,      11,      17,     0,      13,     1,      6,      1,      normal, 1,      0,
-APV,    13,      2,      11,      17,     0,      14,     0,      5,      1,      normal, 1,      0,
+APV,    2,      2,      11,      17,     0,      10,     4,      9,      1,      normal, 1,      0,
+APV,    2,      2,      11,      17,     0,      11,     3,      8,      1,      normal, 1,      0,
+APV,    2,      2,      11,      17,     0,      12,     2,      7,      1,      normal, 1,      0,
+APV,    2,      2,      11,      17,     0,      13,     1,      6,      1,      normal, 1,      0,
+APV,    2,      2,      11,      17,     0,      14,     0,      5,      1,      normal, 1,      0,
 #
 #*******   Crate 0 - MPD14 - Fiber 12 ********
 # Y-dimension 5-slot (left side of the layer)
-APV,    14,      2,      12,      17,     0,      0,      4,      0,      0,      normal, 2,      0,
-APV,    14,      2,      12,      17,     0,      1,      3,      1,      0,      normal, 2,      0,
-APV,    14,      2,      12,      17,     0,      2,      2,      2,      0,      normal, 2,      0,
-APV,    14,      2,      12,      17,     0,      3,      1,      3,      0,      normal, 2,      0,
-APV,    14,      2,      12,      17,     0,      4,      0,      4,      0,      normal, 2,      0,
+APV,    2,      2,      12,      17,     0,      0,      4,      0,      0,      normal, 2,      0,
+APV,    2,      2,      12,      17,     0,      1,      3,      1,      0,      normal, 2,      0,
+APV,    2,      2,      12,      17,     0,      2,      2,      2,      0,      normal, 2,      0,
+APV,    2,      2,      12,      17,     0,      3,      1,      3,      0,      normal, 2,      0,
+APV,    2,      2,      12,      17,     0,      4,      0,      4,      0,      normal, 2,      0,
 # #
 # #============================= Crate_0 INLINE Layer_2 GEM_1 ===================================
 # #
 # #*******   Crate 0 - MPD10 - Fiber 8 ********
 # # X-dimension 12-slot
 # # Item, slot_id, Layer, fiber_id, GEMID, DIM,  ADCId,    I2C,    Pos,    Invert, other, backplane, GEMPOS
-APV,    10,      2,      8,     14,     1,      0,      15,     0,       1,      normal, 0,      1,
-APV,    10,      2,      8,     14,     1,      1,      14,     1,       1,      normal, 0,      1,
-APV,    10,      2,      8,     14,     1,      2,      13,     2,      	1,      normal, 0,      1,
-APV,    10,      2,      8,     14,     1,      3,      12,     3,      	1,      normal, 0,      1,
-APV,    10,      2,      8,     14,     1,      4,      11,     4,       1,      normal, 0,      1,
-APV,    10,      2,      8,     14,     1,      5,      10,     5,     	1,      normal, 0,      1,
-APV,    10,      2,      8,     14,     1,      6,      9,      6,      	1,      normal, 0,      1,
-APV,    10,      2,      8,     14,     1,      7,      8,      7,      	1,      normal, 0,      1,
-APV,    10,      2,      8,     14,     1,      8,      7,      8,      	1,      normal, 0,      1,
-APV,    10,      2,      8,     14,     1,      9,      6,      9,      	1,      normal, 0,      1,
-APV,    10,      2,      8,     14,     1,      10,     5,      10,     	1,      normal, 0,      1,
-APV,    10,      2,      8,     14,     1,      11,     4,      11,     	1,      normal, 0,      1,
+APV,    2,      2,      8,     14,     1,      0,      15,     0,       1,      normal, 0,      1,
+APV,    2,      2,      8,     14,     1,      1,      14,     1,       1,      normal, 0,      1,
+APV,    2,      2,      8,     14,     1,      2,      13,     2,      	1,      normal, 0,      1,
+APV,    2,      2,      8,     14,     1,      3,      12,     3,      	1,      normal, 0,      1,
+APV,    2,      2,      8,     14,     1,      4,      11,     4,       1,      normal, 0,      1,
+APV,    2,      2,      8,     14,     1,      5,      10,     5,     	1,      normal, 0,      1,
+APV,    2,      2,      8,     14,     1,      6,      9,      6,      	1,      normal, 0,      1,
+APV,    2,      2,      8,     14,     1,      7,      8,      7,      	1,      normal, 0,      1,
+APV,    2,      2,      8,     14,     1,      8,      7,      8,      	1,      normal, 0,      1,
+APV,    2,      2,      8,     14,     1,      9,      6,      9,      	1,      normal, 0,      1,
+APV,    2,      2,      8,     14,     1,      10,     5,      10,     	1,      normal, 0,      1,
+APV,    2,      2,      8,     14,     1,      11,     4,      11,     	1,      normal, 0,      1,
 #
 #*******   Crate 0 - MPD13 - Fiber 11 ********
 # Y-dimension 5-slot (right side of layer)
-APV,    13,      2,      11,      14,     0,      5,      12,     9,      1,      normal, 1,      1,
-APV,    13,      2,      11,      14,     0,      6,      11,     8,      1,      normal, 1,      1,
-APV,    13,      2,      11,      14,     0,      7,      10,     7,      1,      normal, 1,      1,
-APV,    13,      2,      11,      14,     0,      8,      9,      6,     	1,      normal, 1,      1,
-APV,    13,      2,      11,      14,     0,      9,      8,      5,      1,      normal, 1,      1,
+APV,    2,      2,      11,      14,     0,      5,      12,     9,      1,      normal, 1,      1,
+APV,    2,      2,      11,      14,     0,      6,      11,     8,      1,      normal, 1,      1,
+APV,    2,      2,      11,      14,     0,      7,      10,     7,      1,      normal, 1,      1,
+APV,    2,      2,      11,      14,     0,      8,      9,      6,     	1,      normal, 1,      1,
+APV,    2,      2,      11,      14,     0,      9,      8,      5,      1,      normal, 1,      1,
 #
 #*******   Crate 0 - MPD14 - Fiber 12 ********
 # Y-dimension 5-slot (left left side of layer)
-APV,    14,      2,      12,      14,     0,      5,      12,     0,      0,      normal, 2,      1,
-APV,    14,      2,      12,      14,     0,      6,      11,     1,      0,      normal, 2,      1,
-APV,    14,      2,      12,      14,     0,      7,      10,     2,      0,      normal, 2,      1,
-APV,    14,      2,      12,      14,     0,      8,      9,      3,      0,      normal, 2,      1,
-APV,    14,      2,      12,      14,     0,      9,      8,      4,      0,      normal, 2,      1,
+APV,    2,      2,      12,      14,     0,      5,      12,     0,      0,      normal, 2,      1,
+APV,    2,      2,      12,      14,     0,      6,      11,     1,      0,      normal, 2,      1,
+APV,    2,      2,      12,      14,     0,      7,      10,     2,      0,      normal, 2,      1,
+APV,    2,      2,      12,      14,     0,      8,      9,      3,      0,      normal, 2,      1,
+APV,    2,      2,      12,      14,     0,      9,      8,      4,      0,      normal, 2,      1,
 # #
 # #============================= Crate_0 INLINE Layer_2 GEM_2 ===================================
 # #
 # #*******   Crate 0 - MPD11 - Fiber 9 ********
 # # X-dimension 12-slot
 # # Item, slot_id, Layer, fiber_id, GEMID, DIM,  ADCId,    I2C,    Pos,    Invert, other, backplane, GEMPOS
-APV,    11,      2,      9,     7,     1,      0,      15,     11,     	0,      normal, 0,      2,
-APV,    11,      2,      9,     7,     1,      1,      14,     10,     	0,      normal, 0,      2,
-APV,    11,      2,      9,     7,     1,      2,      13,     9,      	0,      normal, 0,      2,
-APV,    11,      2,      9,     7,     1,      3,      12,     8,      	0,      normal, 0,      2,
-APV,    11,      2,      9,     7,     1,      4,      11,     7,      	0,      normal, 0,      2,
-APV,    11,      2,      9,     7,     1,      5,      10,     6,      	0,      normal, 0,      2,
-APV,    11,      2,      9,     7,     1,      6,      9,      5,      	0,      normal, 0,      2,
-APV,    11,      2,      9,     7,     1,      7,      8,      4,      	0,      normal, 0,      2,
-APV,    11,      2,      9,     7,     1,      8,      7,      3,      	0,      normal, 0,      2,
-APV,    11,      2,      9,     7,     1,      9,      6,      2,      	0,      normal, 0,      2,
-APV,    11,      2,      9,     7,     1,      10,     5,      1,       0,      normal, 0,      2,
-APV,    11,      2,      9,     7,     1,      11,     4,      0,       0,      normal, 0,      2,
+APV,    2,      2,      9,     7,     1,      0,      15,     11,     	0,      normal, 0,      2,
+APV,    2,      2,      9,     7,     1,      1,      14,     10,     	0,      normal, 0,      2,
+APV,    2,      2,      9,     7,     1,      2,      13,     9,      	0,      normal, 0,      2,
+APV,    2,      2,      9,     7,     1,      3,      12,     8,      	0,      normal, 0,      2,
+APV,    2,      2,      9,     7,     1,      4,      11,     7,      	0,      normal, 0,      2,
+APV,    2,      2,      9,     7,     1,      5,      10,     6,      	0,      normal, 0,      2,
+APV,    2,      2,      9,     7,     1,      6,      9,      5,      	0,      normal, 0,      2,
+APV,    2,      2,      9,     7,     1,      7,      8,      4,      	0,      normal, 0,      2,
+APV,    2,      2,      9,     7,     1,      8,      7,      3,      	0,      normal, 0,      2,
+APV,    2,      2,      9,     7,     1,      9,      6,      2,      	0,      normal, 0,      2,
+APV,    2,      2,      9,     7,     1,      10,     5,      1,       0,      normal, 0,      2,
+APV,    2,      2,      9,     7,     1,      11,     4,      0,       0,      normal, 0,      2,
 #
 #*******   Crate 0 - MPD13 - Fiber 11 ********
 # Y-dimension A (right)
-APV,    13,      2,      11,      7,     0,      0,      20,     9,      1,      normal, 1,      2,
-APV,    13,      2,      11,      7,     0,      1,      19,     8,      1,      normal, 1,      2,
-APV,    13,      2,      11,      7,     0,      2,      18,     7,      1,      normal, 1,      2,
-APV,    13,      2,      11,      7,     0,      3,      17,     6,      1,      normal, 1,      2,
-APV,    13,      2,      11,      7,     0,      4,      16,     5,      1,      normal, 1,      2,
+APV,    2,      2,      11,      7,     0,      0,      20,     9,      1,      normal, 1,      2,
+APV,    2,      2,      11,      7,     0,      1,      19,     8,      1,      normal, 1,      2,
+APV,    2,      2,      11,      7,     0,      2,      18,     7,      1,      normal, 1,      2,
+APV,    2,      2,      11,      7,     0,      3,      17,     6,      1,      normal, 1,      2,
+APV,    2,      2,      11,      7,     0,      4,      16,     5,      1,      normal, 1,      2,
 #
 #*******   Crate 0 - MPD14 - Fiber 12 ********
 # Y-dimension B (left)
-APV,    14,      2,      12,      7,     0,      10,     20,     0,      0,      normal, 2,      2,
-APV,    14,      2,      12,      7,     0,      11,     19,     1,      0,      normal, 2,      2,
-APV,    14,      2,      12,      7,     0,      12,     18,     2,      0,      normal, 2,      2,
-APV,    14,      2,      12,      7,     0,      13,     17,     3,      0,      normal, 2,      2,
-APV,    14,      2,      12,      7,     0,      14,     16,     4,      0,      normal, 2,      2,
+APV,    2,      2,      12,      7,     0,      10,     20,     0,      0,      normal, 2,      2,
+APV,    2,      2,      12,      7,     0,      11,     19,     1,      0,      normal, 2,      2,
+APV,    2,      2,      12,      7,     0,      12,     18,     2,      0,      normal, 2,      2,
+APV,    2,      2,      12,      7,     0,      13,     17,     3,      0,      normal, 2,      2,
+APV,    2,      2,      12,      7,     0,      14,     16,     4,      0,      normal, 2,      2,
 # #
 # #============================= Crate_0 INLINE Layer_2 GEM_3 ===================================
 # #
 # #*******   Crate 0 - MPD12 - Fiber 10 ********
 # # X-dimension 12-slot
 # # Item, slot_id, Layer, fiber_id, GEMID, DIM,  ADCId,    I2C,    Pos,    Invert, other, backplane, GEMPOS
-APV,    12,      2,      10,      16,     1,      0,      15,     11,     0,      normal, 0,      3,
-APV,    12,      2,      10,      16,     1,      1,      14,     10,     0,      normal, 0,      3,
-APV,    12,      2,      10,      16,     1,      2,      13,     9,      0,      normal, 0,      3,
-APV,    12,      2,      10,      16,     1,      3,      12,     8,      0,      normal, 0,      3,
-APV,    12,      2,      10,      16,     1,      4,      11,     7,      0,      normal, 0,      3,
-APV,    12,      2,      10,      16,     1,      5,      10,     6,      0,      normal, 0,      3,
-APV,    12,      2,      10,      16,     1,      6,      9,      5,      0,      normal, 0,      3,
-APV,    12,      2,      10,      16,     1,      7,      8,      4,      0,      normal, 0,      3,
-APV,    12,      2,      10,      16,     1,      8,      7,      3,      0,      normal, 0,      3,
-APV,    12,      2,      10,      16,     1,      9,      6,      2,      0,      normal, 0,      3,
-APV,    12,      2,      10,      16,     1,      10,     5,      1,      0,      normal, 0,      3,
-APV,    12,      2,      10,      16,     1,      11,     4,      0,      0,      normal, 0,      3,
+APV,    2,      2,      10,      16,     1,      0,      15,     11,     0,      normal, 0,      3,
+APV,    2,      2,      10,      16,     1,      1,      14,     10,     0,      normal, 0,      3,
+APV,    2,      2,      10,      16,     1,      2,      13,     9,      0,      normal, 0,      3,
+APV,    2,      2,      10,      16,     1,      3,      12,     8,      0,      normal, 0,      3,
+APV,    2,      2,      10,      16,     1,      4,      11,     7,      0,      normal, 0,      3,
+APV,    2,      2,      10,      16,     1,      5,      10,     6,      0,      normal, 0,      3,
+APV,    2,      2,      10,      16,     1,      6,      9,      5,      0,      normal, 0,      3,
+APV,    2,      2,      10,      16,     1,      7,      8,      4,      0,      normal, 0,      3,
+APV,    2,      2,      10,      16,     1,      8,      7,      3,      0,      normal, 0,      3,
+APV,    2,      2,      10,      16,     1,      9,      6,      2,      0,      normal, 0,      3,
+APV,    2,      2,      10,      16,     1,      10,     5,      1,      0,      normal, 0,      3,
+APV,    2,      2,      10,      16,     1,      11,     4,      0,      0,      normal, 0,      3,
 #
 #*******   Crate 0 - MPD15 - Fiber 13 ********
 # Y-dimension 5-Slot (right side of layer)
-APV,    15,      2,      13,      16,     0,      0,      4,      9,      1,      normal, 1,      3,
-APV,    15,      2,      13,      16,     0,      1,      3,      8,      1,      normal, 1,      3,
-APV,    15,      2,      13,      16,     0,      2,      2,      7,      1,      normal, 1,      3,
-APV,    15,      2,      13,      16,     0,      3,      1,      6,      1,      normal, 1,      3,
-APV,    15,      2,      13,      16,     0,      4,      0,      5,      1,      normal, 1,      3,
+APV,    2,      2,      13,      16,     0,      0,      4,      9,      1,      normal, 1,      3,
+APV,    2,      2,      13,      16,     0,      1,      3,      8,      1,      normal, 1,      3,
+APV,    2,      2,      13,      16,     0,      2,      2,      7,      1,      normal, 1,      3,
+APV,    2,      2,      13,      16,     0,      3,      1,      6,      1,      normal, 1,      3,
+APV,    2,      2,      13,      16,     0,      4,      0,      5,      1,      normal, 1,      3,
 #
 #*******   Crate 0 - MPD15 - Fiber 13 ********
 # Y-dimension 5-slot (left side of layer)
-APV,    15,      2,      13,      16,     0,      8,      12,     0,      0,      normal, 2,      3,
-APV,    15,      2,      13,      16,     0,      9,      11,     1,      0,      normal, 2,      3,
-APV,    15,      2,      13,      16,     0,      10,     10,     2,      0,      normal, 2,      3,
-APV,    15,      2,      13,      16,     0,      11,     9,      3,      0,      normal, 2,      3,
-APV,    15,      2,      13,      16,     0,      12,     8,      4,      0,      normal, 2,      3,
+APV,    2,      2,      13,      16,     0,      8,      12,     0,      0,      normal, 2,      3,
+APV,    2,      2,      13,      16,     0,      9,      11,     1,      0,      normal, 2,      3,
+APV,    2,      2,      13,      16,     0,      10,     10,     2,      0,      normal, 2,      3,
+APV,    2,      2,      13,      16,     0,      11,     9,      3,      0,      normal, 2,      3,
+APV,    2,      2,      13,      16,     0,      12,     8,      4,      0,      normal, 2,      3,
 # #
 # #
 # #
@@ -447,25 +448,25 @@ APV,    15,      2,      13,      16,     0,      12,     8,      4,      0,    
 # #*******   Crate 0 - MPD16 - Fiber 14 ********
 # # X-dimension 12-slot
 # # Item, slot_id, Layer, fiber_id, GEMID, DIM,  ADCId,    I2C,    Pos,    Invert, other, backplane, GEMPOS
-APV,    16,      3,      14,      1,     1,      0,      15,     0,       1,      normal, 0,      0,
-APV,    16,      3,      14,      1,     1,      1,      14,     1,       1,      normal, 0,      0,
-APV,    16,      3,      14,      1,     1,      2,      13,     2,       1,      normal, 0,      0,
-APV,    16,      3,      14,      1,     1,      3,      12,     3,       1,      normal, 0,      0,
-APV,    16,      3,      14,      1,     1,      4,      11,     4,       1,      normal, 0,      0,
-APV,    16,      3,      14,      1,     1,      5,      10,     5,       1,      normal, 0,      0,
-APV,    16,      3,      14,      1,     1,      6,      9,      6,       1,      normal, 0,      0,
-APV,    16,      3,      14,      1,     1,      7,      8,      7,       1,      normal, 0,      0,
-APV,    16,      3,      14,      1,     1,      8,      7,      8,       1,      normal, 0,      0,
-APV,    16,      3,      14,      1,     1,      9,      6,      9,       1,      normal, 0,      0,
-APV,    16,      3,      14,      1,     1,      10,     5,      10,      1,      normal, 0,      0,
-APV,    16,      3,      14,      1,     1,      11,     4,      11,      1,      normal, 0,      0,
+APV,    2,      3,      14,      1,     1,      0,      15,     0,       1,      normal, 0,      0,
+APV,    2,      3,      14,      1,     1,      1,      14,     1,       1,      normal, 0,      0,
+APV,    2,      3,      14,      1,     1,      2,      13,     2,       1,      normal, 0,      0,
+APV,    2,      3,      14,      1,     1,      3,      12,     3,       1,      normal, 0,      0,
+APV,    2,      3,      14,      1,     1,      4,      11,     4,       1,      normal, 0,      0,
+APV,    2,      3,      14,      1,     1,      5,      10,     5,       1,      normal, 0,      0,
+APV,    2,      3,      14,      1,     1,      6,      9,      6,       1,      normal, 0,      0,
+APV,    2,      3,      14,      1,     1,      7,      8,      7,       1,      normal, 0,      0,
+APV,    2,      3,      14,      1,     1,      8,      7,      8,       1,      normal, 0,      0,
+APV,    2,      3,      14,      1,     1,      9,      6,      9,       1,      normal, 0,      0,
+APV,    2,      3,      14,      1,     1,      10,     5,      10,      1,      normal, 0,      0,
+APV,    2,      3,      14,      1,     1,      11,     4,      11,      1,      normal, 0,      0,
 ##*******   Crate 0 - MPD20 - Fiber 18 ********
 # Y-dimension 5-slot (right side of the layer)
-APV,    20,      3,      18,      1,     0,      10,     4,      9,      1,      normal, 1,      0,
-APV,    20,      3,      18,       1,     0,      11,     3,      8,      1,      normal, 1,      0,
-APV,    20,      3,      18,      1,     0,      12,     2,      7,      1,      normal, 1,      0,
-APV,    20,      3,      18,      1,     0,      13,     1,      6,      1,      normal, 1,      0,
-APV,    20,      3,      18,      1,     0,      14,     0,      5,      1,      normal, 1,      0,
+APV,    2,      3,      18,      1,     0,      10,     4,      9,      1,      normal, 1,      0,
+APV,    2,      3,      18,       1,     0,      11,     3,      8,      1,      normal, 1,      0,
+APV,    2,      3,      18,      1,     0,      12,     2,      7,      1,      normal, 1,      0,
+APV,    2,      3,      18,      1,     0,      13,     1,      6,      1,      normal, 1,      0,
+APV,    2,      3,      18,      1,     0,      14,     0,      5,      1,      normal, 1,      0,
 #
 ###################################### CRATE 1 ###########################################
 #
@@ -483,26 +484,26 @@ APV,    2,      3,      19,       1,     0,      4,      0,      4,      0,     
 ##*******   Crate 0 - MPD17 - Fiber 15 ********
 # X-dimension 12-slot
 # Item, slot_id, Layer, fiber_id, GEMID, DIM,  ADCId,    I2C,    Pos,    Invert, other, backplane, GEMPOS
-APV,    17,      3,      15,      14,     1,      0,      15,     0,       1,      normal, 0,      1,
-APV,    17,      3,      15,      14,     1,      1,      14,     1,       1,      normal, 0,      1,
-APV,    17,      3,      15,      14,     1,      2,      13,     2,       1,      normal, 0,      1,
-APV,    17,      3,      15,      14,     1,      3,      12,     3,       1,      normal, 0,      1,
-APV,    17,      3,      15,      14,     1,      4,      11,     4,       1,      normal, 0,      1,
-APV,    17,      3,      15,      14,     1,      5,      10,     5,       1,      normal, 0,      1,
-APV,    17,      3,      15,      14,     1,      6,      9,      6,       1,      normal, 0,      1,
-APV,    17,      3,      15,      14,     1,      7,      8,      7,       1,      normal, 0,      1,
-APV,    17,      3,      15,      14,     1,      8,      7,      8,       1,      normal, 0,      1,
-APV,    17,      3,      15,      14,     1,      9,      6,      9,       1,      normal, 0,      1,
-APV,    17,      3,      15,      14,     1,      10,     5,      10,      1,      normal, 0,      1,
-APV,    17,      3,      15,      14,     1,      11,     4,      11,      1,      normal, 0,      1,
+APV,    2,      3,      15,      14,     1,      0,      15,     0,       1,      normal, 0,      1,
+APV,    2,      3,      15,      14,     1,      1,      14,     1,       1,      normal, 0,      1,
+APV,    2,      3,      15,      14,     1,      2,      13,     2,       1,      normal, 0,      1,
+APV,    2,      3,      15,      14,     1,      3,      12,     3,       1,      normal, 0,      1,
+APV,    2,      3,      15,      14,     1,      4,      11,     4,       1,      normal, 0,      1,
+APV,    2,      3,      15,      14,     1,      5,      10,     5,       1,      normal, 0,      1,
+APV,    2,      3,      15,      14,     1,      6,      9,      6,       1,      normal, 0,      1,
+APV,    2,      3,      15,      14,     1,      7,      8,      7,       1,      normal, 0,      1,
+APV,    2,      3,      15,      14,     1,      8,      7,      8,       1,      normal, 0,      1,
+APV,    2,      3,      15,      14,     1,      9,      6,      9,       1,      normal, 0,      1,
+APV,    2,      3,      15,      14,     1,      10,     5,      10,      1,      normal, 0,      1,
+APV,    2,      3,      15,      14,     1,      11,     4,      11,      1,      normal, 0,      1,
 #
 ##*******   Crate 0 - MPD20 - Fiber 18 ********
 # Y-dimension 5-slot (right side of layer)
-APV,    20,      3,      18,      14,     0,      5,      12,     9,      1,      normal, 1,      1,
-APV,    20,      3,      18,      14,     0,      6,      11,     8,      1,      normal, 1,      1,
-APV,    20,      3,      18,      14,     0,      7,      10,     7,      1,      normal, 1,      1,
-APV,    20,      3,      18,      14,     0,      8,      9,      6,      1,      normal, 1,      1,
-APV,    20,      3,      18,      14,     0,      9,      8,      5,      1,      normal, 1,      1,
+APV,    2,      3,      18,      14,     0,      5,      12,     9,      1,      normal, 1,      1,
+APV,    2,      3,      18,      14,     0,      6,      11,     8,      1,      normal, 1,      1,
+APV,    2,      3,      18,      14,     0,      7,      10,     7,      1,      normal, 1,      1,
+APV,    2,      3,      18,      14,     0,      8,      9,      6,      1,      normal, 1,      1,
+APV,    2,      3,      18,      14,     0,      9,      8,      5,      1,      normal, 1,      1,
 #
 ###################################### CRATE 1 ###########################################
 #
@@ -520,26 +521,26 @@ APV,    2,      3,      19,       14,     0,      9,      8,      4,      0,    
 # ##*******   Crate 0 - MPD18 - Fiber 16 ********
 # # X-dimension 
 # # Item, slot_id, Layer, fiber_id, GEMID, DIM,  ADCId,    I2C,    Pos,    Invert, other, backplane, GEMPOS
-APV,    18,      3,      16,      7,     1,      0,      15,     11,     	0,      normal, 0,      2,
-APV,    18,      3,      16,      7,     1,      1,      14,     10,     	0,      normal, 0,      2,
-APV,    18,      3,      16,      7,     1,      2,      13,     9,      	0,      normal, 0,      2,
-APV,    18,      3,      16,      7,     1,      3,      12,     8,      	0,      normal, 0,      2,
-APV,    18,      3,      16,      7,     1,      4,      11,     7,      	0,      normal, 0,      2,
-APV,    18,      3,      16,      7,     1,      5,      10,     6,      	0,      normal, 0,      2,
-APV,    18,      3,      16,      7,     1,      6,      9,      5,      	0,      normal, 0,      2,
-APV,    18,      3,      16,      7,     1,      7,      8,      4,      	0,      normal, 0,      2,
-APV,    18,      3,      16,      7,     1,      8,      7,      3,      	0,      normal, 0,      2,
-APV,    18,      3,      16,      7,     1,      9,      6,      2,      	0,      normal, 0,      2,
-APV,    18,      3,      16,      7,     1,      10,     5,      1,       0,      normal, 0,      2,
-APV,    18,      3,      16,      7,     1,      11,     4,      0,       0,      normal, 0,      2,
+APV,    2,      3,      16,      7,     1,      0,      15,     11,     	0,      normal, 0,      2,
+APV,    2,      3,      16,      7,     1,      1,      14,     10,     	0,      normal, 0,      2,
+APV,    2,      3,      16,      7,     1,      2,      13,     9,      	0,      normal, 0,      2,
+APV,    2,      3,      16,      7,     1,      3,      12,     8,      	0,      normal, 0,      2,
+APV,    2,      3,      16,      7,     1,      4,      11,     7,      	0,      normal, 0,      2,
+APV,    2,      3,      16,      7,     1,      5,      10,     6,      	0,      normal, 0,      2,
+APV,    2,      3,      16,      7,     1,      6,      9,      5,      	0,      normal, 0,      2,
+APV,    2,      3,      16,      7,     1,      7,      8,      4,      	0,      normal, 0,      2,
+APV,    2,      3,      16,      7,     1,      8,      7,      3,      	0,      normal, 0,      2,
+APV,    2,      3,      16,      7,     1,      9,      6,      2,      	0,      normal, 0,      2,
+APV,    2,      3,      16,      7,     1,      10,     5,      1,       0,      normal, 0,      2,
+APV,    2,      3,      16,      7,     1,      11,     4,      0,       0,      normal, 0,      2,
 #
 ##*******   Crate 0 - MPD20 - Fiber 18 ********
 # Y-dimension A (right)
-APV,    20,      3,      18,      7,     0,      0,      20,     9,      1,      normal, 1,      2,
-APV,    20,      3,      18,      7,     0,      1,      19,     8,      1,      normal, 1,      2,
-APV,    20,      3,      18,      7,     0,      2,      18,     7,      1,      normal, 1,      2,
-APV,    20,      3,      18,      7,     0,      3,      17,     6,      1,      normal, 1,      2,
-APV,    20,      3,      18,      7,     0,      4,      16,     5,      1,      normal, 1,      2,
+APV,    2,      3,      18,      7,     0,      0,      20,     9,      1,      normal, 1,      2,
+APV,    2,      3,      18,      7,     0,      1,      19,     8,      1,      normal, 1,      2,
+APV,    2,      3,      18,      7,     0,      2,      18,     7,      1,      normal, 1,      2,
+APV,    2,      3,      18,      7,     0,      3,      17,     6,      1,      normal, 1,      2,
+APV,    2,      3,      18,      7,     0,      4,      16,     5,      1,      normal, 1,      2,
 #
 ###################################### CRATE 1 ###########################################
 #
@@ -557,35 +558,35 @@ APV,    2,      3,      19,       7,     0,      14,     16,     4,      0,     
 # ##*******   Crate 0 - MPD19 - Fiber 17 ********
 # # X-dimension 12-slot
 # # Item, slot_id, Layer, fiber_id, GEMID, DIM,  ADCId,    I2C,    Pos,    Invert, other, backplane, GEMPOS
-APV,    19,      3,      17,      16,     1,      0,      15,     11,     0,      normal, 0,      3,
-APV,    19,      3,      17,      16,     1,      1,      14,     10,     0,      normal, 0,      3,
-APV,    19,      3,      17,      16,     1,      2,      13,     9,      0,      normal, 0,      3,
-APV,    19,      3,      17,      16,     1,      3,      12,     8,      0,      normal, 0,      3,
-APV,    19,      3,      17,      16,     1,      4,      11,     7,      0,      normal, 0,      3,
-APV,    19,      3,      17,      16,     1,      5,      10,     6,      0,      normal, 0,      3,
-APV,    19,      3,      17,      16,     1,      6,      9,      5,      0,      normal, 0,      3,
-APV,    19,      3,      17,      16,     1,      7,      8,      4,      0,      normal, 0,      3,
-APV,    19,      3,      17,      16,     1,      8,      7,      3,      0,      normal, 0,      3,
-APV,    19,      3,      17,      16,     1,      9,      6,      2,      0,      normal, 0,      3,
-APV,    19,      3,      17,      16,     1,      10,     5,      1,      0,      normal, 0,      3,
-APV,    19,      3,      17,      16,     1,      11,     4,      0,      0,      normal, 0,      3,
+APV,    2,      3,      17,      16,     1,      0,      15,     11,     0,      normal, 0,      3,
+APV,    2,      3,      17,      16,     1,      1,      14,     10,     0,      normal, 0,      3,
+APV,    2,      3,      17,      16,     1,      2,      13,     9,      0,      normal, 0,      3,
+APV,    2,      3,      17,      16,     1,      3,      12,     8,      0,      normal, 0,      3,
+APV,    2,      3,      17,      16,     1,      4,      11,     7,      0,      normal, 0,      3,
+APV,    2,      3,      17,      16,     1,      5,      10,     6,      0,      normal, 0,      3,
+APV,    2,      3,      17,      16,     1,      6,      9,      5,      0,      normal, 0,      3,
+APV,    2,      3,      17,      16,     1,      7,      8,      4,      0,      normal, 0,      3,
+APV,    2,      3,      17,      16,     1,      8,      7,      3,      0,      normal, 0,      3,
+APV,    2,      3,      17,      16,     1,      9,      6,      2,      0,      normal, 0,      3,
+APV,    2,      3,      17,      16,     1,      10,     5,      1,      0,      normal, 0,      3,
+APV,    2,      3,      17,      16,     1,      11,     4,      0,      0,      normal, 0,      3,
 #
 ###################################### CRATE 1 ###########################################
 #
 ##*******   Crate 1 - MPD3 - Fiber 20 ********
 # Y-dimension 5-Slot (right side of layer)
-APV,    3,      3,      20,      16,     0,      0,      4,      9,      1,      normal, 1,      3,
-APV,    3,      3,      20,      16,     0,      1,      3,      8,      1,      normal, 1,      3,
-APV,    3,      3,      20,      16,     0,      2,      2,      7,      1,      normal, 1,      3,
-APV,    3,      3,      20,      16,     0,      3,      1,      6,      1,      normal, 1,      3,
-APV,    3,      3,      20,      16,     0,      4,      0,      5,      1,      normal, 1,      3,
+APV,    2,      3,      20,      16,     0,      0,      4,      9,      1,      normal, 1,      3,
+APV,    2,      3,      20,      16,     0,      1,      3,      8,      1,      normal, 1,      3,
+APV,    2,      3,      20,      16,     0,      2,      2,      7,      1,      normal, 1,      3,
+APV,    2,      3,      20,      16,     0,      3,      1,      6,      1,      normal, 1,      3,
+APV,    2,      3,      20,      16,     0,      4,      0,      5,      1,      normal, 1,      3,
 ###*******   Crate 1 - MPD3 - Fiber 20 ********
 # Y-dimension 5-slot (left side of layer)
-APV,    3,      3,      20,      16,     0,      8,      12,     0,      0,      normal, 2,      3,
-APV,    3,      3,      20,      16,     0,      9,      11,     1,      0,      normal, 2,      3,
-APV,    3,      3,      20,      16,     0,      10,     10,     2,      0,      normal, 2,      3,
-APV,    3,      3,      20,      16,     0,      11,     9,      3,      0,      normal, 2,      3,
-APV,    3,      3,      20,      16,     0,      12,     8,      4,      0,      normal, 2,      3,
+APV,    2,      3,      20,      16,     0,      8,      12,     0,      0,      normal, 2,      3,
+APV,    2,      3,      20,      16,     0,      9,      11,     1,      0,      normal, 2,      3,
+APV,    2,      3,      20,      16,     0,      10,     10,     2,      0,      normal, 2,      3,
+APV,    2,      3,      20,      16,     0,      11,     9,      3,      0,      normal, 2,      3,
+APV,    2,      3,      20,      16,     0,      12,     8,      4,      0,      normal, 2,      3,
 # ##########################################################################################
 # #
 # #
@@ -600,136 +601,136 @@ APV,    3,      3,      20,      16,     0,      12,     8,      4,      0,     
 # ##*******   Crate 1 - MPD4 - Fiber 21 ********
 # # X-dimension 12-slot
 # # Item, slot_id, Layer, fiber_id, GEMID, DIM,  ADCId,    I2C,    Pos,    Invert, other, backplane, GEMPOS
-APV,    4,      4,      21,     	2,     1,      0,      15,     0,       1,      normal, 0,      0,
-APV,    4,      4,      21,     	2,     1,      1,      14,     1,       1,      normal, 0,      0,
-APV,    4,      4,      21,     	2,     1,      2,      13,     2,       1,      normal, 0,      0,
-APV,    4,      4,      21,     	2,     1,      3,      12,     3,       1,      normal, 0,      0,
-APV,    4,      4,      21,     	2,     1,      4,      11,     4,       1,      normal, 0,      0,
-APV,    4,      4,      21,     	2,     1,      5,      10,     5,       1,      normal, 0,      0,
-APV,    4,      4,      21,     	2,     1,      6,      9,      6,       1,      normal, 0,      0,
-APV,    4,      4,      21,     	2,     1,      7,      8,      7,       1,      normal, 0,      0,
-APV,    4,      4,      21,     	2,     1,      8,      7,      8,       1,      normal, 0,      0,
-APV,    4,      4,      21,     	2,     1,      9,      6,      9,       1,      normal, 0,      0,
-APV,    4,      4,      21,     	2,     1,      10,     5,      10,      1,      normal, 0,      0,
-APV,    4,      4,      21,     	2,     1,      11,     4,      11,      1,      normal, 0,      0,
+APV,    2,      4,      21,     	2,     1,      0,      15,     0,       1,      normal, 0,      0,
+APV,    2,      4,      21,     	2,     1,      1,      14,     1,       1,      normal, 0,      0,
+APV,    2,      4,      21,     	2,     1,      2,      13,     2,       1,      normal, 0,      0,
+APV,    2,      4,      21,     	2,     1,      3,      12,     3,       1,      normal, 0,      0,
+APV,    2,      4,      21,     	2,     1,      4,      11,     4,       1,      normal, 0,      0,
+APV,    2,      4,      21,     	2,     1,      5,      10,     5,       1,      normal, 0,      0,
+APV,    2,      4,      21,     	2,     1,      6,      9,      6,       1,      normal, 0,      0,
+APV,    2,      4,      21,     	2,     1,      7,      8,      7,       1,      normal, 0,      0,
+APV,    2,      4,      21,     	2,     1,      8,      7,      8,       1,      normal, 0,      0,
+APV,    2,      4,      21,     	2,     1,      9,      6,      9,       1,      normal, 0,      0,
+APV,    2,      4,      21,     	2,     1,      10,     5,      10,      1,      normal, 0,      0,
+APV,    2,      4,      21,     	2,     1,      11,     4,      11,      1,      normal, 0,      0,
 #
 ##*******   Crate 1 - MPD8 - Fiber 25 ********
 # Y-dimension 5-slot (right side of the layer)
-APV,    8,      4,      25,      2,     0,      10,     4,      9,      1,      normal, 1,      0,
-APV,    8,      4,      25,      2,     0,      11,     3,      8,      1,      normal, 1,      0,
-APV,    8,      4,      25,      2,     0,      12,     2,      7,      1,      normal, 1,      0,
-APV,    8,      4,      25,      2,     0,      13,     1,      6,      1,      normal, 1,      0,
-APV,    8,      4,      25,      2,     0,      14,     0,      5,      1,      normal, 1,      0,
+APV,    2,      4,      25,      2,     0,      10,     4,      9,      1,      normal, 1,      0,
+APV,    2,      4,      25,      2,     0,      11,     3,      8,      1,      normal, 1,      0,
+APV,    2,      4,      25,      2,     0,      12,     2,      7,      1,      normal, 1,      0,
+APV,    2,      4,      25,      2,     0,      13,     1,      6,      1,      normal, 1,      0,
+APV,    2,      4,      25,      2,     0,      14,     0,      5,      1,      normal, 1,      0,
 #
 ##*******   Crate 1 - MPD9 - Fiber 26 ********
 # Y-dimension 5-slot (left side of the layer)
-APV,    9,      4,      26,      2,     0,      0,      4,      0,      0,      normal, 2,      0,
-APV,    9,      4,      26,      2,     0,      1,      3,      1,      0,      normal, 2,      0,
-APV,    9,      4,      26,      2,     0,      2,      2,      2,      0,      normal, 2,      0,
-APV,    9,      4,      26,      2,     0,      3,      1,      3,      0,      normal, 2,      0,
-APV,    9,      4,      26,      2,     0,      4,      0,      4,      0,      normal, 2,      0,
+APV,    2,      4,      26,      2,     0,      0,      4,      0,      0,      normal, 2,      0,
+APV,    2,      4,      26,      2,     0,      1,      3,      1,      0,      normal, 2,      0,
+APV,    2,      4,      26,      2,     0,      2,      2,      2,      0,      normal, 2,      0,
+APV,    2,      4,      26,      2,     0,      3,      1,      3,      0,      normal, 2,      0,
+APV,    2,      4,      26,      2,     0,      4,      0,      4,      0,      normal, 2,      0,
 # #
 # #============================= Crate_1 INLINE Layer_4 GEM_1 ===================================
 # #
 # ##*******   Crate 1 - MPD5 - Fiber 22 ********
 # # X-dimension 12-slot
 # # Item, slot_id, Layer, fiber_id, GEMID, DIM,  ADCId,    I2C,    Pos,    Invert, other, backplane, GEMPOS
-APV,    5,      4,      22,       49,     1,      0,      15,     0,       1,      normal, 0,      1,
-APV,    5,      4,      22,     	 49,     1,      1,      14,     1,       1,      normal, 0,      1,
-APV,    5,      4,      22,     	 49,     1,      2,      13,     2,       1,      normal, 0,      1,
-APV,    5,      4,      22,       49,     1,      3,      12,     3,       1,      normal, 0,      1,
-APV,    5,      4,      22,       49,     1,      4,      11,     4,       1,      normal, 0,      1,
-APV,    5,      4,      22,       49,     1,      5,      10,     5,       1,      normal, 0,      1,
-APV,    5,      4,      22,       49,     1,      6,      9,      6,       1,      normal, 0,      1,
-APV,    5,      4,      22,       49,     1,      7,      8,      7,       1,      normal, 0,      1,
-APV,    5,      4,      22,       49,     1,      8,      7,      8,       1,      normal, 0,      1,
-APV,    5,      4,      22,       49,     1,      9,      6,      9,       1,      normal, 0,      1,
-APV,    5,      4,      22,       49,     1,      10,     5,      10,      1,      normal, 0,      1,
-APV,    5,      4,      22,       49,     1,      11,     4,      11,      1,      normal, 0,      1,
+APV,    2,      4,      22,       49,     1,      0,      15,     0,       1,      normal, 0,      1,
+APV,    2,      4,      22,     	 49,     1,      1,      14,     1,       1,      normal, 0,      1,
+APV,    2,      4,      22,     	 49,     1,      2,      13,     2,       1,      normal, 0,      1,
+APV,    2,      4,      22,       49,     1,      3,      12,     3,       1,      normal, 0,      1,
+APV,    2,      4,      22,       49,     1,      4,      11,     4,       1,      normal, 0,      1,
+APV,    2,      4,      22,       49,     1,      5,      10,     5,       1,      normal, 0,      1,
+APV,    2,      4,      22,       49,     1,      6,      9,      6,       1,      normal, 0,      1,
+APV,    2,      4,      22,       49,     1,      7,      8,      7,       1,      normal, 0,      1,
+APV,    2,      4,      22,       49,     1,      8,      7,      8,       1,      normal, 0,      1,
+APV,    2,      4,      22,       49,     1,      9,      6,      9,       1,      normal, 0,      1,
+APV,    2,      4,      22,       49,     1,      10,     5,      10,      1,      normal, 0,      1,
+APV,    2,      4,      22,       49,     1,      11,     4,      11,      1,      normal, 0,      1,
 #
 ##*******   Crate 1 - MPD8 - Fiber 25 ********
 # Y-dimension 5-slot (right side of layer)
-APV,    8,      4,      25,       49,     0,      5,      12,     9,      1,      normal, 1,      1,
-APV,    8,      4,      25,       49,     0,      6,      11,     8,      1,      normal, 1,      1,
-APV,    8,      4,      25,       49,     0,      7,      10,     7,      1,      normal, 1,      1,
-APV,    8,      4,      25,       49,     0,      8,      9,      6,      1,      normal, 1,      1,
-APV,    8,      4,      25,       49,     0,      9,      8,      5,      1,      normal, 1,      1,
+APV,    2,      4,      25,       49,     0,      5,      12,     9,      1,      normal, 1,      1,
+APV,    2,      4,      25,       49,     0,      6,      11,     8,      1,      normal, 1,      1,
+APV,    2,      4,      25,       49,     0,      7,      10,     7,      1,      normal, 1,      1,
+APV,    2,      4,      25,       49,     0,      8,      9,      6,      1,      normal, 1,      1,
+APV,    2,      4,      25,       49,     0,      9,      8,      5,      1,      normal, 1,      1,
 #
 ##*******   Crate 1 - MPD9 - Fiber 26 ********
 # Y-dimension 5-slot (left left side of layer)
-APV,    9,      4,      26,       49,     0,      5,      12,     0,      0,      normal, 2,      1,
-APV,    9,      4,      26,       49,     0,      6,      11,     1,      0,      normal, 2,      1,
-APV,    9,      4,      26,       49,     0,      7,      10,     2,      0,      normal, 2,      1,
-APV,    9,      4,      26,       49,     0,      8,      9,      3,      0,      normal, 2,      1,
-APV,    9,      4,      26,       49,     0,      9,      8,      4,      0,      normal, 2,      1,
+APV,    2,      4,      26,       49,     0,      5,      12,     0,      0,      normal, 2,      1,
+APV,    2,      4,      26,       49,     0,      6,      11,     1,      0,      normal, 2,      1,
+APV,    2,      4,      26,       49,     0,      7,      10,     2,      0,      normal, 2,      1,
+APV,    2,      4,      26,       49,     0,      8,      9,      3,      0,      normal, 2,      1,
+APV,    2,      4,      26,       49,     0,      9,      8,      4,      0,      normal, 2,      1,
 # #
 # #============================= Crate_1 INLINE Layer_4 GEM_2 ===================================
 # #
 # ##*******   Crate 1 - MPD6 - Fiber 23 ********
 # # X-dimension 
 # # Item, slot_id, Layer, fiber_id, GEMID, DIM,  ADCId,    I2C,    Pos,    Invert, other, backplane, GEMPOS
-APV,    6,      4,      23,     11,     1,      0,      15,     11,     	0,      normal, 0,      2,
-APV,    6,      4,      23,     11,     1,      1,      14,     10,     	0,      normal, 0,      2,
-APV,    6,      4,      23,     11,     1,      2,      13,     9,      	0,      normal, 0,      2,
-APV,    6,      4,      23,     11,     1,      3,      12,     8,      	0,      normal, 0,      2,
-APV,    6,      4,      23,     11,     1,      4,      11,     7,      	0,      normal, 0,      2,
-APV,    6,      4,      23,     11,     1,      5,      10,     6,      	0,      normal, 0,      2,
-APV,    6,      4,      23,     11,     1,      6,      9,      5,      	0,      normal, 0,      2,
-APV,    6,      4,      23,     11,     1,      7,      8,      4,      	0,      normal, 0,      2,
-APV,    6,      4,      23,     11,     1,      8,      7,      3,      	0,      normal, 0,      2,
-APV,    6,      4,      23,     11,     1,      9,      6,      2,      	0,      normal, 0,      2,
-APV,    6,      4,      23,     11,     1,      10,     5,      1,       0,      normal, 0,      2,
-APV,    6,      4,      23,     11,     1,      11,     4,      0,       0,      normal, 0,      2,
+APV,    2,      4,      23,     11,     1,      0,      15,     11,     	0,      normal, 0,      2,
+APV,    2,      4,      23,     11,     1,      1,      14,     10,     	0,      normal, 0,      2,
+APV,    2,      4,      23,     11,     1,      2,      13,     9,      	0,      normal, 0,      2,
+APV,    2,      4,      23,     11,     1,      3,      12,     8,      	0,      normal, 0,      2,
+APV,    2,      4,      23,     11,     1,      4,      11,     7,      	0,      normal, 0,      2,
+APV,    2,      4,      23,     11,     1,      5,      10,     6,      	0,      normal, 0,      2,
+APV,    2,      4,      23,     11,     1,      6,      9,      5,      	0,      normal, 0,      2,
+APV,    2,      4,      23,     11,     1,      7,      8,      4,      	0,      normal, 0,      2,
+APV,    2,      4,      23,     11,     1,      8,      7,      3,      	0,      normal, 0,      2,
+APV,    2,      4,      23,     11,     1,      9,      6,      2,      	0,      normal, 0,      2,
+APV,    2,      4,      23,     11,     1,      10,     5,      1,       0,      normal, 0,      2,
+APV,    2,      4,      23,     11,     1,      11,     4,      0,       0,      normal, 0,      2,
 #
 ##*******   Crate 1 - MPD8 - Fiber 25 ********
 # Y-dimension A (right)
-APV,    8,      4,      25,      11,     0,      0,      20,     9,      1,      normal, 1,      2,
-APV,    8,      4,      25,      11,     0,      1,      19,     8,      1,      normal, 1,      2,
-APV,    8,      4,      25,      11,     0,      2,      18,     7,      1,      normal, 1,      2,
-APV,    8,      4,      25,      11,     0,      3,      17,     6,      1,      normal, 1,      2,
-APV,    8,      4,      25,      11,     0,      4,      16,     5,      1,      normal, 1,      2,
+APV,    2,      4,      25,      11,     0,      0,      20,     9,      1,      normal, 1,      2,
+APV,    2,      4,      25,      11,     0,      1,      19,     8,      1,      normal, 1,      2,
+APV,    2,      4,      25,      11,     0,      2,      18,     7,      1,      normal, 1,      2,
+APV,    2,      4,      25,      11,     0,      3,      17,     6,      1,      normal, 1,      2,
+APV,    2,      4,      25,      11,     0,      4,      16,     5,      1,      normal, 1,      2,
 #
 ##*******   Crate 1 - MPD9 - Fiber 26 ********
 # Y-dimension B (left) fiber 6
-APV,    9,      4,      26,      11,     0,      10,     20,     0,      0,      normal, 2,      2,
-APV,    9,      4,      26,      11,     0,      11,     19,     1,      0,      normal, 2,      2,
-APV,    9,      4,      26,      11,     0,      12,     18,     2,      0,      normal, 2,      2,
-APV,    9,      4,      26,      11,     0,      13,     17,     3,      0,      normal, 2,      2,
-APV,    9,      4,      26,      11,     0,      14,     16,     4,      0,      normal, 2,      2,
+APV,    2,      4,      26,      11,     0,      10,     20,     0,      0,      normal, 2,      2,
+APV,    2,      4,      26,      11,     0,      11,     19,     1,      0,      normal, 2,      2,
+APV,    2,      4,      26,      11,     0,      12,     18,     2,      0,      normal, 2,      2,
+APV,    2,      4,      26,      11,     0,      13,     17,     3,      0,      normal, 2,      2,
+APV,    2,      4,      26,      11,     0,      14,     16,     4,      0,      normal, 2,      2,
 # #
 # #============================= Crate_1 INLINE Layer_4 GEM_3 ===================================
 # #
 # ##*******   Crate 1 - MPD7 - Fiber 24 ********
 # # X-dimension 12-slot
 # # Item, slot_id, Layer, fiber_id, GEMID, DIM,  ADCId,    I2C,    Pos,    Invert, other, backplane, GEMPOS
-APV,    7,      4,      24,      47,     1,      0,      15,     11,     0,      normal, 0,      3,
-APV,    7,      4,      24,      47,     1,      1,      14,     10,     0,      normal, 0,      3,
-APV,    7,      4,      24,      47,     1,      2,      13,     9,      0,      normal, 0,      3,
-APV,    7,      4,      24,      47,     1,      3,      12,     8,      0,      normal, 0,      3,
-APV,    7,      4,      24,      47,     1,      4,      11,     7,      0,      normal, 0,      3,
-APV,    7,      4,      24,      47,     1,      5,      10,     6,      0,      normal, 0,      3,
-APV,    7,      4,      24,      47,     1,      6,      9,      5,      0,      normal, 0,      3,
-APV,    7,      4,      24,      47,     1,      7,      8,      4,      0,      normal, 0,      3,
-APV,    7,      4,      24,      47,     1,      8,      7,      3,      0,      normal, 0,      3,
-APV,    7,      4,      24,      47,     1,      9,      6,      2,      0,      normal, 0,      3,
-APV,    7,      4,      24,      47,     1,      10,     5,      1,      0,      normal, 0,      3,
-APV,    7,      4,      24,      47,     1,      11,     4,      0,      0,      normal, 0,      3,
+APV,    2,      4,      24,      47,     1,      0,      15,     11,     0,      normal, 0,      3,
+APV,    2,      4,      24,      47,     1,      1,      14,     10,     0,      normal, 0,      3,
+APV,    2,      4,      24,      47,     1,      2,      13,     9,      0,      normal, 0,      3,
+APV,    2,      4,      24,      47,     1,      3,      12,     8,      0,      normal, 0,      3,
+APV,    2,      4,      24,      47,     1,      4,      11,     7,      0,      normal, 0,      3,
+APV,    2,      4,      24,      47,     1,      5,      10,     6,      0,      normal, 0,      3,
+APV,    2,      4,      24,      47,     1,      6,      9,      5,      0,      normal, 0,      3,
+APV,    2,      4,      24,      47,     1,      7,      8,      4,      0,      normal, 0,      3,
+APV,    2,      4,      24,      47,     1,      8,      7,      3,      0,      normal, 0,      3,
+APV,    2,      4,      24,      47,     1,      9,      6,      2,      0,      normal, 0,      3,
+APV,    2,      4,      24,      47,     1,      10,     5,      1,      0,      normal, 0,      3,
+APV,    2,      4,      24,      47,     1,      11,     4,      0,      0,      normal, 0,      3,
 #
 ##*******   Crate 1 - MPD10 - Fiber 27 ********
 # Y-dimension 5-Slot (right side of layer)
-APV,    10,      4,      27,      47,     0,      0,      4,      9,      1,      normal, 1,      3,
-APV,    10,      4,      27,      47,     0,      1,      3,      8,      1,      normal, 1,      3,
-APV,    10,      4,      27,      47,     0,      2,      2,      7,      1,      normal, 1,      3,
-APV,    10,      4,      27,      47,     0,      3,      1,      6,      1,      normal, 1,      3,
-APV,    10,      4,      27,      47,     0,      4,      0,      5,      1,      normal, 1,      3,
+APV,    2,      4,      27,      47,     0,      0,      4,      9,      1,      normal, 1,      3,
+APV,    2,      4,      27,      47,     0,      1,      3,      8,      1,      normal, 1,      3,
+APV,    2,      4,      27,      47,     0,      2,      2,      7,      1,      normal, 1,      3,
+APV,    2,      4,      27,      47,     0,      3,      1,      6,      1,      normal, 1,      3,
+APV,    2,      4,      27,      47,     0,      4,      0,      5,      1,      normal, 1,      3,
 #
 ##*******   Crate 1 - MPD10 - Fiber 27 ********
 # Y-dimension 5-slot (left side of layer)
-APV,    10,      4,      27,      47,     0,      8,      12,     0,      0,      normal, 2,      3,
-APV,    10,      4,      27,      47,     0,      9,      11,     1,      0,      normal, 2,      3,
-APV,    10,      4,      27,      47,     0,      10,     10,     2,      0,      normal, 2,      3,
-APV,    10,      4,      27,      47,     0,      11,     9,      3,      0,      normal, 2,      3,
-APV,    10,      4,      27,      47,     0,      12,     8,      4,      0,      normal, 2,      3,
+APV,    2,      4,      27,      47,     0,      8,      12,     0,      0,      normal, 2,      3,
+APV,    2,      4,      27,      47,     0,      9,      11,     1,      0,      normal, 2,      3,
+APV,    2,      4,      27,      47,     0,      10,     10,     2,      0,      normal, 2,      3,
+APV,    2,      4,      27,      47,     0,      11,     9,      3,      0,      normal, 2,      3,
+APV,    2,      4,      27,      47,     0,      12,     8,      4,      0,      normal, 2,      3,
 # #
 # #
 # #
@@ -744,135 +745,135 @@ APV,    10,      4,      27,      47,     0,      12,     8,      4,      0,    
 # ##*******   Crate 1 - MPD11 - Fiber 28 ********
 # # X-dimension 12-slot
 # # Item, slot_id, Layer, fiber_id, GEMID, DIM,  ADCId,    I2C,    Pos,    Invert, other, backplane, GEMPOS
-APV,    11,      5,      28,      23,     1,      0,      15,     0,       1,      normal, 0,      0,
-APV,    11,      5,      28,      23,     1,      1,      14,     1,       1,      normal, 0,      0,
-APV,    11,      5,      28,      23,     1,      2,      13,     2,       1,      normal, 0,      0,
-APV,    11,      5,      28,      23,     1,      3,      12,     3,       1,      normal, 0,      0,
-APV,    11,      5,      28,      23,     1,      4,      11,     4,       1,      normal, 0,      0,
-APV,    11,      5,      28,      23,     1,      5,      10,     5,       1,      normal, 0,      0,
-APV,    11,      5,      28,      23,     1,      6,      9,      6,       1,      normal, 0,      0,
-APV,    11,      5,      28,      23,     1,      7,      8,      7,       1,      normal, 0,      0,
-APV,    11,      5,      28,      23,     1,      8,      7,      8,       1,      normal, 0,      0,
-APV,    11,      5,      28,      23,     1,      9,      6,      9,       1,      normal, 0,      0,
-APV,    11,      5,      28,      23,     1,      10,     5,      10,      1,      normal, 0,      0,
-APV,    11,      5,      28,      23,     1,      11,     4,      11,      1,      normal, 0,      0,
+APV,    2,      5,      28,      23,     1,      0,      15,     0,       1,      normal, 0,      0,
+APV,    2,      5,      28,      23,     1,      1,      14,     1,       1,      normal, 0,      0,
+APV,    2,      5,      28,      23,     1,      2,      13,     2,       1,      normal, 0,      0,
+APV,    2,      5,      28,      23,     1,      3,      12,     3,       1,      normal, 0,      0,
+APV,    2,      5,      28,      23,     1,      4,      11,     4,       1,      normal, 0,      0,
+APV,    2,      5,      28,      23,     1,      5,      10,     5,       1,      normal, 0,      0,
+APV,    2,      5,      28,      23,     1,      6,      9,      6,       1,      normal, 0,      0,
+APV,    2,      5,      28,      23,     1,      7,      8,      7,       1,      normal, 0,      0,
+APV,    2,      5,      28,      23,     1,      8,      7,      8,       1,      normal, 0,      0,
+APV,    2,      5,      28,      23,     1,      9,      6,      9,       1,      normal, 0,      0,
+APV,    2,      5,      28,      23,     1,      10,     5,      10,      1,      normal, 0,      0,
+APV,    2,      5,      28,      23,     1,      11,     4,      11,      1,      normal, 0,      0,
 ###*******   Crate 1 - MPD15 - Fiber 32 ********
 # Y-dimension 5-slot (right side of the layer)
-APV,    15,      5,      32,      23,     0,      10,     4,      9,      1,      normal, 1,      0,
-APV,    15,      5,      32,      23,     0,      11,     3,      8,      1,      normal, 1,      0,
-APV,    15,      5,      32,      23,     0,      12,     2,      7,      1,      normal, 1,      0,
-APV,    15,      5,      32,      23,     0,      13,     1,      6,      1,      normal, 1,      0,
-APV,    15,      5,      32,      23,     0,      14,     0,      5,      1,      normal, 1,      0,
+APV,    2,      5,      32,      23,     0,      10,     4,      9,      1,      normal, 1,      0,
+APV,    2,      5,      32,      23,     0,      11,     3,      8,      1,      normal, 1,      0,
+APV,    2,      5,      32,      23,     0,      12,     2,      7,      1,      normal, 1,      0,
+APV,    2,      5,      32,      23,     0,      13,     1,      6,      1,      normal, 1,      0,
+APV,    2,      5,      32,      23,     0,      14,     0,      5,      1,      normal, 1,      0,
 #
 ###*******   Crate 1 - MPD16 - Fiber 33 ********
 # Y-dimension 5-slot (left side of the layer)
-APV,    16,      5,      33,      23,     0,      0,      4,      0,      0,      normal, 2,      0,
-APV,    16,      5,      33,      23,     0,      1,      3,      1,      0,      normal, 2,      0,
-APV,    16,      5,      33,      23,     0,      2,      2,      2,      0,      normal, 2,      0,
-APV,    16,      5,      33,      23,     0,      3,      1,      3,      0,      normal, 2,      0,
-APV,    16,      5,      33,      23,     0,      4,      0,      4,      0,      normal, 2,      0,
+APV,    2,      5,      33,      23,     0,      0,      4,      0,      0,      normal, 2,      0,
+APV,    2,      5,      33,      23,     0,      1,      3,      1,      0,      normal, 2,      0,
+APV,    2,      5,      33,      23,     0,      2,      2,      2,      0,      normal, 2,      0,
+APV,    2,      5,      33,      23,     0,      3,      1,      3,      0,      normal, 2,      0,
+APV,    2,      5,      33,      23,     0,      4,      0,      4,      0,      normal, 2,      0,
 # #
 # #============================= Crate_1 INLINE Layer_5 GEM_1 ===================================
 # #
 # ###*******   Crate 1 - MPD12 - Fiber 29 ********
 # # X-dimension 12-slot
 # # Item, slot_id, Layer, fiber_id, GEMID, DIM,  ADCId,    I2C,    Pos,    Invert, other, backplane, GEMPOS
-APV,    12,      5,      29,       99,     1,      0,      15,     0,       1,      normal, 0,      1,
-APV,    12,      5,      29,       99,     1,      1,      14,     1,       1,      normal, 0,      1,
-APV,    12,      5,      29,       99,     1,      2,      13,     2,       1,      normal, 0,      1,
-APV,    12,      5,      29,       99,     1,      3,      12,     3,       1,      normal, 0,      1,
-APV,    12,      5,      29,       99,     1,      4,      11,     4,       1,      normal, 0,      1,
-APV,    12,      5,      29,       99,     1,      5,      10,     5,       1,      normal, 0,      1,
-APV,    12,      5,      29,       99,     1,      6,      9,      6,       1,      normal, 0,      1,
-APV,    12,      5,      29,       99,     1,      7,      8,      7,       1,      normal, 0,      1,
-APV,    12,      5,      29,       99,     1,      8,      7,      8,       1,      normal, 0,      1,
-APV,    12,      5,      29,       99,     1,      9,      6,      9,       1,      normal, 0,      1,
-APV,    12,      5,      29,       99,     1,      10,     5,      10,      1,      normal, 0,      1,
-APV,    12,      5,      29,       99,     1,      11,     4,      11,      1,      normal, 0,      1,
+APV,    2,      5,      29,       99,     1,      0,      15,     0,       1,      normal, 0,      1,
+APV,    2,      5,      29,       99,     1,      1,      14,     1,       1,      normal, 0,      1,
+APV,    2,      5,      29,       99,     1,      2,      13,     2,       1,      normal, 0,      1,
+APV,    2,      5,      29,       99,     1,      3,      12,     3,       1,      normal, 0,      1,
+APV,    2,      5,      29,       99,     1,      4,      11,     4,       1,      normal, 0,      1,
+APV,    2,      5,      29,       99,     1,      5,      10,     5,       1,      normal, 0,      1,
+APV,    2,      5,      29,       99,     1,      6,      9,      6,       1,      normal, 0,      1,
+APV,    2,      5,      29,       99,     1,      7,      8,      7,       1,      normal, 0,      1,
+APV,    2,      5,      29,       99,     1,      8,      7,      8,       1,      normal, 0,      1,
+APV,    2,      5,      29,       99,     1,      9,      6,      9,       1,      normal, 0,      1,
+APV,    2,      5,      29,       99,     1,      10,     5,      10,      1,      normal, 0,      1,
+APV,    2,      5,      29,       99,     1,      11,     4,      11,      1,      normal, 0,      1,
 #
 ###*******   Crate 1 - MPD15 - Fiber 32 ********
 # Y-dimension 5-slot (right side of layer)
-APV,    15,      5,      32,       99,     0,      5,      12,     9,      1,      normal, 1,      1,
-APV,    15,      5,      32,       99,     0,      6,      11,     8,      1,      normal, 1,      1,
-APV,    15,      5,      32,       99,     0,      7,      10,     7,      1,      normal, 1,      1,
-APV,    15,      5,      32,       99,     0,      8,      9,      6,      1,      normal, 1,      1,
-APV,    15,      5,      32,       99,     0,      9,      8,      5,      1,      normal, 1,      1,
+APV,    2,      5,      32,       99,     0,      5,      12,     9,      1,      normal, 1,      1,
+APV,    2,      5,      32,       99,     0,      6,      11,     8,      1,      normal, 1,      1,
+APV,    2,      5,      32,       99,     0,      7,      10,     7,      1,      normal, 1,      1,
+APV,    2,      5,      32,       99,     0,      8,      9,      6,      1,      normal, 1,      1,
+APV,    2,      5,      32,       99,     0,      9,      8,      5,      1,      normal, 1,      1,
 #
 ###*******   Crate 1 - MPD16 - Fiber 33 ********
 # Y-dimension 5-slot (left left side of layer)
-APV,    16,      5,      33,       99,     0,      5,      12,     0,      0,      normal, 2,      1,
-APV,    16,      5,      33,       99,     0,      6,      11,     1,      0,      normal, 2,      1,
-APV,    16,      5,      33,       99,     0,      7,      10,     2,      0,      normal, 2,      1,
-APV,    16,      5,      33,       99,     0,      8,      9,      3,      0,      normal, 2,      1,
-APV,    16,      5,      33,       99,     0,      9,      8,      4,      0,      normal, 2,      1,
+APV,    2,      5,      33,       99,     0,      5,      12,     0,      0,      normal, 2,      1,
+APV,    2,      5,      33,       99,     0,      6,      11,     1,      0,      normal, 2,      1,
+APV,    2,      5,      33,       99,     0,      7,      10,     2,      0,      normal, 2,      1,
+APV,    2,      5,      33,       99,     0,      8,      9,      3,      0,      normal, 2,      1,
+APV,    2,      5,      33,       99,     0,      9,      8,      4,      0,      normal, 2,      1,
 # #
 # #============================= Crate_1 INLINE Layer_5 GEM_2 ===================================
 # #
 # ###*******   Crate 1 - MPD13 - Fiber 30 ********
 # # X-dimension 
 # # Item, slot_id, Layer, fiber_id, GEMID, DIM,  ADCId,    I2C,    Pos,    Invert, other, backplane, GEMPOS
-APV,    13,      5,      30,     98,     1,      0,      15,     11,      0,      normal, 0,      2,
-APV,    13,      5,      30,     98,     1,      1,      14,     10,      0,      normal, 0,      2,
-APV,    13,      5,      30,     98,     1,      2,      13,     9,       0,      normal, 0,      2,
-APV,    13,      5,      30,     98,     1,      3,      12,     8,       0,      normal, 0,      2,
-APV,    13,      5,      30,     98,     1,      4,      11,     7,       0,      normal, 0,      2,
-APV,    13,      5,      30,     98,     1,      5,      10,     6,       0,      normal, 0,      2,
-APV,    13,      5,      30,     98,     1,      6,      9,      5,       0,      normal, 0,      2,
-APV,    13,      5,      30,     98,     1,      7,      8,      4,       0,      normal, 0,      2,
-APV,    13,      5,      30,     98,     1,      8,      7,      3,       0,      normal, 0,      2,
-APV,    13,      5,      30,     98,     1,      9,      6,      2,       0,      normal, 0,      2,
-APV,    13,      5,      30,     98,     1,      10,     5,      1,       0,      normal, 0,      2,
-APV,    13,      5,      30,     98,     1,      11,     4,      0,       0,      normal, 0,      2,
+APV,    2,      5,      30,     98,     1,      0,      15,     11,      0,      normal, 0,      2,
+APV,    2,      5,      30,     98,     1,      1,      14,     10,      0,      normal, 0,      2,
+APV,    2,      5,      30,     98,     1,      2,      13,     9,       0,      normal, 0,      2,
+APV,    2,      5,      30,     98,     1,      3,      12,     8,       0,      normal, 0,      2,
+APV,    2,      5,      30,     98,     1,      4,      11,     7,       0,      normal, 0,      2,
+APV,    2,      5,      30,     98,     1,      5,      10,     6,       0,      normal, 0,      2,
+APV,    2,      5,      30,     98,     1,      6,      9,      5,       0,      normal, 0,      2,
+APV,    2,      5,      30,     98,     1,      7,      8,      4,       0,      normal, 0,      2,
+APV,    2,      5,      30,     98,     1,      8,      7,      3,       0,      normal, 0,      2,
+APV,    2,      5,      30,     98,     1,      9,      6,      2,       0,      normal, 0,      2,
+APV,    2,      5,      30,     98,     1,      10,     5,      1,       0,      normal, 0,      2,
+APV,    2,      5,      30,     98,     1,      11,     4,      0,       0,      normal, 0,      2,
 #
 ###*******   Crate 1 - MPD15 - Fiber 32 ********
 # Y-dimension A (right) 
-APV,    15,      5,      32,      98,     0,      0,      20,     9,      1,      normal, 1,      2,
-APV,    15,      5,      32,      98,     0,      1,      19,     8,      1,      normal, 1,      2,
-APV,    15,      5,      32,      98,     0,      2,      18,     7,      1,      normal, 1,      2,
-APV,    15,      5,      32,      98,     0,      3,      17,     6,      1,      normal, 1,      2,
-APV,    15,      5,      32,      98,     0,      4,      16,     5,      1,      normal, 1,      2,
+APV,    2,      5,      32,      98,     0,      0,      20,     9,      1,      normal, 1,      2,
+APV,    2,      5,      32,      98,     0,      1,      19,     8,      1,      normal, 1,      2,
+APV,    2,      5,      32,      98,     0,      2,      18,     7,      1,      normal, 1,      2,
+APV,    2,      5,      32,      98,     0,      3,      17,     6,      1,      normal, 1,      2,
+APV,    2,      5,      32,      98,     0,      4,      16,     5,      1,      normal, 1,      2,
 #
 ###*******   Crate 1 - MPD16 - Fiber 33 ********
 # Y-dimension B (left)
-APV,    16,      5,      33,      98,     0,      10,     20,     0,      0,      normal, 2,      2,
-APV,    16,      5,      33,      98,     0,      11,     19,     1,      0,      normal, 2,      2,
-APV,    16,      5,      33,      98,     0,      12,     18,     2,      0,      normal, 2,      2,
-APV,    16,      5,      33,      98,     0,      13,     17,     3,      0,      normal, 2,      2,
-APV,    16,      5,      33,      98,     0,      14,     16,     4,      0,      normal, 2,      2,
+APV,    2,      5,      33,      98,     0,      10,     20,     0,      0,      normal, 2,      2,
+APV,    2,      5,      33,      98,     0,      11,     19,     1,      0,      normal, 2,      2,
+APV,    2,      5,      33,      98,     0,      12,     18,     2,      0,      normal, 2,      2,
+APV,    2,      5,      33,      98,     0,      13,     17,     3,      0,      normal, 2,      2,
+APV,    2,      5,      33,      98,     0,      14,     16,     4,      0,      normal, 2,      2,
 # #
 # #============================= Crate_1 INLINE Layer_5 GEM_3 ===================================
 # #
 # ###*******   Crate 1 - MPD14 - Fiber 31  ********
 # # X-dimension 12-slot
 # # Item, slot_id, Layer, fiber_id, GEMID, DIM,  ADCId,    I2C,    Pos,    Invert, other, backplane, GEMPOS
-APV,    14,      5,      31,      41,     1,      0,      15,     11,     0,      normal, 0,      3,
-APV,    14,      5,      31,      41,     1,      1,      14,     10,     0,      normal, 0,      3,
-APV,    14,      5,      31,      41,     1,      2,      13,     9,      0,      normal, 0,      3,
-APV,    14,      5,      31,      41,     1,      3,      12,     8,      0,      normal, 0,      3,
-APV,    14,      5,      31,      41,     1,      4,      11,     7,      0,      normal, 0,      3,
-APV,    14,      5,      31,      41,     1,      5,      10,     6,      0,      normal, 0,      3,
-APV,    14,      5,      31,      41,     1,      6,      9,      5,      0,      normal, 0,      3,
-APV,    14,      5,      31,      41,     1,      7,      8,      4,      0,      normal, 0,      3,
-APV,    14,      5,      31,      41,     1,      8,      7,      3,      0,      normal, 0,      3,
-APV,    14,      5,      31,      41,     1,      9,      6,      2,      0,      normal, 0,      3,
-APV,    14,      5,      31,      41,     1,      10,     5,      1,      0,      normal, 0,      3,
-APV,    14,      5,      31,      41,     1,      11,     4,      0,      0,      normal, 0,      3,
+APV,    2,      5,      31,      41,     1,      0,      15,     11,     0,      normal, 0,      3,
+APV,    2,      5,      31,      41,     1,      1,      14,     10,     0,      normal, 0,      3,
+APV,    2,      5,      31,      41,     1,      2,      13,     9,      0,      normal, 0,      3,
+APV,    2,      5,      31,      41,     1,      3,      12,     8,      0,      normal, 0,      3,
+APV,    2,      5,      31,      41,     1,      4,      11,     7,      0,      normal, 0,      3,
+APV,    2,      5,      31,      41,     1,      5,      10,     6,      0,      normal, 0,      3,
+APV,    2,      5,      31,      41,     1,      6,      9,      5,      0,      normal, 0,      3,
+APV,    2,      5,      31,      41,     1,      7,      8,      4,      0,      normal, 0,      3,
+APV,    2,      5,      31,      41,     1,      8,      7,      3,      0,      normal, 0,      3,
+APV,    2,      5,      31,      41,     1,      9,      6,      2,      0,      normal, 0,      3,
+APV,    2,      5,      31,      41,     1,      10,     5,      1,      0,      normal, 0,      3,
+APV,    2,      5,      31,      41,     1,      11,     4,      0,      0,      normal, 0,      3,
 #
 ###*******   Crate 1 - MPD17 - Fiber 34 ********
 # Y-dimension 5-Slot (right side of layer)
-APV,    17,      5,      34,      41,     0,      0,      4,      9,      1,      normal, 1,      3,
-APV,    17,      5,      34,      41,     0,      1,      3,      8,      1,      normal, 1,      3,
-APV,    17,      5,      34,      41,     0,      2,      2,      7,      1,      normal, 1,      3,
-APV,    17,      5,      34,      41,     0,      3,      1,      6,      1,      normal, 1,      3,
-APV,    17,      5,      34,      41,     0,      4,      0,      5,      1,      normal, 1,      3,
+APV,    2,      5,      34,      41,     0,      0,      4,      9,      1,      normal, 1,      3,
+APV,    2,      5,      34,      41,     0,      1,      3,      8,      1,      normal, 1,      3,
+APV,    2,      5,      34,      41,     0,      2,      2,      7,      1,      normal, 1,      3,
+APV,    2,      5,      34,      41,     0,      3,      1,      6,      1,      normal, 1,      3,
+APV,    2,      5,      34,      41,     0,      4,      0,      5,      1,      normal, 1,      3,
 #
 ###*******   Crate 1 - MPD17 - Fiber 34 ********
 # Y-dimension 5-slot (left side of layer)
-APV,    17,      5,      34,      41,     0,      8,      12,     0,      0,      normal, 2,      3,
-APV,    17,      5,      34,      41,     0,      9,      11,     1,      0,      normal, 2,      3,
-APV,    17,      5,      34,      41,     0,      10,     10,     2,      0,      normal, 2,      3,
-APV,    17,      5,      34,      41,     0,      11,     9,      3,      0,      normal, 2,      3,
-APV,    17,      5,      34,      41,     0,      12,     8,      4,      0,      normal, 2,      3,
+APV,    2,      5,      34,      41,     0,      8,      12,     0,      0,      normal, 2,      3,
+APV,    2,      5,      34,      41,     0,      9,      11,     1,      0,      normal, 2,      3,
+APV,    2,      5,      34,      41,     0,      10,     10,     2,      0,      normal, 2,      3,
+APV,    2,      5,      34,      41,     0,      11,     9,      3,      0,      normal, 2,      3,
+APV,    2,      5,      34,      41,     0,      12,     8,      4,      0,      normal, 2,      3,
 # #
 # #
 # #
@@ -887,28 +888,28 @@ APV,    17,      5,      34,      41,     0,      12,     8,      4,      0,    
 # ###*******   Crate 1 - MPD18 - Fiber 35 ********
 # # X-dimension 12-slot
 # # Item, slot_id, Layer, fiber_id, GEMID, DIM,  ADCId,    I2C,    Pos,    Invert, other, backplane, GEMPOS
-APV,    18,       6,      35,      3,     1,      0,      15,     0,       1,      normal, 0,      0,
-APV,    18,       6,      35,      3,     1,      1,      14,     1,       1,      normal, 0,      0,
-APV,    18,       6,      35,      3,     1,      2,      13,     2,       1,      normal, 0,      0,
-APV,    18,       6,      35,      3,     1,      3,      12,     3,       1,      normal, 0,      0,
-APV,    18,       6,      35,      3,     1,      4,      11,     4,       1,      normal, 0,      0,
-APV,    18,       6,      35,      3,     1,      5,      10,     5,       1,      normal, 0,      0,
-APV,    18,       6,      35,      3,     1,      6,      9,      6,       1,      normal, 0,      0,
-APV,    18,       6,      35,      3,     1,      7,      8,      7,       1,      normal, 0,      0,
-APV,    18,       6,      35,      3,     1,      8,      7,      8,       1,      normal, 0,      0,
-APV,    18,       6,      35,      3,     1,      9,      6,      9,       1,      normal, 0,      0,
-APV,    18,       6,      35,      3,     1,      10,     5,      10,      1,      normal, 0,      0,
-APV,    18,       6,      35,      3,     1,      11,     4,      11,      1,      normal, 0,      0,
+APV,    2,       6,      35,      3,     1,      0,      15,     0,       1,      normal, 0,      0,
+APV,    2,       6,      35,      3,     1,      1,      14,     1,       1,      normal, 0,      0,
+APV,    2,       6,      35,      3,     1,      2,      13,     2,       1,      normal, 0,      0,
+APV,    2,       6,      35,      3,     1,      3,      12,     3,       1,      normal, 0,      0,
+APV,    2,       6,      35,      3,     1,      4,      11,     4,       1,      normal, 0,      0,
+APV,    2,       6,      35,      3,     1,      5,      10,     5,       1,      normal, 0,      0,
+APV,    2,       6,      35,      3,     1,      6,      9,      6,       1,      normal, 0,      0,
+APV,    2,       6,      35,      3,     1,      7,      8,      7,       1,      normal, 0,      0,
+APV,    2,       6,      35,      3,     1,      8,      7,      8,       1,      normal, 0,      0,
+APV,    2,       6,      35,      3,     1,      9,      6,      9,       1,      normal, 0,      0,
+APV,    2,       6,      35,      3,     1,      10,     5,      10,      1,      normal, 0,      0,
+APV,    2,       6,      35,      3,     1,      11,     4,      11,      1,      normal, 0,      0,
 #
 ###################################### CRATE 2 ###########################################
 #
 ###*******   Crate 2 - MPD3 - Fiber 39 ********
 # Y-dimension 5-slot (right side of the layer)
-APV,    3,       6,       39,      3,     0,      10,     4,      9,      1,      normal, 1,      0,
-APV,    3,       6,       39,      3,     0,      11,     3,      8,      1,      normal, 1,      0,
-APV,    3,       6,       39,      3,     0,      12,     2,      7,      1,      normal, 1,      0,
-APV,    3,       6,       39,      3,     0,      13,     1,      6,      1,      normal, 1,      0,
-APV,    3,       6,       39,      3,     0,      14,     0,      5,      1,      normal, 1,      0,
+APV,    2,       6,       39,      3,     0,      10,     4,      9,      1,      normal, 1,      0,
+APV,    2,       6,       39,      3,     0,      11,     3,      8,      1,      normal, 1,      0,
+APV,    2,       6,       39,      3,     0,      12,     2,      7,      1,      normal, 1,      0,
+APV,    2,       6,       39,      3,     0,      13,     1,      6,      1,      normal, 1,      0,
+APV,    2,       6,       39,      3,     0,      14,     0,      5,      1,      normal, 1,      0,
 #
 ###*******   Crate 2 - MPD4 - vtp4 Fiber 0 ********
 # Y-dimension 5-slot (left side of the layer)
@@ -924,28 +925,28 @@ APV,    4,       6,       0,      3,     0,      4,      0,      4,      0,     
 # ###*******   Crate 1 - MPD19 - Fiber 36 ********
 # # X-dimension 12-slot
 # # Item, slot_id, Layer, fiber_id, GEMID, DIM,  ADCId,    I2C,    Pos,    Invert, other, backplane, GEMPOS
-APV,    19,      6,      36,       13,     1,      0,      15,     0,       1,      normal, 0,      1,
-APV,    19,      6,      36,       13,     1,      1,      14,     1,       1,      normal, 0,      1,
-APV,    19,      6,      36,       13,     1,      2,      13,     2,       1,      normal, 0,      1,
-APV,    19,      6,      36,       13,     1,      3,      12,     3,       1,      normal, 0,      1,
-APV,    19,      6,      36,       13,     1,      4,      11,     4,       1,      normal, 0,      1,
-APV,    19,      6,      36,       13,     1,      5,      10,     5,       1,      normal, 0,      1,
-APV,    19,      6,      36,       13,     1,      6,      9,      6,       1,      normal, 0,      1,
-APV,    19,      6,      36,       13,     1,      7,      8,      7,       1,      normal, 0,      1,
-APV,    19,      6,      36,       13,     1,      8,      7,      8,       1,      normal, 0,      1,
-APV,    19,      6,      36,       13,     1,      9,      6,      9,       1,      normal, 0,      1,
-APV,    19,      6,      36,       13,     1,      10,     5,      10,      1,      normal, 0,      1,
-APV,    19,      6,      36,       13,     1,      11,     4,      11,      1,      normal, 0,      1,
+APV,    2,      6,      36,       13,     1,      0,      15,     0,       1,      normal, 0,      1,
+APV,    2,      6,      36,       13,     1,      1,      14,     1,       1,      normal, 0,      1,
+APV,    2,      6,      36,       13,     1,      2,      13,     2,       1,      normal, 0,      1,
+APV,    2,      6,      36,       13,     1,      3,      12,     3,       1,      normal, 0,      1,
+APV,    2,      6,      36,       13,     1,      4,      11,     4,       1,      normal, 0,      1,
+APV,    2,      6,      36,       13,     1,      5,      10,     5,       1,      normal, 0,      1,
+APV,    2,      6,      36,       13,     1,      6,      9,      6,       1,      normal, 0,      1,
+APV,    2,      6,      36,       13,     1,      7,      8,      7,       1,      normal, 0,      1,
+APV,    2,      6,      36,       13,     1,      8,      7,      8,       1,      normal, 0,      1,
+APV,    2,      6,      36,       13,     1,      9,      6,      9,       1,      normal, 0,      1,
+APV,    2,      6,      36,       13,     1,      10,     5,      10,      1,      normal, 0,      1,
+APV,    2,      6,      36,       13,     1,      11,     4,      11,      1,      normal, 0,      1,
 #
 ###################################### CRATE 2 ###########################################
 #
 ###*******   Crate 2 - MPD3 - Fiber 39 ********
 # Y-dimension 5-slot (right side of layer)
-APV,    3,      6,      39,        13,     0,      5,      12,     9,      1,      normal, 1,      1,
-APV,    3,      6,      39,        13,     0,      6,      11,     8,      1,      normal, 1,      1,
-APV,    3,      6,      39,        13,     0,      7,      10,     7,      1,      normal, 1,      1,
-APV,    3,      6,      39,        13,     0,      8,      9,      6,      1,      normal, 1,      1,
-APV,    3,      6,      39,        13,     0,      9,      8,      5,      1,      normal, 1,      1,
+APV,    2,      6,      39,        13,     0,      5,      12,     9,      1,      normal, 1,      1,
+APV,    2,      6,      39,        13,     0,      6,      11,     8,      1,      normal, 1,      1,
+APV,    2,      6,      39,        13,     0,      7,      10,     7,      1,      normal, 1,      1,
+APV,    2,      6,      39,        13,     0,      8,      9,      6,      1,      normal, 1,      1,
+APV,    2,      6,      39,        13,     0,      9,      8,      5,      1,      normal, 1,      1,
 #
 ###*******   Crate 2 - MPD4 - vtp4 Fiber 0 ********
 # Y-dimension 5-slot (left left side of layer)
@@ -962,28 +963,28 @@ APV,    4,      6,      0,        13,     0,      9,      8,      4,      0,    
 # ###*******   Crate 1 - MPD20 - Fiber 37 ********
 # # X-dimension
 # # Item, slot_id, Layer, fiber_id, GEMID, DIM,  ADCId,    I2C,    Pos,    Invert, other, backplane, GEMPOS
-APV,    20,      6,      37,     19,     1,      0,      15,     11,      0,      normal, 0,      2,
-APV,    20,      6,      37,     19,     1,      1,      14,     10,      0,      normal, 0,      2,
-APV,    20,      6,      37,     19,     1,      2,      13,     9,       0,      normal, 0,      2,
-APV,    20,      6,      37,     19,     1,      3,      12,     8,       0,      normal, 0,      2,
-APV,    20,      6,      37,     19,     1,      4,      11,     7,       0,      normal, 0,      2,
-APV,    20,      6,      37,     19,     1,      5,      10,     6,       0,      normal, 0,      2,
-APV,    20,      6,      37,     19,     1,      6,      9,      5,       0,      normal, 0,      2,
-APV,    20,      6,      37,     19,     1,      7,      8,      4,       0,      normal, 0,      2,
-APV,    20,      6,      37,     19,      1,      8,      7,      3,       0,      normal, 0,      2,
-APV,    20,      6,      37,     19,     1,      9,      6,      2,       0,      normal, 0,      2,
-APV,    20,      6,      37,     19,     1,      10,     5,      1,       0,      normal, 0,      2,
-APV,    20,      6,      37,     19,     1,      11,     4,      0,       0,      normal, 0,      2,
+APV,    2,      6,      37,     19,     1,      0,      15,     11,      0,      normal, 0,      2,
+APV,    2,      6,      37,     19,     1,      1,      14,     10,      0,      normal, 0,      2,
+APV,    2,      6,      37,     19,     1,      2,      13,     9,       0,      normal, 0,      2,
+APV,    2,      6,      37,     19,     1,      3,      12,     8,       0,      normal, 0,      2,
+APV,    2,      6,      37,     19,     1,      4,      11,     7,       0,      normal, 0,      2,
+APV,    2,      6,      37,     19,     1,      5,      10,     6,       0,      normal, 0,      2,
+APV,    2,      6,      37,     19,     1,      6,      9,      5,       0,      normal, 0,      2,
+APV,    2,      6,      37,     19,     1,      7,      8,      4,       0,      normal, 0,      2,
+APV,    2,      6,      37,     19,      1,      8,      7,      3,       0,      normal, 0,      2,
+APV,    2,      6,      37,     19,     1,      9,      6,      2,       0,      normal, 0,      2,
+APV,    2,      6,      37,     19,     1,      10,     5,      1,       0,      normal, 0,      2,
+APV,    2,      6,      37,     19,     1,      11,     4,      0,       0,      normal, 0,      2,
 #
 ###################################### CRATE 2 ###########################################
 #
 ###*******   Crate 2 - MPD3 - Fiber 39 ********
 # Y-dimension A (right) 
-APV,    3,      6,      39,      19,     0,      0,      20,     9,      1,      normal, 1,      2,
-APV,    3,      6,      39,      19,     0,      1,      19,     8,      1,      normal, 1,      2,
-APV,    3,      6,      39,      19,     0,      2,      18,     7,      1,      normal, 1,      2,
-APV,    3,      6,      39,      19,     0,      3,      17,     6,      1,      normal, 1,      2,
-APV,    3,      6,      39,      19,     0,      4,      16,     5,      1,      normal, 1,      2,
+APV,    2,      6,      39,      19,     0,      0,      20,     9,      1,      normal, 1,      2,
+APV,    2,      6,      39,      19,     0,      1,      19,     8,      1,      normal, 1,      2,
+APV,    2,      6,      39,      19,     0,      2,      18,     7,      1,      normal, 1,      2,
+APV,    2,      6,      39,      19,     0,      3,      17,     6,      1,      normal, 1,      2,
+APV,    2,      6,      39,      19,     0,      4,      16,     5,      1,      normal, 1,      2,
 #
 ###*******   Crate 2 - MPD4 - vtp4 Fiber 0 ********
 # Y-dimension B (left) fiber 6
@@ -1016,19 +1017,19 @@ APV,    2,      6,      38,      15,     1,      11,     4,      0,      0,     
 #
 ###*******   Crate 2 - MPD5 - vtp4 Fiber 1 ********
 # Y-dimension 5-Slot (right side of layer)
-APV,    5,      6,      1,      15,     0,      0,      4,      9,      1,      normal, 1,      3,
-APV,    5,      6,      1,      15,     0,      1,      3,      8,      1,      normal, 1,      3,
-APV,    5,      6,      1,      15,     0,      2,      2,      7,      1,      normal, 1,      3,
-APV,    5,      6,      1,      15,     0,      3,      1,      6,      1,      normal, 1,      3,
-APV,    5,      6,      1,      15,     0,      4,      0,      5,      1,      normal, 1,      3,
+APV,    4,      6,      1,      15,     0,      0,      4,      9,      1,      normal, 1,      3,
+APV,    4,      6,      1,      15,     0,      1,      3,      8,      1,      normal, 1,      3,
+APV,    4,      6,      1,      15,     0,      2,      2,      7,      1,      normal, 1,      3,
+APV,    4,      6,      1,      15,     0,      3,      1,      6,      1,      normal, 1,      3,
+APV,    4,      6,      1,      15,     0,      4,      0,      5,      1,      normal, 1,      3,
 #
 ###*******   Crate 2 - MPD5 - vtp4 Fiber 1********
 # Y-dimension 5-slot (left side of layer)
-APV,    5,      6,      1,      15,     0,      8,      12,     0,      0,      normal, 2,      3,
-APV,    5,      6,      1,      15,     0,      9,      11,     1,      0,      normal, 2,      3,
-APV,    5,      6,      1,      15,     0,      10,     10,     2,      0,      normal, 2,      3,
-APV,    5,      6,      1,      15,     0,      11,     9,      3,      0,      normal, 2,      3,
-APV,    5,      6,      1,      15,     0,      12,     8,      4,      0,      normal, 2,      3,
+APV,    4,      6,      1,      15,     0,      8,      12,     0,      0,      normal, 2,      3,
+APV,    4,      6,      1,      15,     0,      9,      11,     1,      0,      normal, 2,      3,
+APV,    4,      6,      1,      15,     0,      10,     10,     2,      0,      normal, 2,      3,
+APV,    4,      6,      1,      15,     0,      11,     9,      3,      0,      normal, 2,      3,
+APV,    4,      6,      1,      15,     0,      12,     8,      4,      0,      normal, 2,      3,
 ##########################################################################################
 #
 #
@@ -1044,136 +1045,136 @@ APV,    5,      6,      1,      15,     0,      12,     8,      4,      0,      
 ###*******   Crate 2 - MPD6 - vtp4 Fiber 2 ********
 # X-dimension 12-slot
 # Item, slot_id, Layer, fiber_id, GEMID, DIM,  ADCId,    I2C,    Pos,    Invert, other, backplane, GEMPOS
-APV,    6,        7,      2,      4,     1,      0,      15,     0,       1,      normal, 0,      0,
-APV,    6,        7,      2,      4,     1,      1,      14,     1,       1,      normal, 0,      0,
-APV,    6,        7,      2,      4,     1,      2,      13,     2,       1,      normal, 0,      0,
-APV,    6,        7,      2,      4,     1,      3,      12,     3,       1,      normal, 0,      0,
-APV,    6,        7,      2,      4,     1,      4,      11,     4,       1,      normal, 0,      0,
-APV,    6,        7,      2,      4,     1,      5,      10,     5,       1,      normal, 0,      0,
-APV,    6,        7,      2,      4,     1,      6,      9,      6,       1,      normal, 0,      0,
-APV,    6,        7,      2,      4,     1,      7,      8,      7,       1,      normal, 0,      0,
-APV,    6,        7,      2,      4,     1,      8,      7,      8,       1,      normal, 0,      0,
-APV,    6,        7,      2,      4,     1,      9,      6,      9,       1,      normal, 0,      0,
-APV,    6,        7,      2,      4,     1,      10,     5,      10,      1,      normal, 0,      0,
-APV,    6,        7,      2,      4,     1,      11,     4,      11,      1,      normal, 0,      0,
+APV,    4,        7,      2,      4,     1,      0,      15,     0,       1,      normal, 0,      0,
+APV,    4,        7,      2,      4,     1,      1,      14,     1,       1,      normal, 0,      0,
+APV,    4,        7,      2,      4,     1,      2,      13,     2,       1,      normal, 0,      0,
+APV,    4,        7,      2,      4,     1,      3,      12,     3,       1,      normal, 0,      0,
+APV,    4,        7,      2,      4,     1,      4,      11,     4,       1,      normal, 0,      0,
+APV,    4,        7,      2,      4,     1,      5,      10,     5,       1,      normal, 0,      0,
+APV,    4,        7,      2,      4,     1,      6,      9,      6,       1,      normal, 0,      0,
+APV,    4,        7,      2,      4,     1,      7,      8,      7,       1,      normal, 0,      0,
+APV,    4,        7,      2,      4,     1,      8,      7,      8,       1,      normal, 0,      0,
+APV,    4,        7,      2,      4,     1,      9,      6,      9,       1,      normal, 0,      0,
+APV,    4,        7,      2,      4,     1,      10,     5,      10,      1,      normal, 0,      0,
+APV,    4,        7,      2,      4,     1,      11,     4,      11,      1,      normal, 0,      0,
 #
 ###*******   Crate 2 - MPD10 - vtp4 Fiber 6 ********
 # Y-dimension 5-slot (right side of the layer)
-APV,    10,        7,      6,      4,     0,      10,     4,      9,      1,      normal, 1,      0,
-APV,    10,        7,      6,      4,     0,      11,     3,      8,      1,      normal, 1,      0,
-APV,    10,        7,      6,      4,     0,      12,     2,      7,      1,      normal, 1,      0,
-APV,    10,        7,      6,      4,     0,      13,     1,      6,      1,      normal, 1,      0,
-APV,    10,        7,      6,      4,     0,      14,     0,      5,      1,      normal, 1,      0,
+APV,    4,        7,      6,      4,     0,      10,     4,      9,      1,      normal, 1,      0,
+APV,    4,        7,      6,      4,     0,      11,     3,      8,      1,      normal, 1,      0,
+APV,    4,        7,      6,      4,     0,      12,     2,      7,      1,      normal, 1,      0,
+APV,    4,        7,      6,      4,     0,      13,     1,      6,      1,      normal, 1,      0,
+APV,    4,        7,      6,      4,     0,      14,     0,      5,      1,      normal, 1,      0,
 #
 ###*******   Crate 2 - MPD11 - vtp4 Fiber 7 ********
 # Y-dimension 5-slot (left side of the layer)
-APV,    11,        7,      7,      4,     0,      0,      4,      0,      0,      normal, 2,      0,
-APV,    11,        7,      7,      4,     0,      1,      3,      1,      0,      normal, 2,      0,
-APV,    11,        7,      7,      4,     0,      2,      2,      2,      0,      normal, 2,      0,
-APV,    11,        7,      7,      4,     0,      3,      1,      3,      0,      normal, 2,      0,
-APV,    11,        7,      7,      4,     0,      4,      0,      4,      0,      normal, 2,      0,
+APV,    4,        7,      7,      4,     0,      0,      4,      0,      0,      normal, 2,      0,
+APV,    4,        7,      7,      4,     0,      1,      3,      1,      0,      normal, 2,      0,
+APV,    4,        7,      7,      4,     0,      2,      2,      2,      0,      normal, 2,      0,
+APV,    4,        7,      7,      4,     0,      3,      1,      3,      0,      normal, 2,      0,
+APV,    4,        7,      7,      4,     0,      4,      0,      4,      0,      normal, 2,      0,
 #
 #======================= Crate_2 Polarimeter-Right-Layer_0 GEM_1 ===================================
 #
 ###*******   Crate 2 - MPD7 - vtp4 Fiber 3 ********
 # X-dimension 12-slot
 # Item, slot_id, Layer, fiber_id, GEMID, DIM,  ADCId,    I2C,    Pos,    Invert, other, backplane, GEMPOS
-APV,    7,        7,      3,       28,     1,      0,      15,     0,       1,      normal, 0,      1,
-APV,    7,        7,      3,       28,     1,      1,      14,     1,       1,      normal, 0,      1,
-APV,    7,        7,      3,       28,     1,      2,      13,     2,       1,      normal, 0,      1,
-APV,    7,        7,      3,       28,     1,      3,      12,     3,       1,      normal, 0,      1,
-APV,    7,        7,      3,       28,     1,      4,      11,     4,       1,      normal, 0,      1,
-APV,    7,        7,      3,       28,     1,      5,      10,     5,       1,      normal, 0,      1,
-APV,    7,        7,      3,       28,     1,      6,      9,      6,       1,      normal, 0,      1,
-APV,    7,        7,      3,       28,     1,      7,      8,      7,       1,      normal, 0,      1,
-APV,    7,        7,      3,       28,     1,      8,      7,      8,       1,      normal, 0,      1,
-APV,    7,        7,      3,       28,     1,      9,      6,      9,       1,      normal, 0,      1,
-APV,    7,        7,      3,       28,     1,      10,     5,      10,      1,      normal, 0,      1,
-APV,    7,        7,      3,       28,     1,      11,     4,      11,      1,      normal, 0,      1,
+APV,    4,        7,      3,       28,     1,      0,      15,     0,       1,      normal, 0,      1,
+APV,    4,        7,      3,       28,     1,      1,      14,     1,       1,      normal, 0,      1,
+APV,    4,        7,      3,       28,     1,      2,      13,     2,       1,      normal, 0,      1,
+APV,    4,        7,      3,       28,     1,      3,      12,     3,       1,      normal, 0,      1,
+APV,    4,        7,      3,       28,     1,      4,      11,     4,       1,      normal, 0,      1,
+APV,    4,        7,      3,       28,     1,      5,      10,     5,       1,      normal, 0,      1,
+APV,    4,        7,      3,       28,     1,      6,      9,      6,       1,      normal, 0,      1,
+APV,    4,        7,      3,       28,     1,      7,      8,      7,       1,      normal, 0,      1,
+APV,    4,        7,      3,       28,     1,      8,      7,      8,       1,      normal, 0,      1,
+APV,    4,        7,      3,       28,     1,      9,      6,      9,       1,      normal, 0,      1,
+APV,    4,        7,      3,       28,     1,      10,     5,      10,      1,      normal, 0,      1,
+APV,    4,        7,      3,       28,     1,      11,     4,      11,      1,      normal, 0,      1,
 #
 ###*******   Crate 2 - MPD10 - vtp4 Fiber 6 ********
 # Y-dimension 5-slot (right side of layer)
-APV,    10,        7,      6,       28,     0,      5,      12,     9,      1,      normal, 1,      1,
-APV,    10,        7,      6,       28,     0,      6,      11,     8,      1,      normal, 1,      1,
-APV,    10,        7,      6,       28,     0,      7,      10,     7,      1,      normal, 1,      1,
-APV,    10,        7,      6,       28,     0,      8,      9,      6,      1,      normal, 1,      1,
-APV,    10,        7,      6,       28,     0,      9,      8,      5,      1,      normal, 1,      1,
+APV,    4,        7,      6,       28,     0,      5,      12,     9,      1,      normal, 1,      1,
+APV,    4,        7,      6,       28,     0,      6,      11,     8,      1,      normal, 1,      1,
+APV,    4,        7,      6,       28,     0,      7,      10,     7,      1,      normal, 1,      1,
+APV,    4,        7,      6,       28,     0,      8,      9,      6,      1,      normal, 1,      1,
+APV,    4,        7,      6,       28,     0,      9,      8,      5,      1,      normal, 1,      1,
 #
 ###*******   Crate 2 - MPD11 - vtp Fiber 7********
 # Y-dimension 5-slot (left left side of layer)
-APV,    11,        7,      7,       28,     0,      5,      12,     0,      0,      normal, 2,      1,
-APV,    11,        7,      7,       28,     0,      6,      11,     1,      0,      normal, 2,      1,
-APV,    11,        7,      7,       28,     0,      7,      10,     2,      0,      normal, 2,      1,
-APV,    11,        7,      7,       28,     0,      8,      9,      3,      0,      normal, 2,      1,
-APV,    11,        7,      7,       28,     0,      9,      8,      4,      0,      normal, 2,      1,
+APV,    4,        7,      7,       28,     0,      5,      12,     0,      0,      normal, 2,      1,
+APV,    4,        7,      7,       28,     0,      6,      11,     1,      0,      normal, 2,      1,
+APV,    4,        7,      7,       28,     0,      7,      10,     2,      0,      normal, 2,      1,
+APV,    4,        7,      7,       28,     0,      8,      9,      3,      0,      normal, 2,      1,
+APV,    4,        7,      7,       28,     0,      9,      8,      4,      0,      normal, 2,      1,
 #
 #======================= Crate_2 Polarimeter-Right-Layer_0 GEM_2 ===================================
 #
 ###*******   Crate 2 - MPD8 - vtp4 Fiber 4 ********
 # X-dimension
 # Item, slot_id, Layer, fiber_id, GEMID, DIM,  ADCId,    I2C,    Pos,    Invert, other, backplane, GEMPOS
-APV,    8,        7,      4,      31,     1,      0,      15,     11,      0,      normal, 0,      2,
-APV,    8,        7,      4,      31,     1,      1,      14,     10,      0,      normal, 0,      2,
-APV,    8,        7,      4,      31,     1,      2,      13,     9,       0,      normal, 0,      2,
-APV,    8,        7,      4,      31,     1,      3,      12,     8,       0,      normal, 0,      2,
-APV,    8,        7,      4,      31,     1,      4,      11,     7,       0,      normal, 0,      2,
-APV,    8,        7,      4,      31,     1,      5,      10,     6,       0,      normal, 0,      2,
-APV,    8,        7,      4,      31,     1,      6,      9,      5,       0,      normal, 0,      2,
-APV,    8,        7,      4,      31,     1,      7,      8,      4,       0,      normal, 0,      2,
-APV,    8,        7,      4,      31,     1,      8,      7,      3,       0,      normal, 0,      2,
-APV,    8,        7,      4,      31,     1,      9,      6,      2,       0,      normal, 0,      2,
-APV,    8,        7,      4,      31,     1,      10,     5,      1,       0,      normal, 0,      2,
-APV,    8,        7,      4,      31,     1,      11,     4,      0,       0,      normal, 0,      2,
+APV,    4,        7,      4,      31,     1,      0,      15,     11,      0,      normal, 0,      2,
+APV,    4,        7,      4,      31,     1,      1,      14,     10,      0,      normal, 0,      2,
+APV,    4,        7,      4,      31,     1,      2,      13,     9,       0,      normal, 0,      2,
+APV,    4,        7,      4,      31,     1,      3,      12,     8,       0,      normal, 0,      2,
+APV,    4,        7,      4,      31,     1,      4,      11,     7,       0,      normal, 0,      2,
+APV,    4,        7,      4,      31,     1,      5,      10,     6,       0,      normal, 0,      2,
+APV,    4,        7,      4,      31,     1,      6,      9,      5,       0,      normal, 0,      2,
+APV,    4,        7,      4,      31,     1,      7,      8,      4,       0,      normal, 0,      2,
+APV,    4,        7,      4,      31,     1,      8,      7,      3,       0,      normal, 0,      2,
+APV,    4,        7,      4,      31,     1,      9,      6,      2,       0,      normal, 0,      2,
+APV,    4,        7,      4,      31,     1,      10,     5,      1,       0,      normal, 0,      2,
+APV,    4,        7,      4,      31,     1,      11,     4,      0,       0,      normal, 0,      2,
 #
 ###*******   Crate 2 - MPD10 - vtp4 Fiber 6 ********
 # Y-dimension A (right)
-APV,    10,        7,      6,      31,     0,      0,      20,     9,      1,      normal, 1,      2,
-APV,    10,        7,      6,      31,     0,      1,      19,     8,      1,      normal, 1,      2,
-APV,    10,        7,      6,      31,     0,      2,      18,     7,      1,      normal, 1,      2,
-APV,    10,        7,      6,      31,     0,      3,      17,     6,      1,      normal, 1,      2,
-APV,    10,        7,      6,      31,     0,      4,      16,     5,      1,      normal, 1,      2,
+APV,    4,        7,      6,      31,     0,      0,      20,     9,      1,      normal, 1,      2,
+APV,    4,        7,      6,      31,     0,      1,      19,     8,      1,      normal, 1,      2,
+APV,    4,        7,      6,      31,     0,      2,      18,     7,      1,      normal, 1,      2,
+APV,    4,        7,      6,      31,     0,      3,      17,     6,      1,      normal, 1,      2,
+APV,    4,        7,      6,      31,     0,      4,      16,     5,      1,      normal, 1,      2,
 #
 ###*******   Crate 2 - MPD11 - vtp4 Fiber 7 ********
 # Y-dimension B (left) 
-APV,    11,        7,      7,      31,     0,      10,     20,     0,      0,      normal, 2,      2,
-APV,    11,        7,      7,      31,     0,      11,     19,     1,      0,      normal, 2,      2,
-APV,    11,        7,      7,      31,     0,      12,     18,     2,      0,      normal, 2,      2,
-APV,    11,        7,      7,      31,     0,      13,     17,     3,      0,      normal, 2,      2,
-APV,    11,        7,      7,      31,     0,      14,     16,     4,      0,      normal, 2,      2,
+APV,    4,        7,      7,      31,     0,      10,     20,     0,      0,      normal, 2,      2,
+APV,    4,        7,      7,      31,     0,      11,     19,     1,      0,      normal, 2,      2,
+APV,    4,        7,      7,      31,     0,      12,     18,     2,      0,      normal, 2,      2,
+APV,    4,        7,      7,      31,     0,      13,     17,     3,      0,      normal, 2,      2,
+APV,    4,        7,      7,      31,     0,      14,     16,     4,      0,      normal, 2,      2,
 #
 #======================= Crate_2 Polarimeter-Right-Layer_0 GEM_3 ===================================
 #
 ###*******   Crate 2 - MPD9 - vtp4 Fiber 5 ********
 # X-dimension 12-slot
 # Item, slot_id, Layer, fiber_id, GEMID, DIM,  ADCId,    I2C,    Pos,    Invert, other, backplane, GEMPOS
-APV,    9,        7,       5,      12,     1,      0,      15,     11,     0,      normal, 0,      3,
-APV,    9,        7,       5,      12,     1,      1,      14,     10,     0,      normal, 0,      3,
-APV,    9,        7,       5,      12,     1,      2,      13,     9,      0,      normal, 0,      3,
-APV,    9,        7,       5,      12,     1,      3,      12,     8,      0,      normal, 0,      3,
-APV,    9,        7,       5,      12,     1,      4,      11,     7,      0,      normal, 0,      3,
-APV,    9,        7,       5,      12,     1,      5,      10,     6,      0,      normal, 0,      3,
-APV,    9,        7,       5,      12,     1,      6,      9,      5,      0,      normal, 0,      3,
-APV,    9,        7,       5,      12,     1,      7,      8,      4,      0,      normal, 0,      3,
-APV,    9,        7,       5,      12,     1,      8,      7,      3,      0,      normal, 0,      3,
-APV,    9,        7,       5,      12,     1,      9,      6,      2,      0,      normal, 0,      3,
-APV,    9,        7,       5,      12,     1,      10,     5,      1,      0,      normal, 0,      3,
-APV,    9,        7,       5,      12,     1,      11,     4,      0,      0,      normal, 0,      3,
+APV,    4,        7,       5,      12,     1,      0,      15,     11,     0,      normal, 0,      3,
+APV,    4,        7,       5,      12,     1,      1,      14,     10,     0,      normal, 0,      3,
+APV,    4,        7,       5,      12,     1,      2,      13,     9,      0,      normal, 0,      3,
+APV,    4,        7,       5,      12,     1,      3,      12,     8,      0,      normal, 0,      3,
+APV,    4,        7,       5,      12,     1,      4,      11,     7,      0,      normal, 0,      3,
+APV,    4,        7,       5,      12,     1,      5,      10,     6,      0,      normal, 0,      3,
+APV,    4,        7,       5,      12,     1,      6,      9,      5,      0,      normal, 0,      3,
+APV,    4,        7,       5,      12,     1,      7,      8,      4,      0,      normal, 0,      3,
+APV,    4,        7,       5,      12,     1,      8,      7,      3,      0,      normal, 0,      3,
+APV,    4,        7,       5,      12,     1,      9,      6,      2,      0,      normal, 0,      3,
+APV,    4,        7,       5,      12,     1,      10,     5,      1,      0,      normal, 0,      3,
+APV,    4,        7,       5,      12,     1,      11,     4,      0,      0,      normal, 0,      3,
 #
 ###*******   Crate 2 - MPD12 - vtp4 Fiber 8 ********
 # Y-dimension 5-Slot (right side of layer)
-APV,    12,        7,      8,      12,     0,      0,      4,      9,      1,      normal, 1,      3,
-APV,    12,        7,      8,      12,     0,      1,      3,      8,      1,      normal, 1,      3,
-APV,    12,        7,      8,      12,     0,      2,      2,      7,      1,      normal, 1,      3,
-APV,    12,        7,      8,      12,     0,      3,      1,      6,      1,      normal, 1,      3,
-APV,    12,        7,      8,      12,     0,      4,      0,      5,      1,      normal, 1,      3,
+APV,    4,        7,      8,      12,     0,      0,      4,      9,      1,      normal, 1,      3,
+APV,    4,        7,      8,      12,     0,      1,      3,      8,      1,      normal, 1,      3,
+APV,    4,        7,      8,      12,     0,      2,      2,      7,      1,      normal, 1,      3,
+APV,    4,        7,      8,      12,     0,      3,      1,      6,      1,      normal, 1,      3,
+APV,    4,        7,      8,      12,     0,      4,      0,      5,      1,      normal, 1,      3,
 #
 ###*******   Crate 2 - MPD12 - vtp4 Fiber 8  ********
 # Y-dimension 5-slot (left side of layer)
-APV,    12,        7,      8,      12,     0,      8,      12,     0,      0,      normal, 2,      3,
-APV,    12,        7,      8,      12,     0,      9,      11,     1,      0,      normal, 2,      3,
-APV,    12,        7,      8,      12,     0,      10,     10,     2,      0,      normal, 2,      3,
-APV,    12,        7,      8,      12,     0,      11,     9,      3,      0,      normal, 2,      3,
-APV,    12,        7,      8,      12,     0,      12,     8,      4,      0,      normal, 2,      3,
+APV,    4,        7,      8,      12,     0,      8,      12,     0,      0,      normal, 2,      3,
+APV,    4,        7,      8,      12,     0,      9,      11,     1,      0,      normal, 2,      3,
+APV,    4,        7,      8,      12,     0,      10,     10,     2,      0,      normal, 2,      3,
+APV,    4,        7,      8,      12,     0,      11,     9,      3,      0,      normal, 2,      3,
+APV,    4,        7,      8,      12,     0,      12,     8,      4,      0,      normal, 2,      3,
 #
 #
 #
@@ -1188,135 +1189,135 @@ APV,    12,        7,      8,      12,     0,      12,     8,      4,      0,   
 ###*******   Crate 2 - MPD13 - vtp4 Fiber 9 ********
 # X-dimension 12-slot
 # Item, slot_id, Layer, fiber_id, GEMID, DIM,  ADCId,    I2C,    Pos,    Invert, other, backplane, GEMPOS
-APV,    13,         8,      9,      9,     1,      0,      15,     0,       1,      normal, 0,      0,
-APV,    13,         8,      9,      9,     1,      1,      14,     1,       1,      normal, 0,      0,
-APV,    13,         8,      9,      9,     1,      2,      13,     2,       1,      normal, 0,      0,
-APV,    13,         8,      9,      9,     1,      3,      12,     3,       1,      normal, 0,      0,
-APV,    13,         8,      9,      9,     1,      4,      11,     4,       1,      normal, 0,      0,
-APV,    13,         8,      9,      9,     1,      5,      10,     5,       1,      normal, 0,      0,
-APV,    13,         8,      9,      9,     1,      6,      9,      6,       1,      normal, 0,      0,
-APV,    13,         8,      9,      9,     1,      7,      8,      7,       1,      normal, 0,      0,
-APV,    13,         8,      9,      9,     1,      8,      7,      8,       1,      normal, 0,      0,
-APV,    13,         8,      9,      9,     1,      9,      6,      9,       1,      normal, 0,      0,
-APV,    13,         8,      9,      9,     1,      10,     5,      10,      1,      normal, 0,      0,
-APV,    13,         8,      9,      9,     1,      11,     4,      11,      1,      normal, 0,      0,
+APV,    4,         8,      9,      9,     1,      0,      15,     0,       1,      normal, 0,      0,
+APV,    4,         8,      9,      9,     1,      1,      14,     1,       1,      normal, 0,      0,
+APV,    4,         8,      9,      9,     1,      2,      13,     2,       1,      normal, 0,      0,
+APV,    4,         8,      9,      9,     1,      3,      12,     3,       1,      normal, 0,      0,
+APV,    4,         8,      9,      9,     1,      4,      11,     4,       1,      normal, 0,      0,
+APV,    4,         8,      9,      9,     1,      5,      10,     5,       1,      normal, 0,      0,
+APV,    4,         8,      9,      9,     1,      6,      9,      6,       1,      normal, 0,      0,
+APV,    4,         8,      9,      9,     1,      7,      8,      7,       1,      normal, 0,      0,
+APV,    4,         8,      9,      9,     1,      8,      7,      8,       1,      normal, 0,      0,
+APV,    4,         8,      9,      9,     1,      9,      6,      9,       1,      normal, 0,      0,
+APV,    4,         8,      9,      9,     1,      10,     5,      10,      1,      normal, 0,      0,
+APV,    4,         8,      9,      9,     1,      11,     4,      11,      1,      normal, 0,      0,
 #
 ###*******   Crate 2 - MPD17 - vtp4 Fiber 13 ********
 # Y-dimension 5-slot (right side of the layer)
-APV,    17,         8,      13,      9,     0,      10,     4,      9,      1,      normal, 1,      0,
-APV,    17,         8,      13,      9,     0,      11,     3,      8,      1,      normal, 1,      0,
-APV,    17,         8,      13,      9,     0,      12,     2,      7,      1,      normal, 1,      0,
-APV,    17,         8,      13,      9,     0,      13,     1,      6,      1,      normal, 1,      0,
-APV,    17,         8,      13,      9,     0,      14,     0,      5,      1,      normal, 1,      0,
+APV,    4,         8,      13,      9,     0,      10,     4,      9,      1,      normal, 1,      0,
+APV,    4,         8,      13,      9,     0,      11,     3,      8,      1,      normal, 1,      0,
+APV,    4,         8,      13,      9,     0,      12,     2,      7,      1,      normal, 1,      0,
+APV,    4,         8,      13,      9,     0,      13,     1,      6,      1,      normal, 1,      0,
+APV,    4,         8,      13,      9,     0,      14,     0,      5,      1,      normal, 1,      0,
 ####*******   Crate 2 - MPD18 - vtp4 Fiber 14 ********
 # Y-dimension 5-slot (left side of the layer)
-APV,    18,         8,      14,      9,     0,      0,      4,      0,      0,      normal, 2,      0,
-APV,    18,         8,      14,      9,     0,      1,      3,      1,      0,      normal, 2,      0,
-APV,    18,         8,      14,      9,     0,      2,      2,      2,      0,      normal, 2,      0,
-APV,    18,         8,      14,      9,     0,      3,      1,      3,      0,      normal, 2,      0,
-APV,    18,         8,      14,      9,     0,      4,      0,      4,      0,      normal, 2,      0,
+APV,    4,         8,      14,      9,     0,      0,      4,      0,      0,      normal, 2,      0,
+APV,    4,         8,      14,      9,     0,      1,      3,      1,      0,      normal, 2,      0,
+APV,    4,         8,      14,      9,     0,      2,      2,      2,      0,      normal, 2,      0,
+APV,    4,         8,      14,      9,     0,      3,      1,      3,      0,      normal, 2,      0,
+APV,    4,         8,      14,      9,     0,      4,      0,      4,      0,      normal, 2,      0,
 #
 #======================= Crate_2 Polarimeter-Right-Layer_1 GEM_1 ===================================
 #
 ###*******   Crate 2 - MPD14 - vtp4 Fiber 10 ********
 # X-dimension 12-slot
 # Item, slot_id, Layer, fiber_id, GEMID, DIM,  ADCId,    I2C,    Pos,    Invert, other, backplane, GEMPOS
-APV,    14,         8,      10,    32,     1,      0,      15,     0,       1,      normal, 0,      1,
-APV,    14,         8,      10,    32,     1,      1,      14,     1,       1,      normal, 0,      1,
-APV,    14,         8,      10,    32,     1,      2,      13,     2,       1,      normal, 0,      1,
-APV,    14,         8,      10,    32,     1,      3,      12,     3,       1,      normal, 0,      1,
-APV,    14,         8,      10,    32,     1,      4,      11,     4,       1,      normal, 0,      1,
-APV,    14,         8,      10,    32,     1,      5,      10,     5,       1,      normal, 0,      1,
-APV,    14,         8,      10,    32,     1,      6,      9,      6,       1,      normal, 0,      1,
-APV,    14,         8,      10,    32,     1,      7,      8,      7,       1,      normal, 0,      1,
-APV,    14,         8,      10,    32,     1,      8,      7,      8,       1,      normal, 0,      1,
-APV,    14,         8,      10,    32,     1,      9,      6,      9,       1,      normal, 0,      1,
-APV,    14,         8,      10,    32,     1,      10,     5,      10,      1,      normal, 0,      1,
-APV,    14,         8,      10,    32,     1,      11,     4,      11,      1,      normal, 0,      1,
+APV,    4,         8,      10,    32,     1,      0,      15,     0,       1,      normal, 0,      1,
+APV,    4,         8,      10,    32,     1,      1,      14,     1,       1,      normal, 0,      1,
+APV,    4,         8,      10,    32,     1,      2,      13,     2,       1,      normal, 0,      1,
+APV,    4,         8,      10,    32,     1,      3,      12,     3,       1,      normal, 0,      1,
+APV,    4,         8,      10,    32,     1,      4,      11,     4,       1,      normal, 0,      1,
+APV,    4,         8,      10,    32,     1,      5,      10,     5,       1,      normal, 0,      1,
+APV,    4,         8,      10,    32,     1,      6,      9,      6,       1,      normal, 0,      1,
+APV,    4,         8,      10,    32,     1,      7,      8,      7,       1,      normal, 0,      1,
+APV,    4,         8,      10,    32,     1,      8,      7,      8,       1,      normal, 0,      1,
+APV,    4,         8,      10,    32,     1,      9,      6,      9,       1,      normal, 0,      1,
+APV,    4,         8,      10,    32,     1,      10,     5,      10,      1,      normal, 0,      1,
+APV,    4,         8,      10,    32,     1,      11,     4,      11,      1,      normal, 0,      1,
 #
 ###*******   Crate 2 - MPD17 - vtp4 Fiber 13 ********
 # Y-dimension 5-slot (right side of layer)
-APV,    17,         8,      13,    32,     0,      5,      12,     9,      1,      normal, 1,      1,
-APV,    17,         8,      13,    32,     0,      6,      11,     8,      1,      normal, 1,      1,
-APV,    17,         8,      13,    32,     0,      7,      10,     7,      1,      normal, 1,      1,
-APV,    17,         8,      13,    32,     0,      8,      9,      6,      1,      normal, 1,      1,
-APV,    17,         8,      13,    32,     0,      9,      8,      5,      1,      normal, 1,      1,
+APV,    4,         8,      13,    32,     0,      5,      12,     9,      1,      normal, 1,      1,
+APV,    4,         8,      13,    32,     0,      6,      11,     8,      1,      normal, 1,      1,
+APV,    4,         8,      13,    32,     0,      7,      10,     7,      1,      normal, 1,      1,
+APV,    4,         8,      13,    32,     0,      8,      9,      6,      1,      normal, 1,      1,
+APV,    4,         8,      13,    32,     0,      9,      8,      5,      1,      normal, 1,      1,
 #
 ###*******   Crate 2 - MPD18 - vtp4 Fiber 14 ********
 # Y-dimension 5-slot (left left side of layer)
-APV,    18,         8,      14,    32,     0,      5,      12,     0,      0,      normal, 2,      1,
-APV,    18,         8,      14,    32,     0,      6,      11,     1,      0,      normal, 2,      1,
-APV,    18,         8,      14,    32,     0,      7,      10,     2,      0,      normal, 2,      1,
-APV,    18,         8,      14,    32,     0,      8,      9,      3,      0,      normal, 2,      1,
-APV,    18,         8,      14,    32,     0,      9,      8,      4,      0,      normal, 2,      1,
+APV,    4,         8,      14,    32,     0,      5,      12,     0,      0,      normal, 2,      1,
+APV,    4,         8,      14,    32,     0,      6,      11,     1,      0,      normal, 2,      1,
+APV,    4,         8,      14,    32,     0,      7,      10,     2,      0,      normal, 2,      1,
+APV,    4,         8,      14,    32,     0,      8,      9,      3,      0,      normal, 2,      1,
+APV,    4,         8,      14,    32,     0,      9,      8,      4,      0,      normal, 2,      1,
 
 #======================= Crate_2 Polarimeter-Right-Layer_1 GEM_2 ===================================
 #
 ###*******   Crate 2 - MPD15 - vtp4 Fiber 11 ********
 # X-dimension 
 # Item, slot_id, Layer, fiber_id, GEMID, DIM,  ADCId,    I2C,    Pos,    Invert, other, backplane, GEMPOS
-APV,    15,        8,      11,     30,     1,      0,      15,     11,      0,      normal, 0,      2,
-APV,    15,        8,      11,     30,     1,      1,      14,     10,      0,      normal, 0,      2,
-APV,    15,        8,      11,     30,     1,      2,      13,     9,       0,      normal, 0,      2,
-APV,    15,        8,      11,     30,     1,      3,      12,     8,       0,      normal, 0,      2,
-APV,    15,        8,      11,     30,     1,      4,      11,     7,       0,      normal, 0,      2,
-APV,    15,        8,      11,     30,     1,      5,      10,     6,       0,      normal, 0,      2,
-APV,    15,        8,      11,     30,     1,      6,      9,      5,       0,      normal, 0,      2,
-APV,    15,        8,      11,     30,     1,      7,      8,      4,       0,      normal, 0,      2,
-APV,    15,        8,      11,     30,     1,      8,      7,      3,       0,      normal, 0,      2,
-APV,    15,        8,      11,     30,     1,      9,      6,      2,       0,      normal, 0,      2,
-APV,    15,        8,      11,     30,     1,      10,     5,      1,       0,      normal, 0,      2,
-APV,    15,        8,      11,     30,     1,      11,     4,      0,       0,      normal, 0,      2,
+APV,    4,        8,      11,     30,     1,      0,      15,     11,      0,      normal, 0,      2,
+APV,    4,        8,      11,     30,     1,      1,      14,     10,      0,      normal, 0,      2,
+APV,    4,        8,      11,     30,     1,      2,      13,     9,       0,      normal, 0,      2,
+APV,    4,        8,      11,     30,     1,      3,      12,     8,       0,      normal, 0,      2,
+APV,    4,        8,      11,     30,     1,      4,      11,     7,       0,      normal, 0,      2,
+APV,    4,        8,      11,     30,     1,      5,      10,     6,       0,      normal, 0,      2,
+APV,    4,        8,      11,     30,     1,      6,      9,      5,       0,      normal, 0,      2,
+APV,    4,        8,      11,     30,     1,      7,      8,      4,       0,      normal, 0,      2,
+APV,    4,        8,      11,     30,     1,      8,      7,      3,       0,      normal, 0,      2,
+APV,    4,        8,      11,     30,     1,      9,      6,      2,       0,      normal, 0,      2,
+APV,    4,        8,      11,     30,     1,      10,     5,      1,       0,      normal, 0,      2,
+APV,    4,        8,      11,     30,     1,      11,     4,      0,       0,      normal, 0,      2,
 #
 ###*******   Crate 2 - MPD17 - vtp4 Fiber 13 ********
 # Y-dimension A (right) 
-APV,    17,        8,      13,     30,     0,      0,      20,     9,      1,      normal, 1,      2,
-APV,    17,        8,      13,     30,     0,      1,      19,     8,      1,      normal, 1,      2,
-APV,    17,        8,      13,     30,     0,      2,      18,     7,      1,      normal, 1,      2,
-APV,    17,        8,      13,     30,     0,      3,      17,     6,      1,      normal, 1,      2,
-APV,    17,        8,      13,     30,     0,      4,      16,     5,      1,      normal, 1,      2,
+APV,    4,        8,      13,     30,     0,      0,      20,     9,      1,      normal, 1,      2,
+APV,    4,        8,      13,     30,     0,      1,      19,     8,      1,      normal, 1,      2,
+APV,    4,        8,      13,     30,     0,      2,      18,     7,      1,      normal, 1,      2,
+APV,    4,        8,      13,     30,     0,      3,      17,     6,      1,      normal, 1,      2,
+APV,    4,        8,      13,     30,     0,      4,      16,     5,      1,      normal, 1,      2,
 #
 ###*******   Crate 2 - MPD18 - vtp4 Fiber 14 ********
 # Y-dimension B (left) fiber 6
-APV,    18,        8,      14,     30,     0,      10,     20,     0,      0,      normal, 2,      2,
-APV,    18,        8,      14,     30,     0,      11,     19,     1,      0,      normal, 2,      2,
-APV,    18,        8,      14,     30,     0,      12,     18,     2,      0,      normal, 2,      2,
-APV,    18,        8,      14,     30,     0,      13,     17,     3,      0,      normal, 2,      2,
-APV,    18,        8,      14,     30,     0,      14,     16,     4,      0,      normal, 2,      2,
+APV,    4,        8,      14,     30,     0,      10,     20,     0,      0,      normal, 2,      2,
+APV,    4,        8,      14,     30,     0,      11,     19,     1,      0,      normal, 2,      2,
+APV,    4,        8,      14,     30,     0,      12,     18,     2,      0,      normal, 2,      2,
+APV,    4,        8,      14,     30,     0,      13,     17,     3,      0,      normal, 2,      2,
+APV,    4,        8,      14,     30,     0,      14,     16,     4,      0,      normal, 2,      2,
 #
 #======================= Crate_2 Polarimeter-Right-Layer_1 GEM_3 ===================================
 #
 ###*******   Crate 2 - MPD16 - vtp4 Fiber 12 ********
 # X-dimension 12-slot
 # Item, slot_id, Layer, fiber_id, GEMID, DIM,  ADCId,    I2C,    Pos,    Invert, other, backplane, GEMPOS
-APV,    16,        8,       12,     50,     1,      0,      15,     11,     0,      normal, 0,      3,
-APV,    16,        8,       12,     50,     1,      1,      14,     10,     0,      normal, 0,      3,
-APV,    16,        8,       12,     50,     1,      2,      13,     9,      0,      normal, 0,      3,
-APV,    16,        8,       12,     50,     1,      3,      12,     8,      0,      normal, 0,      3,
-APV,    16,        8,       12,     50,     1,      4,      11,     7,      0,      normal, 0,      3,
-APV,    16,        8,       12,     50,     1,      5,      10,     6,      0,      normal, 0,      3,
-APV,    16,        8,       12,     50,     1,      6,      9,      5,      0,      normal, 0,      3,
-APV,    16,        8,       12,     50,     1,      7,      8,      4,      0,      normal, 0,      3,
-APV,    16,        8,       12,     50,     1,      8,      7,      3,      0,      normal, 0,      3,
-APV,    16,        8,       12,     50,     1,      9,      6,      2,      0,      normal, 0,      3,
-APV,    16,        8,       12,     50,     1,      10,     5,      1,      0,      normal, 0,      3,
-APV,    16,        8,       12,     50,     1,      11,     4,      0,      0,      normal, 0,      3,
+APV,    4,        8,       12,     50,     1,      0,      15,     11,     0,      normal, 0,      3,
+APV,    4,        8,       12,     50,     1,      1,      14,     10,     0,      normal, 0,      3,
+APV,    4,        8,       12,     50,     1,      2,      13,     9,      0,      normal, 0,      3,
+APV,    4,        8,       12,     50,     1,      3,      12,     8,      0,      normal, 0,      3,
+APV,    4,        8,       12,     50,     1,      4,      11,     7,      0,      normal, 0,      3,
+APV,    4,        8,       12,     50,     1,      5,      10,     6,      0,      normal, 0,      3,
+APV,    4,        8,       12,     50,     1,      6,      9,      5,      0,      normal, 0,      3,
+APV,    4,        8,       12,     50,     1,      7,      8,      4,      0,      normal, 0,      3,
+APV,    4,        8,       12,     50,     1,      8,      7,      3,      0,      normal, 0,      3,
+APV,    4,        8,       12,     50,     1,      9,      6,      2,      0,      normal, 0,      3,
+APV,    4,        8,       12,     50,     1,      10,     5,      1,      0,      normal, 0,      3,
+APV,    4,        8,       12,     50,     1,      11,     4,      0,      0,      normal, 0,      3,
 #
 ###*******   Crate 2 - MPD19 - vtp4 Fiber 15********
 # Y-dimension 5-Slot (right side of layer)
-APV,    19,        8,      15,      50,     0,      0,      4,      9,      1,      normal, 1,      3,
-APV,    19,        8,      15,      50,     0,      1,      3,      8,      1,      normal, 1,      3,
-APV,    19,        8,      15,      50,     0,      2,      2,      7,      1,      normal, 1,      3,
-APV,    19,        8,      15,      50,     0,      3,      1,      6,      1,      normal, 1,      3,
-APV,    19,        8,      15,      50,     0,      4,      0,      5,      1,      normal, 1,      3,
+APV,    4,        8,      15,      50,     0,      0,      4,      9,      1,      normal, 1,      3,
+APV,    4,        8,      15,      50,     0,      1,      3,      8,      1,      normal, 1,      3,
+APV,    4,        8,      15,      50,     0,      2,      2,      7,      1,      normal, 1,      3,
+APV,    4,        8,      15,      50,     0,      3,      1,      6,      1,      normal, 1,      3,
+APV,    4,        8,      15,      50,     0,      4,      0,      5,      1,      normal, 1,      3,
 #
 ###*******   Crate 2 - MPD19 - vtp4 Fiber 15 ********
 # Y-dimension 5-slot (left side of layer)
-APV,    19,        8,      15,      50,     0,      8,      12,     0,      0,      normal, 2,      3,
-APV,    19,        8,      15,      50,     0,      9,      11,     1,      0,      normal, 2,      3,
-APV,    19,        8,      15,      50,     0,      10,     10,     2,      0,      normal, 2,      3,
-APV,    19,        8,      15,      50,     0,      11,     9,      3,      0,      normal, 2,      3,
-APV,    19,        8,      15,      50,     0,      12,     8,      4,      0,      normal, 2,      3,
+APV,    4,        8,      15,      50,     0,      8,      12,     0,      0,      normal, 2,      3,
+APV,    4,        8,      15,      50,     0,      9,      11,     1,      0,      normal, 2,      3,
+APV,    4,        8,      15,      50,     0,      10,     10,     2,      0,      normal, 2,      3,
+APV,    4,        8,      15,      50,     0,      11,     9,      3,      0,      normal, 2,      3,
+APV,    4,        8,      15,      50,     0,      12,     8,      4,      0,      normal, 2,      3,
 
 
 
