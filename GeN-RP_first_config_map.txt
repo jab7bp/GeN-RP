@@ -1,5 +1,6 @@
-# Edited by JB Nov. 4, 2021
-#testing for error in stoi()
+# Edited by JB Nov. 6, 2021
+#VTP
+
 
 # ##############################################################
 # Configuration written by: John Boyd, A. Rathnayake, T. Gautam
