@@ -31,7 +31,7 @@
 # ##############################################################
 # apv configurations
 # Items    : the current configuration (APV)
-# CrateID  : the Unique ID for the VME Crate
+# vtp_id   : the Unique ID for the VXS/VTP crate; 2 for sbsvtp2, 4 for sbsvtp4, etc.
 # MPDID    : MPD address in VME Crate
 # GEMID    : detector ID
 # dimension: x/y 0/1
@@ -57,21 +57,21 @@
 # no_apv_y	    : how many APVs on gem chamber y plane
 # x_pitch           : distance between readout strips on chamber x plane (0.4 mm)
 # y_pitch           : distance between readout strips on chamber y plane (0.4 mm)
-# x_rot		    : specifies if the layer is rotated in x. Not-rotated: 1, Rotated: 1
-# y_ro+t             : specifies if the layer is rotated in y. Not-rotated: 1, Rotated: 1
+# x_rot		    : specifies if the layer is rotated in x. Not-rotated: 1, Rotated: -1
+# y_ro+t             : specifies if the layer is rotated in y. Not-rotated: 1, Rotated: -1
 
 # *******Layer configurations*******
 # Items, LayerID, ChambPerLayer, readout,  XOffset, YOffset, GEMType, no_apv_x,  no_apv_y, x_pitch, y_pitch  x_rot  y_rot
 
-Layer,     7,  	        4,  	CARTESIAN,    0,       0,    UVAXYGEM,    10,       12,      0.4,     0.4,    1,      1
+Layer,     7,  	    4,  	CARTESIAN,    0,       0,    UVAXYGEM,    10,       12,      0.4,     0.4,    1,      1
 Layer,     8,  		4,  	CARTESIAN,    0,       0,    UVAXYGEM,    10,       12,      0.4,     0.4,    1,      1
 
-Layer,     0,  		3,  	CARTESIAN,    0,       0,    INFNXYGEM,   8,   	    10,      0.4,     0.4,   -1,      1
+#Layer,     0,  		3,  	CARTESIAN,    0,       0,    INFNXYGEM,   8,   	    10,      0.4,     0.4,   -1,      1
 Layer,     1,  		4,  	CARTESIAN,    0,       0,    UVAXYGEM,    10,       12,      0.4,     0.4,    1,     -1
 Layer,     2,  		4,  	CARTESIAN,    0,       0,    UVAXYGEM,    10,       12,      0.4,     0.4,    1,      1
 Layer,     3,  		4,  	CARTESIAN,    0,       0,    UVAXYGEM,    10,       12,      0.4,     0.4,    1,     -1
 Layer,     4,  		4,  	CARTESIAN,    0,       0,    UVAXYGEM,    10,       12,      0.4,     0.4,    1,      1
-Layer,     5,  		4, 	CARTESIAN,    0,       0,    UVAXYGEM,    10,       12,      0.4,     0.4,    1,      1
+Layer,     5,  		4, 		CARTESIAN,    0,       0,    UVAXYGEM,    10,       12,      0.4,     0.4,    1,      1
 Layer,     6,  	 	4,  	CARTESIAN,    0,       0,    UVAXYGEM,    10,       12,      0.4,     0.4,    1,      1
 
 Layer,    10,  		4,  	CARTESIAN,    0,       0,    UVAXYGEM,    10,       12,      0.4,     0.4,    1,      1
