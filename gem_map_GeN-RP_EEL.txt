@@ -1,6 +1,6 @@
 # Edited by JB Nov. 6, 2021
 # VTP
-#Added Layer 3 - G0
+#Added Layer 3 - G1
 
 # ##############################################################
 # Configuration written by: John Boyd, A. Rathnayake, T. Gautam
