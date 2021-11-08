@@ -1,6 +1,6 @@
 # Edited by JB Nov. 6, 2021
 # VTP
-#Added Layer 3 - XG1 XG2 XG3, L4 G0, G1, G2, G3, L5 All, L6 All, L7 All, L8 All
+#Added Layer 3 - G0 XG1 XG2 XG3, L4 G0, G1, G2, G3, L5 All, L6 All, L7 All, L8 All, 
 
 ##***problems with layer 3 gem 1, 2, 3,
 
