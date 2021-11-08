@@ -63,7 +63,7 @@
 # *******Layer configurations*******
 # Items, LayerID, ChambPerLayer, readout,  XOffset, YOffset, GEMType, no_apv_x,  no_apv_y, x_pitch, y_pitch  x_rot  y_rot
 
-Layer,     7,  	        4,  	CARTESIAN,    0,       0,    UVAXYGEM,    10,       12,      0.4,     0.4,    1,      1
+Layer,     7,  	    4,  	CARTESIAN,    0,       0,    UVAXYGEM,    10,       12,      0.4,     0.4,    1,      1
 Layer,     8,  		4,  	CARTESIAN,    0,       0,    UVAXYGEM,    10,       12,      0.4,     0.4,    1,      1
 
 Layer,     0,  		3,  	CARTESIAN,    0,       0,    INFNXYGEM,   8,   	    10,      0.4,     0.4,   -1,      1
@@ -154,8 +154,7 @@ Layer,     9,  		4,  	CARTESIAN,    0,       0,    UVAXYGEM,    10,       12,   
 # #####################################         ###########################################
 #                                     LAYER_1
 
-VME: sbsvme32, sbsvme30, sbsvme25
-VXS; sbsvtp2, sbsvtp4
+
 # ============================= Crate_0 INLINE Layer_1 GEM_0 ===================================
 
 # *******   Crate 0 - MPD2 - Fiber 0 ********
