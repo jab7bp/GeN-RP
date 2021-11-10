@@ -339,7 +339,7 @@ APV,    2,      2,      12,      17,     0,      4,      0,      4,      0,     
 # # #
 # # #*******   Crate 0 - MPD10 - Fiber 8 ********
 # # # X-dimension 12-slot
-# # # Item, vtp_id, Layer, fiber_id, GEMID, DIM,  ADCId,    I2C,    Pos,    Invert, other, backplane, GEMPOS
+#Item, vtp_id, Layer, fiber_id, GEMID, DIM,  ADCId,    I2C,    Pos,    Invert, other, backplane, GEMPOS
 APV,    2,      2,      8,     14,     1,      0,      15,     0,       1,      normal, 0,      1,
 APV,    2,      2,      8,     14,     1,      1,      14,     1,       1,      normal, 0,      1,
 APV,    2,      2,      8,     14,     1,      2,      13,     2,      	1,      normal, 0,      1,
