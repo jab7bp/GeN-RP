@@ -1,7 +1,7 @@
 # Edited by JBoyd on Feb. 14, 2022 - 6:50 PM
 # Added Fibers 35-39 for the VTPS. This shifted the first few MPDs of
 # sbsvtp4 back some to fill in fibers 35-39 on sbsvtp2. 
-#38
+#39
 
 
 # Edited by JBoyd and ARathnayake Jan 28, 2022
@@ -913,13 +913,13 @@ APV,    2,       7,      35,      3,     1,      11,     4,      11,      1,    
 #
 ###################################### CRATE 2 ###########################################
 #
-###*******   Crate 2 - MPD3 - sbsvtp4 Fiber 3 ********
+###*******   Crate 2 - MPD3 - sbsvtp2 Fiber 39 ********
 # Y-dimension 5-slot (right side of the layer)
-APV,    4,       7,       3,      3,     0,      10,     4,      9,      1,      normal, 1,      0,
-APV,    4,       7,       3,      3,     0,      11,     3,      8,      1,      normal, 1,      0,
-APV,    4,       7,       3,      3,     0,      12,     2,      7,      1,      normal, 1,      0,
-APV,    4,       7,       3,      3,     0,      13,     1,      6,      1,      normal, 1,      0,
-APV,    4,       7,       3,      3,     0,      14,     0,      5,      1,      normal, 1,      0,
+APV,    2,       7,       39,      3,     0,      10,     4,      9,      1,      normal, 1,      0,
+APV,    2,       7,       39,      3,     0,      11,     3,      8,      1,      normal, 1,      0,
+APV,    2,       7,       39,      3,     0,      12,     2,      7,      1,      normal, 1,      0,
+APV,    2,       7,       39,      3,     0,      13,     1,      6,      1,      normal, 1,      0,
+APV,    2,       7,       39,      3,     0,      14,     0,      5,      1,      normal, 1,      0,
 #
 ###*******   Crate 2 - MPD4 - sbsvtp4 Fiber 4 ********
 # Y-dimension 5-slot (left side of the layer)
@@ -950,13 +950,13 @@ APV,    2,      7,      36,       13,     1,      11,     4,      11,      1,   
 #
 ###################################### CRATE 2 ###########################################
 #
-###*******   Crate 2 - MPD3 - sbsvtp4 Fiber 3 ********
+###*******   Crate 2 - MPD3 - sbsvtp2 Fiber 39 ********
 # Y-dimension 5-slot (right side of layer)
-APV,    4,      7,      3,        13,     0,      5,      12,     9,      1,      normal, 1,      1,
-APV,    4,      7,      3,        13,     0,      6,      11,     8,      1,      normal, 1,      1,
-APV,    4,      7,      3,        13,     0,      7,      10,     7,      1,      normal, 1,      1,
-APV,    4,      7,      3,        13,     0,      8,      9,      6,      1,      normal, 1,      1,
-APV,    4,      7,      3,        13,     0,      9,      8,      5,      1,      normal, 1,      1,
+APV,    2,      7,      39,        13,     0,      5,      12,     9,      1,      normal, 1,      1,
+APV,    2,      7,      39,        13,     0,      6,      11,     8,      1,      normal, 1,      1,
+APV,    2,      7,      39,        13,     0,      7,      10,     7,      1,      normal, 1,      1,
+APV,    2,      7,      39,        13,     0,      8,      9,      6,      1,      normal, 1,      1,
+APV,    2,      7,      39,        13,     0,      9,      8,      5,      1,      normal, 1,      1,
 #
 ###*******   Crate 2 - MPD4 - sbsvtp4 Fiber 4 ********
 # Y-dimension 5-slot (left left side of layer)
@@ -988,13 +988,13 @@ APV,    2,      7,      37,     19,     1,      11,     4,      0,       0,     
 #
 ###################################### CRATE 2 ###########################################
 #
-###*******   Crate 2 - MPD3 - sbsvtp4 Fiber 3 ********
+###*******   Crate 2 - MPD3 - sbsvtp2 Fiber 39 ********
 # Y-dimension A (right) 
-APV,    4,      7,      3,      19,     0,      0,      20,     9,      1,      normal, 1,      2,
-APV,    4,      7,      3,      19,     0,      1,      19,     8,      1,      normal, 1,      2,
-APV,    4,      7,      3,      19,     0,      2,      18,     7,      1,      normal, 1,      2,
-APV,    4,      7,      3,      19,     0,      3,      17,     6,      1,      normal, 1,      2,
-APV,    4,      7,      3,      19,     0,      4,      16,     5,      1,      normal, 1,      2,
+APV,    2,      7,      39,      19,     0,      0,      20,     9,      1,      normal, 1,      2,
+APV,    2,      7,      39,      19,     0,      1,      19,     8,      1,      normal, 1,      2,
+APV,    2,      7,      39,      19,     0,      2,      18,     7,      1,      normal, 1,      2,
+APV,    2,      7,      39,      19,     0,      3,      17,     6,      1,      normal, 1,      2,
+APV,    2,      7,      39,      19,     0,      4,      16,     5,      1,      normal, 1,      2,
 #
 ###*******   Crate 2 - MPD4 - sbsvtp4 Fiber 4 ********
 # Y-dimension B (left) fiber 6
