@@ -1,7 +1,7 @@
 # Edited by JBoyd on Feb. 14, 2022 - 6:50 PM
 # Added Fibers 35-39 for the VTPS. This shifted the first few MPDs of
 # sbsvtp4 back some to fill in fibers 35-39 on sbsvtp2. 
-# vtp4 4
+# vtp4 5
 
 
 # Edited by JBoyd and ARathnayake Jan 28, 2022
